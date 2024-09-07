@@ -26,9 +26,6 @@
     }
   ],
 
-
-
-
   "category": "power",
   "research": {
     "parent": "e21large-solar",
@@ -45,8 +42,6 @@
       }
     ]
   },
-
-
 
   "update": true,
   "consumes": {

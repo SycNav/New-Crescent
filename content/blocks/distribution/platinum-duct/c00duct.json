@@ -18,15 +18,13 @@
       {
         "type": "OnSector",
         "preset": "81m-0-safeZone"
-
       }
     ]
   },
-  
+
   "requirements": [
     "00platin/1"
   ],
   "researchCostMultiplier": 1
-
 }
 

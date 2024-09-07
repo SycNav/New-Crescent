@@ -14,15 +14,13 @@
 
   "canOverdrive": true,
   "consumes": {
-   "liquid":{
-    "liquid": "cryofluid",
-    "amount": 0.05,
-    "booster": true,
-    "optional": true
-   }
-  }
-
-
+    "liquid":{
+      "liquid": "cryofluid",
+      "amount": 0.05,
+      "booster": true,
+      "optional": true
+    }
+  },
 
   "requirements": [
     "01chrom/5",

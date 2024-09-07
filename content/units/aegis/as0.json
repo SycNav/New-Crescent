@@ -1,74 +1,69 @@
 {
- "type": "mech",
- "canBoost": true,
- "boostMultiplier": 1.5,
- "speed": 0.8,
- "hitSize": 9,
- "health": 2000,
- "buildSpeed": 0.8,
- "armor": 4,
-        "abilities": [
-                {
-                        "type": "RepairFieldAbility",
-                        "amount": 80,
-                        "healEffect": "none",
-                        "reload": 40,
-                        "range": 65,
-                        "activeEffect": {
-                                "type": "WaveEffect",
-                                "lifetime": 18,
-                                "sizeFrom": 0,
-                                "sizeTo": 65,
-                                "strokeFrom": 1.8,
-                                "strokeTo": 0,
-                                "colorFrom": "97FFA8",
-                                "colorTo": "97FFA8A8"
-                        }
-                }
-        ],
-// "ammoType": "PowerAmmoType",
- "weapons":[
-  {
-   "top": false,
-   "x": 4,
-   "y": 3,
-   "reload": 40,
-   "mirror": true,
-   "alternate": true,
-   "recoil": 0,
-   "recoils": 2,
-   "recoilTime": 18,
-   "shootSound": "lasershoot",
-   "bullet":{
-    "damage": 40,
-    "type": "laserBoltBulletType",
-    "speed": 4,
-    "lifetime": 30,
-    "healPercent": 10,
-    "collidesTeam": true,
-    "backColor": "40ff40",
-    "frontColor": "ffffff"
-   }
-  
- 
-  
-    
+  "type": "mech",
+  "canBoost": true,
+  "boostMultiplier": 1.5,
+  "speed": 0.8,
+  "hitSize": 9,
+  "health": 2000,
+  "buildSpeed": 0.8,
+  "armor": 4,
+  "abilities": [
+    {
+      "type": "RepairFieldAbility",
+      "amount": 80,
+      "healEffect": "none",
+      "reload": 40,
+      "range": 65,
+      "activeEffect": {
+        "type": "WaveEffect",
+        "lifetime": 18,
+        "sizeFrom": 0,
+        "sizeTo": 65,
+        "strokeFrom": 1.8,
+        "strokeTo": 0,
+        "colorFrom": "97FFA8",
+        "colorTo": "97FFA8A8"
+      }
+    }
+  ],
+  // "ammoType": "PowerAmmoType",
+  "weapons":[
+    {
+      "top": false,
+      "x": 4,
+      "y": 3,
+      "reload": 40,
+      "mirror": true,
+      "alternate": true,
+      "recoil": 0,
+      "recoils": 2,
+      "recoilTime": 18,
+      "shootSound": "lasershoot",
+      "bullet":{
+        "damage": 40,
+        "type": "laserBoltBulletType",
+        "speed": 4,
+        "lifetime": 30,
+        "healPercent": 10,
+        "collidesTeam": true,
+        "backColor": "40ff40",
+        "frontColor": "ffffff"
+      },
 
-"parts":[
-{
-    "type": "RegionPart",
-    "suffix": "as0-gun",
-    "layerOffset": 0,
-    "recoilIndex": 0,
-    "progress": "warmup",
-    "x": -4,
-    "y": -3,
-    "moveY": 1,
-    "moves": [{
-        "progress": "recoil",
-        "y": -2
-    }]
-}]
-}
-]
+      "parts":[{
+        "type": "RegionPart",
+        "suffix": "as0-gun",
+        "layerOffset": 0,
+        "recoilIndex": 0,
+        "progress": "warmup",
+        "x": -4,
+        "y": -3,
+        "moveY": 1,
+        "moves": [{
+          "progress": "recoil",
+          "y": -2
+        }]
+      }]
+    }
+  ]
 }

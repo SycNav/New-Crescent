@@ -1,18 +1,18 @@
 {
- "type": "mendProjector",
- "name": "Mender",
- "size": 2,
- "health": 1800,
- "reload": 18,
- "range": 90,
- "healPercent": 8,
- "consumes": {
-   "power": 1.33333333333,
- }
+  "type": "mendProjector",
+  "name": "Mender",
+  "size": 2,
+  "health": 1800,
+  "reload": 18,
+  "range": 90,
+  "healPercent": 8,
+  "consumes": {
+    "power": 1.33333333333
+  },
   "requirements": [
     "00platin/15",
     "10a-alloy/20",
-    "01chrom/10",
+    "01chrom/10"
   ],
   "category": "effect",
   "research": {
@@ -29,5 +29,4 @@
       }
     ]
   }
-
 }

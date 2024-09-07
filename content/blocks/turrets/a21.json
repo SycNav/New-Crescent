@@ -1,75 +1,72 @@
 {
- "type": "PowerTurret",
- "name": "Puncture",
- "decription": "Electrical Class. Constantly fires charged beam at great speed.",
- "range": 180,
- "shoot": {
-  "firstShotDelay": 30,
- }
- "recoil": 2,
- "CollidesAir": false,
+  "type": "PowerTurret",
+  "name": "Puncture",
+  "decription": "Electrical Class. Constantly fires charged beam at great speed.",
+  "range": 180,
+  "shoot": {
+    "firstShotDelay": 30
+  },
+  "recoil": 2,
+  "CollidesAir": false,
 
- "shake": 2,
- "shootEffect": "lancerLaserShoot",
- "smokeEffect": "none",
- "heatColor": "ff0000",
- "size": 2,
- "scaledHealth": 1800,
- "targetAir": false,
- "moveWhileCharging": false,
- "accurateDelay": false,
- "shootSound": "laser",
- 
+  "shake": 2,
+  "shootEffect": "lancerLaserShoot",
+  "smokeEffect": "none",
+  "heatColor": "ff0000",
+  "size": 2,
+  "scaledHealth": 1800,
+  "targetAir": false,
+  "moveWhileCharging": false,
+  "accurateDelay": false,
+  "shootSound": "laser",
+  "coolantMultiplier": 1.8,
+  "consumes": {
+    "power": 2,
+    "coolant": {
+      "amount": 0.5,
+      "optional": true
+    }
+  },
+  "shootType": {
+    "type": "laserBulletType",
+    "chargeEffect": {
+      "type": "MultiEffect",
+      "effects": [
+        "lancerLaserCharge",
+        "lancerLaserChargeBegin"
+      ]
+    },
+    "buildingDamageMultiplier": 0.2,
+    "hitEffect": "hitLancer",
+    "hitSize": 6,
+    "lifetime": 18,
+    "drawSize": 400,
+    "damage": 180,
+    "lightningSpacing": 24,
+    "lightningLength": 4,
+    "lightningDelay": 0.8,
+    "lightningLengthRand": 1.8,
+    "lightningDamage": 18,
+    "lightningColor": "ffffff",
 
+    "width": 18,
+    "length": 190,
+    "ammoMultiplier": 1,
+    "pierceCap": 8
+  },
 
-        "coolantMultiplier": 1.8,
-        "consumes": {
-                "power": 2,
-                "coolant": {
-                        "amount": 0.5,
-                        "optional": true
-                }
-        },
- "shootType": {
-  "type": "laserBulletType",
-                "chargeEffect": {
-                        "type": "MultiEffect",
-                        "effects": [
-                                "lancerLaserCharge",
-                                "lancerLaserChargeBegin"
-                        ]
-                },
-  "buildingDamageMultiplier": 0.2
-  "hitEffect": "hitLancer",
-  "hitSize": 6,
-  "lifetime": 18,
-  "drawSize": 400,
-  "damage": 180,
-  "lightningSpacing": 24,
-  "lightningLength": 4,
-  "lightningDelay": 0.8,
-  "lightningLengthRand": 1.8,
-  "lightningDamage": 18,
-  "lightningColor": "ffffff",
-  
-
-  "width": 18,
-  "length": 190,
-  "ammoMultiplier": 1,
-  "pierceCap": 8,
- }
- "requirements": [
+  "requirements": [
   "01chrom/180",
   "10a-alloy/80",
-  "11quartz/80",
-  
- ]
- "category": "turret",
+  "11quartz/80"
+  ],
+
+  "category": "turret",
   "research": {
     "parent": "j00core-0",
     "requirements": [
       "00platin/1000",
-      "01chrom/2000"
+      "01chrom/2000",
       "10a-alloy/1000",
       "11quartz/2000"
     ],
@@ -79,8 +76,5 @@
         "preset": "81m-0-safeZone"
       }
     ]
-  },
-
-
-
+  }
 }

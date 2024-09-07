@@ -7,41 +7,39 @@
   "speed": 2,
   "hitSize": 4,
   "parts": [
-   {
-   "type": "regionPart",
-   "suffix": "-gun",
-   "mirror": true
-   "progress": "recoil",
-   "moveY": -1,
-   "weaponIndex": 1,
-   }, 
+    {
+      "type": "regionPart",
+      "suffix": "-gun",
+      "mirror": true,
+      "progress": "recoil",
+      "moveY": -1,
+      "weaponIndex": 1
+    }
   ],
   "weapons":[
     {
-     
-     "x": 3,
-     "y": 4,
-     "recoil": 1,
-     
-     "mirror": true,
-     "alternate": false,  
-     
-     "reload": 20,
-     "shoot": {
-       "shots": 2,
-       "shotDelay": 5,
-     },
-     "shootSound": "blaster",
-     "bullet": {
-       "type": "BasicBulletType",
-       "keepVelocity": false,
-       "collidesAir": true,
-       "damage": 20,
-       "speed": 4,
-       "trailColor": "818181",
-       "trailLength": 4,
-       "trailWidth": 1.8,
+      "x": 3,
+      "y": 4,
+      "recoil": 1,
       
+      "mirror": true,
+      "alternate": false,  
+      
+      "reload": 20,
+      "shoot": {
+        "shots": 2,
+        "shotDelay": 5
+      },
+      "shootSound": "blaster",
+      "bullet": {
+        "type": "BasicBulletType",
+        "keepVelocity": false,
+        "collidesAir": true,
+        "damage": 20,
+        "speed": 4,
+        "trailColor": "818181",
+        "trailLength": 4,
+        "trailWidth": 1.8
       }
     }
   ]

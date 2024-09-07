@@ -49,9 +49,9 @@
     "pierceCap": 8
   },
   "requirements": [
-  "01chrom/180",
-  "10a-alloy/80",
-  "11quartz/80"
+    "01chrom/180",
+    "10a-alloy/80",
+    "11quartz/80"
   ],
   "category": "turret",
   "research": {

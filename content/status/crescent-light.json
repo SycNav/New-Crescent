@@ -9,8 +9,6 @@
 	"damageMultiplier": 100,
 	//"opposites": ["ruins"],
 	//"affinities":["spirit"],
-	"transitionDamage": -80,
-	"show": true,
-
-
+	"transitionDamage": -80,
+	"show": true
 }

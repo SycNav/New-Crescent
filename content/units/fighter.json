@@ -12,23 +12,20 @@
   "health": 180,
   "research": "",
   "researchCostMultiplier": 0,
-  "weapons": [
-    {
-      "name": "launcher",
-      "top": true,
-      "y": 1,
-      "reload": 20,
-      "x": 7,
-      "mirror": true,
-      "shootSound": "ShootBig",
-      "bullet": {
-        "type":"BulletType",
-        
-        "speed": 0,
-        "keepVelocity": false,
-        "collidesAir": false,
-        "spawnUnit": "missile"
-      }
+  "weapons": [{
+    "name": "launcher",
+    "top": true,
+    "y": 1,
+    "reload": 20,
+    "x": 7,
+    "mirror": true,
+    "shootSound": "ShootBig",
+    "bullet": {
+      "type":"BulletType",
+      "speed": 0,
+      "keepVelocity": false,
+      "collidesAir": false,
+      "spawnUnit": "missile"
     }
-  ]
+  }]
 }

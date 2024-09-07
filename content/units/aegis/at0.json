@@ -39,10 +39,9 @@
         "speed": 8,
         "lifetime": 18,
         "trailLength": 8,
-        "trailColor": "FFFFFF",
+        "trailColor": "FFFFFF"
       }
     }
-  ],
-
+  ]
 }
 

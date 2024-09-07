@@ -1,12 +1,11 @@
 {
- "type": "StorageBlock",
- "name": "Rise Container",
- "size": 2,
- "itemCapacity": 800,
- "research": "j00core-0",
- "category": "effect",
- "requirements": [
-  "00platin/1",
- ]
-      
+  "type": "StorageBlock",
+  "name": "Rise Container",
+  "size": 2,
+  "itemCapacity": 800,
+  "research": "j00core-0",
+  "category": "effect",
+  "requirements": [
+    "00platin/1"
+  ]
 }

@@ -16,14 +16,13 @@
   "liquidBoostIntensity": 1.8,
   "canOverdrive": true,
   "consumes": {
-   "liquid":{
-    "liquid": "water",
-    "amount": 0.05,
-    "booster": true,
-    "optional": true
-   }
-  }
-
+    "liquid":{
+      "liquid": "water",
+      "amount": 0.05,
+      "booster": true,
+      "optional": true
+    }
+  },
 
   "requirements": [
     "00platin/10",

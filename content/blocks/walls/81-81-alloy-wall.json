@@ -1,26 +1,26 @@
 {
- "name": "Lunar Alloy Wall",
- "description": "a wall made from Lunar Alloy, More resistant than surge alloy walls. The specialize that can transmit power.",
- "health": 2000,
- "armor": 4,
- "type": "wall",
- "size": 1,
- "category": "defense",
- "research": "lunar-alloy",
- "researchCost": [
-  "lunar-alloy/24",
-  "phase-fabric/128",
- ],
- "hasPower": true,
- "connectedPower": true,
- "conductivePower": true,
- "lightningChance": 0.5,
- "lightningDamage": 80,
- "lightningLength": 18,
- "lightningColor": 90aaff,
- "lightningSound": "spark",
- "requirements": [
-  "lunar-alloy/15",
-  "phase-fabric/10",
- ],
+  "name": "Lunar Alloy Wall",
+  "description": "a wall made from Lunar Alloy, More resistant than surge alloy walls. The specialize that can transmit power.",
+  "health": 2000,
+  "armor": 4,
+  "type": "wall",
+  "size": 1,
+  "category": "defense",
+  "research": "lunar-alloy",
+  "researchCost": [
+    "lunar-alloy/24",
+    "phase-fabric/128"
+  ],
+  "hasPower": true,
+  "connectedPower": true,
+  "conductivePower": true,
+  "lightningChance": 0.5,
+  "lightningDamage": 80,
+  "lightningLength": 18,
+  "lightningColor": "90aaff",
+  "lightningSound": "spark",
+  "requirements": [
+    "lunar-alloy/15",
+    "phase-fabric/10"
+  ]
 }

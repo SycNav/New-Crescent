@@ -1,9 +1,9 @@
 {
-"type": "liquid",
-"name": "Helium",
-"description": "Used in fusion energy, extracting matter. Inert.",
-"gas": "true",
-"color": "a3adea",
-"gasColor": "c0c6ea",
-"barColor": "a3adea"
+  "type": "liquid",
+  "name": "Helium",
+  "description": "Used in fusion energy, extracting matter. Inert.",
+  "gas": "true",
+  "color": "a3adea",
+  "gasColor": "c0c6ea",
+  "barColor": "a3adea"
 }

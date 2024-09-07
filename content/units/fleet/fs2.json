@@ -1,99 +1,98 @@
 {
-    "name": "Spore",
-    "description": "Air type, Support class, equip Heavy Force Shield and Strong BurnLaser, has RepairPoint",
-    "type": "flying",
-    "flying": true,
-    "health": 8000,
-    "armor": 18,
-    "speed": 1.8,
-    "mineTier": 3,
-    "buildSpeed": 3.6,
-    "hitSize": 18,
-    "faceTarget": false,
-    "abilities": [
-     {
+  "name": "Spore",
+  "description": "Air type, Support class, equip Heavy Force Shield and Strong BurnLaser, has RepairPoint",
+  "type": "flying",
+  "flying": true,
+  "health": 8000,
+  "armor": 18,
+  "speed": 1.8,
+  "mineTier": 3,
+  "buildSpeed": 3.6,
+  "hitSize": 18,
+  "faceTarget": false,
+  "abilities": [
+    {
       "type": "forceFieldAbility",
       "sides": 8,
       "radius": 18,
       "max": 1800,
       "regen": 1.333333333333333,
       "cooldown": 180
-
-     }
-    ],
-    "weapons": [
-        {
-            "type": "repairBeamWeapon",
-            "top": false,
-            "x": 1.8,
-            "y": -4,
-            "mirror": true,
-            "beamWidth": 0.8,
-            "repairSpeed": 4,
-            "bullet": {
-                "maxRange": 160
-            }
-        },
-        { 
-            "name": "fs2-gun",
-            "x": 0,
-            "y": 0,
-            "mirror": false,
-            "alternate": false,
-            "reload": 60,
-            "shake": 1.8,
-            "rotate": true,
-            "rotateSpeed": 4,
-            "shadow": 18,
-            "shootY": 4,
-            "recoil": 1.8,
-            "recoilTime": 40,
-            "shootSound": "laser",
-            "bullet": {
-                "type": "empBulletType",
-                "scaleLife": true,
-                "lightOpacity": 0.8,
-                "unitDamageScl": 0.8,
-                "healPercent": 36,
-                "timeIncrease": 8,
-                "timeDuration": 180,
-                "powerDamageScl": 4,
-                "damage": 800,
-                "hitColor": "81ff81",
-                "lightColor": "81ff81",
-                "lightRadius": 80,
-                "clipSize": 360,
-                "shootEffect": "hitEmpSpark",
-                "smokeEffect": "shootBigSmoke2",
-                "lifetime": 80,
-                "backColor": "81ff81",
-                "frontColor": "ffffff",
-                "width": 8,
-                "height": 8,
-                "shrinkY": 0,
-                "speed": 4,
-                "trailLength": 18,
-                "trailWidth": 4,
-                "trailColor": "81ff81",
-                "trailInterval": 4,
-                "splashDamage": 400,
-                "splashDamageRadius": 80,
-                "hitShake": 4,
-                "collides": false,
-               // "trailRotation": true,
-                "status": "electrified",
-                "hitSound": "plasmaboom"
-                "hitEffect": {
-                                "type": "WaveEffect",
-                                "lifetime": 80,
-                                "sizeFrom": 79,
-                                "sizeTo": 81,
-                                "strokeFrom": 8,
-                                "strokeTo": 0,
-                                "colorFrom": "81FF81",
-                                "colorTo": "81FF8181"
-                }
-            }
+    }
+  ],
+  "weapons": [
+    {
+      "type": "repairBeamWeapon",
+      "top": false,
+      "x": 1.8,
+      "y": -4,
+      "mirror": true,
+      "beamWidth": 0.8,
+      "repairSpeed": 4,
+      "bullet": {
+          "maxRange": 160
+      }
+    },
+    { 
+      "name": "fs2-gun",
+      "x": 0,
+      "y": 0,
+      "mirror": false,
+      "alternate": false,
+      "reload": 60,
+      "shake": 1.8,
+      "rotate": true,
+      "rotateSpeed": 4,
+      "shadow": 18,
+      "shootY": 4,
+      "recoil": 1.8,
+      "recoilTime": 40,
+      "shootSound": "laser",
+      "bullet": {
+        "type": "empBulletType",
+        "scaleLife": true,
+        "lightOpacity": 0.8,
+        "unitDamageScl": 0.8,
+        "healPercent": 36,
+        "timeIncrease": 8,
+        "timeDuration": 180,
+        "powerDamageScl": 4,
+        "damage": 800,
+        "hitColor": "81ff81",
+        "lightColor": "81ff81",
+        "lightRadius": 80,
+        "clipSize": 360,
+        "shootEffect": "hitEmpSpark",
+        "smokeEffect": "shootBigSmoke2",
+        "lifetime": 80,
+        "backColor": "81ff81",
+        "frontColor": "ffffff",
+        "width": 8,
+        "height": 8,
+        "shrinkY": 0,
+        "speed": 4,
+        "trailLength": 18,
+        "trailWidth": 4,
+        "trailColor": "81ff81",
+        "trailInterval": 4,
+        "splashDamage": 400,
+        "splashDamageRadius": 80,
+        "hitShake": 4,
+        "collides": false,
+        // "trailRotation": true,
+        "status": "electrified",
+        "hitSound": "plasmaboom",
+        "hitEffect": {
+          "type": "WaveEffect",
+          "lifetime": 80,
+          "sizeFrom": 79,
+          "sizeTo": 81,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "81FF81",
+          "colorTo": "81FF8181"
         }
-    ]
- }
+      }
+    }
+  ]
+}

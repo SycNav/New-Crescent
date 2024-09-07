@@ -1,9 +1,8 @@
 {
-"type": "Floor",
+  "type": "Floor",
   "variants": 3,
-"name": "Hard surface"
+  "name": "Hard surface",
   "attributes": {
     "dust": 0.05
   }
-
 }

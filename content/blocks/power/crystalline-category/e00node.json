@@ -13,8 +13,6 @@
     "01chrom/1"
   ],
 
-
-  "category": "power",
   "research": {
     "parent": "j00core-0",
     "requirements": [
@@ -27,6 +25,5 @@
         "preset": "81m-0-safeZone"
       }
     ]
-  },
-
+  }
 }

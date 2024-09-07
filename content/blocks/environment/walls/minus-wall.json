@@ -1,7 +1,5 @@
 {
-"type": "StaticWall",
-
-"name": "Minus Wall"
-
+  "type": "StaticWall",
+  "name": "Minus Wall"
 }
 

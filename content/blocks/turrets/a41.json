@@ -5,7 +5,7 @@
   "range": 190,
   "health": 1360,
   "shoot": {
-   "firstShotDelay": 0
+    "firstShotDelay": 0
   },
 
   "inaccuracy": 20.9,
@@ -21,83 +21,65 @@
   "shootSound": "laser",
   "reload": 90,
   "consumes":{
-   "power": 1.35
-
-
-
+    "power": 1.35
   },
-  "shootType": 
-  {
-   "type": "FlakBulletType",
-   "lifetime": 400, 
-   "speed": 0.4,
-   "damage": 180,
-   "ammoMultiplier": 1,
-   "shootEffect": "shootSmall",
-   "reloadMultiplier": 0.5,
-   "width": 6,
-   "height": 8,
-   "shootEffect": "hitEmpSpark",
-                "hitSound": "plasmaboom"
-                "hitEffect": {
-                                "type": "WaveEffect",
-                                "lifetime": 40,
-                                "sizeFrom": 36,
-                                "sizeTo": 18,
-                                "strokeFrom": 8,
-                                "strokeTo": 0,
-                                "colorFrom": "81FF81",
-                                "colorTo": "81FF8118"
-                }
-
-   "splashDamage": 40,
-   "splashDamageRadius": 360,
-   "killShooter": false, 
-   "keepVelocity": false,
-   "collidesAir": true,
-   "collidesGround": true,
-   "sprite": "new-crescent-obstruction-bullet",
-   "backSprite": "new-crescent-obstruction-bullet-back",
-   "trailLength": 2,
-   "trailColor": "a387ea",
-   "pierce": true,
-   "pierceBuilding": true,
-   "pierceCap": 5,
-   "width": 25,
-   "height": 25,
-   "spin": 8,
-   "shrinkX":0,
-   "shrinkY":0,
-   "killShooter": false, 
-   "keepVelocity": false,
-   "collidesAir": true,
-   "collidesGround": true,
+  "shootType": {
+    "type": "FlakBulletType",
+    "lifetime": 400, 
+    "speed": 0.4,
+    "damage": 180,
+    "ammoMultiplier": 1,
+    "shootEffect": "shootSmall",
+    "reloadMultiplier": 0.5,
+    "hitSound": "plasmaboom",
+    "hitEffect": {
+      "type": "WaveEffect",
+      "lifetime": 40,
+      "sizeFrom": 36,
+      "sizeTo": 18,
+      "strokeFrom": 8,
+      "strokeTo": 0,
+      "colorFrom": "81FF81",
+      "colorTo": "81FF8118"
+    },
+    "splashDamage": 40,
+    "splashDamageRadius": 360,
+    "sprite": "new-crescent-obstruction-bullet",
+    "backSprite": "new-crescent-obstruction-bullet-back",
+    "trailLength": 2,
+    "trailColor": "a387ea",
+    "pierce": true,
+    "pierceBuilding": true,
+    "pierceCap": 5,
+    "width": 25,
+    "height": 25,
+    "spin": 8,
+    "shrinkX":0,
+    "shrinkY":0,
+    "killShooter": false, 
+    "keepVelocity": false,
+    "collidesAir": true,
+    "collidesGround": true
   },
 
-
-
- 
   "requirements": [
-   "01chrom/1800"
- 
+    "01chrom/1800"
   ],
   "coolantMultiplier": 0.62,
   "category": "turret",
-   "research": {
-     "parent": "j00core-0",
-     "requirements": [
-       "00platin/1000",
-       "01chrom/2000",
-       "10a-alloy/1000",
-       "11quartz/2000"
-     ],
-     "objectives": [
-       {
-         "type": "SectorComleted",
-         "preset": "81m-0-safeZone"
-       }
-     ]
-   }
- 
- 
- }
+  "research": {
+    "parent": "j00core-0",
+    "requirements": [
+      "00platin/1000",
+      "01chrom/2000",
+      "10a-alloy/1000",
+      "11quartz/2000"
+    ],
+    "objectives": [
+      {
+        "type": "SectorComleted",
+        "preset": "81m-0-safeZone"
+      }
+    ]
+  }
+}

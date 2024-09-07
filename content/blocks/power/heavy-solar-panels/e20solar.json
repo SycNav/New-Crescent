@@ -18,7 +18,6 @@
     }
   ],
 
-
   "category": "power",
   "research": {
     "parent": "e00node",
@@ -34,9 +33,6 @@
     ]
   },
 
-
-
-  
   "update": true,
   "consumes": {
     "power": {

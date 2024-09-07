@@ -1,11 +1,11 @@
 {
- "type": "StorageBlock",
- "name": "Rise Vault",
- "size": 3,
- "itemCapacity": 2000,
- "research": "j10vault0",
- "category": "effect"
- "requirements": [
-  "00platin/1",
- ]
+  "type": "StorageBlock",
+  "name": "Rise Vault",
+  "size": 3,
+  "itemCapacity": 2000,
+  "research": "j10vault0",
+  "category": "effect",
+  "requirements": [
+    "00platin/1"
+  ]
 }

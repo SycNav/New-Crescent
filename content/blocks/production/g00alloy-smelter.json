@@ -10,18 +10,18 @@
   "craftTime": 90,
   "craftEffect": "smeltsmoke",
   "updateEffect": "steam",
-    "drawer": {
-        "type": "DrawMulti",
-        "drawers": [
-          {
-            "type": "DrawDefault"
-          },
-          {
-            "type": "DrawGlowRegion",
-            "color": "adcfff",
-          }
-       ]
-    }
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "color": "adcfff"
+      }
+    ]
+  },
   "consumes": {
     "power": 1.2,
     "items": [
@@ -31,10 +31,10 @@
   },
   "requirements": [
     "00platin/65",
-    "01chrom/35",
+    "01chrom/35"
   ],
   "category": "crafting",
-    "outputItem": {"item": "10a-alloy", "amount": 2},
+  "outputItem": {"item": "10a-alloy", "amount": 2},
   "research": {
     "parent": "j00core-0",
     "requirements": [

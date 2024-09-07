@@ -1,6 +1,6 @@
 {
   "type": "UnitFactory",
-  "name": Aegis Factory",
+  "name": "Aegis Factory",
   "health": 2000,
   "size": 3,
   "consumes": {

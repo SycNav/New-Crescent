@@ -1,14 +1,14 @@
 {
- "type": "radar",
- "name": "Radar",
- "fogRadius": 81,
- "size": 2,
- "outlineColor": "e5faff",
- "squareSprite": false,
+  "type": "radar",
+  "name": "Radar",
+  "fogRadius": 81,
+  "size": 2,
+  "outlineColor": "e5faff",
+  "squareSprite": false,
   "requirements": [
     "00platin/15",
     "10a-alloy/10",
-    "11quartz/20",
+    "11quartz/20"
   ],
   "category": "effect",
   "research": {
@@ -25,5 +25,4 @@
       }
     ]
   }
-
 }

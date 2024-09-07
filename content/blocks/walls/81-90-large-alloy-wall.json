@@ -1,26 +1,26 @@
 {
- "name": "Large Lunar Alloy Wall",
- "description": "a large wall made from Lunar Alloy, More resistant than large surge alloy walls. The specialize that can transmit power.",
- "health": 8100,
- "armor": 18,
- "type": "wall",
- "size": 2,
- "category": "defense",
- "research": "lunar-wall",
- "researchCost": [
-  "lunar-alloy/96",
-  "phase-fabric/512",
- ],
- "hasPower": true,
- "connectedPower": true,
- "conductivePower": true,
- "lightningChance": 0.5,
- "lightningDamage": 80,
- "lightningLength": 36,
- "lightningColor": 90aaff,
- "lightningSound": "spark",
- "requirements": [
-  "lunar-alloy/48",
-  "phase-fabric/36",
- ],
+  "name": "Large Lunar Alloy Wall",
+  "description": "a large wall made from Lunar Alloy, More resistant than large surge alloy walls. The specialize that can transmit power.",
+  "health": 8100,
+  "armor": 18,
+  "type": "wall",
+  "size": 2,
+  "category": "defense",
+  "research": "lunar-wall",
+  "researchCost": [
+    "lunar-alloy/96",
+    "phase-fabric/512"
+  ],
+  "hasPower": true,
+  "connectedPower": true,
+  "conductivePower": true,
+  "lightningChance": 0.5,
+  "lightningDamage": 80,
+  "lightningLength": 36,
+  "lightningColor": "90aaff",
+  "lightningSound": "spark",
+  "requirements": [
+    "lunar-alloy/48",
+    "phase-fabric/36"
+  ]
 }

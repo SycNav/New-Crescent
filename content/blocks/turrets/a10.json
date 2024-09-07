@@ -18,7 +18,7 @@
       "trailColor": "d8f3ff",
       "trailLength": 32,
       "trailWidth": 3,
-      
+
       "length": 100,
       "width": 8,
       "ammoMultiplier": 2,
@@ -34,7 +34,7 @@
       "trailColor": "dbe1fc",
       "trailLength": 32,
       "trailWidth": 3,
-      
+
       "length": 120,
       "width": 8,
       "ammoMultiplier": 2,
@@ -52,7 +52,7 @@
       "trailColor": "fff7fd",
       "trailLength": 32,
       "trailWidth": 3,
-      
+
       "length": 100,
       "width": 8,
       "ammoMultiplier": 2,
@@ -72,8 +72,6 @@
     "shots": 1,
     "shotDelay": 0
   },
-
-
 
   "category": "turret",
   "rotateSpeed": 8,

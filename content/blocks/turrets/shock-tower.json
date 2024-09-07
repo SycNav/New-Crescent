@@ -12,8 +12,6 @@
       "killShooter": false,
       "sprite": "bullet",
       "damage": 50,
-    
-      
       "pierce": true,
       "pierceBuilding": true,
       "splashDamageRadius": 200,

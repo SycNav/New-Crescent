@@ -36,10 +36,8 @@
       "sprite": "bullet",
       "trailLength": 4,
       "trailColor": "eeeeee",
-      
       "width": 8,
-      "ammoMultiplier": 5, 
-      
+      "ammoMultiplier": 5
     },
     "11quartz":{
       "type": "basicBulletType",
@@ -53,23 +51,19 @@
       "sprite": "bullet",
       "trailLength": 4,
       "trailColor": "eeefff",
-      
-      
       "width": 8,
-      "ammoMultiplier": 5, 
-      
+      "ammoMultiplier": 5
     }
   },
 
+  "coolantMultiplier": 1.8,
+  "consumes": {
+    "coolant": {
+      "amount": 0.5,
+      "optional": true
+    }
+  },
 
-        "coolantMultiplier": 1.8,
-        "consumes": {
-                "coolant": {
-                        "amount": 0.5,
-                        "optional": true
-                }
-        },
- 
   "requirements": [
     "00platin/50"
   ],
@@ -79,8 +73,6 @@
    "shots": 1,
    "shotDelay": 0
   },
-
-
 
   "category": "turret",
   "rotateSpeed": 8,

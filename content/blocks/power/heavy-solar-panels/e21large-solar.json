@@ -19,9 +19,7 @@
     { "item": "titanium",
       "amount": 20 
     }
-  ]
-
-
+  ],
 
   "category": "power",
   "research": {
@@ -29,7 +27,7 @@
     "requirements": [
       "10a-alloy/500",
       "11quartz/500",
-      "titanium/500",
+      "titanium/500"
     ],
     "objectives": [
       {
@@ -39,9 +37,6 @@
     ]
   },
 
-
-
- 
   "update": true,
   "consumes": {
     "power": {

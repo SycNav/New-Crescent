@@ -1,49 +1,44 @@
 {
- "type": "missile",
- "name": "Missile",
- "targetAir": true,
- "targetGround": true,
- "speed": 4,
- "flying": true,
- "rotateSpeed": 3,
- "controller": "MissileAI",
- "maxRange": 2000,
- "lifetime": 600,
- "outlineColor": "404050",
- "engineColor": "40aaff",
- "health": 400, 
- "useUnitsCap": false,
- "isEnemy": false,
- "lowAltitude": true,
- "physics": false,
- "playerControllable": false,
- "loopSoundVolume": 0.1,
- 
- "homingDelay": 15,
- "trailColor": "80aaff80",
- "trailLength": 32,
- 
- "bounded": false,
- "useUnitsCap": false,
- "createWreck": false,
+  "type": "missile",
+  "name": "Missile",
+  "targetAir": true,
+  "targetGround": true,
+  "speed": 4,
+  "flying": true,
+  "rotateSpeed": 3,
+  "controller": "MissileAI",
+  "maxRange": 2000,
+  "lifetime": 600,
+  "outlineColor": "404050",
+  "engineColor": "40aaff",
+  "health": 400, 
+  "useUnitsCap": false,
+  "isEnemy": false,
+  "lowAltitude": true,
+  "physics": false,
+  "playerControllable": false,
+  "loopSoundVolume": 0.1,
+  
+  "homingDelay": 15,
+  "trailColor": "80aaff80",
+  "trailLength": 32,
+  
+  "bounded": false,
+  "createWreck": false,
 
- "weapons": [
- {
-  "shootCone": 360,
-  "mirror": false,
-  "reload": 1,
-  "shootOnDeath": true,
-  "bullet": {
-    "damage":100,
-    "splashDamage":100,
-    "splashDamageRadius": 80,
-    "type": "ExplosionBulletType",
-    "collidesAir": true,
-    "collidesGround": true,
-    "instantDisappear": true,
-
-
-  }
- }
- ]
+  "weapons": [{
+    "shootCone": 360,
+    "mirror": false,
+    "reload": 1,
+    "shootOnDeath": true,
+    "bullet": {
+      "damage":100,
+      "splashDamage":100,
+      "splashDamageRadius": 80,
+      "type": "ExplosionBulletType",
+      "collidesAir": true,
+      "collidesGround": true,
+      "instantDisappear": true
+    }
+  }]
 }
