@@ -1,0 +1,29 @@
+{
+ "type": "radar",
+ "name": "Radar",
+ "fogRadius": 81,
+ "size": 2,
+ "outlineColor": "e5faff",
+ "squareSprite": false,
+  "requirements": [
+    "00platin/15",
+    "10a-alloy/10",
+    "11quartz/20",
+  ],
+  "category": "effect",
+  "research": {
+    "parent": "e00node",
+    "requirements": [
+      "00platin/150",
+      "10a-alloy/100",
+      "11quartz/100"
+    ],
+    "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "81m-0-safeZone"
+      }
+    ]
+  }
+
+}

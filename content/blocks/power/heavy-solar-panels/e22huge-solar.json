@@ -1,0 +1,58 @@
+{
+  "type": "SolarGenerator",
+  "size": 3,
+  "name": "Huge Heavy Solar Panel",
+  "description": "Generates a high amount of power from sunlight.",
+  "health": 480,
+  "hasPower": true,
+  "powerProduction": 2,
+  
+  "requirements": [
+    {
+      "item": "00platin",
+      "amount": 210
+    },
+    {
+      "item": "10a-alloy",
+      "amount": 200
+    },
+    {
+      "item": "11quartz",
+      "amount": 200
+    },
+    {
+      "item": "phase-fabric",
+      "amount": 50
+    }
+  ],
+
+
+
+
+  "category": "power",
+  "research": {
+    "parent": "e21large-solar",
+    "requirements": [
+      "00platin/2000",
+      "01chrom/1000",
+      "11quartz/2000",
+      "phase-fabric/500"
+    ],
+    "objectives": [
+      {
+        "type": "SectorComleted",
+        "preset": "81m-0-safeZone"
+      }
+    ]
+  },
+
+
+
+  "update": true,
+  "consumes": {
+    "power": {
+      "max": 0,
+      "capacity": 0
+    }
+  }
+}

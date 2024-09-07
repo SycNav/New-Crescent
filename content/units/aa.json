@@ -1,0 +1,122 @@
+{
+  "name": "aa",
+  "description": "A large ancient artillery spaceship can shoot mega deadly beam",
+  "template": "SerpuloUnitType",
+  "flying": true,
+  "speed": 0.8,
+  "drag": 0.1,
+  "accel": 0.1,
+  "range":80,
+  "rotateSpeed": 0.5,
+  "hitSize": 81,
+  "health": 24000,
+  "armor": 800,
+  "research": "",
+  "researchCostMultiplier": 0,
+  "faceTarget": true,
+
+  "abilities": [
+   {
+    "type": "ShieldArcAbility",
+ 
+    "radius": 120,
+    "width": 32, 
+    "max": 10000,
+    "regen": 5,
+    "cooldown": 600,
+    "angle": 340,
+    "y": 0,
+    
+   }
+   ]
+
+
+  "weapons": [
+    {
+      "name": "bullet",
+      "top": false,
+      "reload": 60,
+      
+      "shootCone": 360,
+      "mirror": true,
+      "alternate": true,
+      "x": 20,
+      "y": -30,
+      "rotate": false,
+     
+      "rotateSpeed": 1,
+      "range": 45,
+      "baseRotation": -135,
+      "xRand":10,
+      "shoot": {
+        "shots": 5,
+        "shotDelay": 10,
+        },
+      
+      
+      "shootSound": "blaster",
+      "bullet": {
+        "type": "bulletType",
+        "keepVelocity": false,
+        "collidesAir": false,
+        "spawnUnit": "missile"
+        "trailColor": "80ccff",
+        "trailLength": 32,
+        "trailWidth": 3,
+
+
+      }
+    },
+    {
+      "name": "death-beam",
+      "top": true,
+      "parts":[
+      {
+       "type": "regionPart",
+      
+       "progress": charge,
+       "blending": additive,
+       "color": "ffaa00",
+       "outline": false,
+      }
+      ]
+      "rotate": false,
+      "shootSound": "laserBlast",
+      "chargeSound": "laserCharge",
+      "shake": 18,   
+      "parentizeEffects": true,
+      "shoot":{
+       "firstShotDelay": 60,
+       "shots": 5,
+       "shotDelay": 30,
+      }
+      "x":0,
+      "y":0,
+      "mirror":false,
+      "shootY": 100,
+      "reload": 600,
+      "cooldownTime": 600,
+      "shootStatusDuration": 180,
+      "shootStatus": "unmoving",
+      
+      "bullet": {
+        "type": "laserBulletType",
+        "length": 600,
+        "damage": 1000,
+        "width": 75,
+        "lifetime": 81,
+        "lightningSpacing": 8,
+        "lightningLength": 20,
+        "lightningDelay": 1.8,
+        "lightningLengthRand": 18,
+        "lightningDamage": 100,
+        "lightningAngleRand": 80,
+        "largeHit": true,
+        "healPercent": 50,
+        "collidesTeam": true,
+        "sideAngle": 1.8,
+      }
+    }
+  ]
+}
+

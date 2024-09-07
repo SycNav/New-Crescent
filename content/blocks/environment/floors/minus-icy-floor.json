@@ -1,0 +1,10 @@
+{
+  "type": "floor",
+  "name": "Minus Ice",
+  "variants": 3,
+  "playerUnmineable": true,
+  "attributes": {
+    "dusts": 0.2,
+    "iceWater": 0.18
+  }
+}

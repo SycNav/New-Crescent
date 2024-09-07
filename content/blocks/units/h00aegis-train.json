@@ -1,0 +1,45 @@
+{
+  "type": "UnitFactory",
+  "name": Aegis Factory",
+  "health": 2000,
+  "size": 3,
+  "consumes": {
+    "power": 1.2
+  },
+  "plans": [
+    {
+      "unit": "at0",
+      "time": 1200,
+      "requirements": [
+        "00platin/25",
+        "10a-alloy/10"
+      ]
+    },
+    {
+      "unit": "as0",
+      "time": 1200,
+      "requirements": [
+        "00platin/25",
+        "10a-alloy/10"
+      ]
+    }
+  ],
+  "requirements": [
+    "10a-alloy/50",
+    "00platin/30"
+  ],
+  "category": "units",
+  "research": {
+    "parent": "j00-core0",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "81m-0-safeZone"
+      }
+    ]
+  },
+  "researchCost": [
+    "10a-alloy/60",
+    "00platin/40"
+  ]
+}

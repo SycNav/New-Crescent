@@ -1,0 +1,27 @@
+{
+  "type": "CoreBlock",
+  "name": "Core: Theta",
+  "description": "Core of the base. Armored and stores a medium amount of resources. Allows stable and durable operation against the harshness of Minus.",
+  "requirements": [
+    "00platin/5000",
+    "01chrom/5000",
+    "10a-alloy/2400"
+  ],
+  "isFirstTier": true,
+  "size": 3,
+  "squareSprite": false,
+  "alwaysUnlocked": true,
+  "unitType": "core-0",
+  "health": 8000,
+  "itemCapacity": 8000,
+  "unitCapModifier": 8,
+  "thrusterLength": 4.5,
+  "category": "effect",
+  "research": {
+    "planet": "minus",
+    "root": true,
+    "name": "Minus",
+    "requiresUnlock": false
+  },
+  "researchCostMultiplier": 1
+}

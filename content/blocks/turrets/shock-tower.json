@@ -1,0 +1,43 @@
+{
+  "name": "Shock Tower",
+  "description": "shock enemy near by",
+  "type": "liquidTurret",
+  "range": 200,
+  "reload": 180,
+  "size": 3,
+  "recoil": 0,
+  "ammoTypes": {
+    "slag":{
+      "type": "prieceCap",
+      "killShooter": false,
+      "sprite": "bullet",
+      "damage": 50,
+    
+      
+      "pierce": true,
+      "pierceBuilding": true,
+      "splashDamageRadius": 200,
+      "splashDamage": 50,
+      "status": "burning",
+      "statusDuration": 300,
+      "speed": 0.1,
+      "lifetime": 0.0,
+      "ammoMultiplier": 0.4
+    }
+  },
+  "requirements": [
+    "copper/10"
+  ],
+  "category": "turret",
+  "hasLiquids": true,
+  "liquidCapacity": 18,
+  "hasPower": true,
+  "consumesPower": 5,
+  "rotateSpeed": 0,
+  "shootCone": 360,
+  "shoot": {
+    "firstShotDelay": 30,
+    "shots": 2,
+    "shotDelay": 18
+  }
+}

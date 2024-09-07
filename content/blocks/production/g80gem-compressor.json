@@ -1,0 +1,63 @@
+
+
+{
+    "name": "Gem Compressor",
+    "description": "Change Quartz to Special Gem",
+    "type": "GenericCrafter",
+    "health": 1800,  
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+          {
+            "type": "DrawRegion",
+            "suffix": "-bottom"
+          },
+          {
+            "type": "DrawDefault"
+          },
+          {
+            "type": "DrawLiquidRegion",
+            "drawLiquid": "water",
+            "suffix": "-water"
+          },
+          {
+            "type": "DrawGlowRegion",
+            "color": "adcfff",
+          }
+       ]
+    }
+    "outputItem": {"item": "main", "amount": 2},
+    "consumes": {
+        "power": 3,
+        "items": [
+          "11quartz/3",
+          "12dust/4",
+      
+        ],
+        "liquids": [
+          "water/0.18"
+        ]
+      }
+
+
+
+
+    "squareSprite": false,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "liquidCapacity": 80,
+    "itemCapacity": 40,
+    "craftTime": 30,
+    "updateEffect": "pulverize",
+    "category": "crafting",
+    "research": "81-0-core-theta",
+    "requirements": [
+      "00platin/80",
+      "01chrom/80",
+      "10a-alloy/40",
+      "11quartz/40",
+    ],
+
+}

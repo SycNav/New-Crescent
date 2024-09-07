@@ -1,0 +1,79 @@
+type: ItemTurret
+name: Shorty
+description: BLAST!! BLAST!!! Shoot Like a Shougun !!!!
+health: 450
+size: 1
+ammoUseEffect: casing1
+inaccuracy: 0
+targetGround: true
+targetAir: false
+
+reload: 30
+range: 50
+shootCone: 35
+rotateSpeed: 14
+researchCostMultiplier: 0.5
+maxAmmo: 5
+shootEffect:shootBig
+smokeEffect:shootBigSmoke
+coolantMultiplier: 2
+    consumes: {
+        coolant: {
+        amount: 0.25
+        optional: true
+        }
+    }
+ammoTypes: {
+lead: {
+    type:ShrapnelBulletType
+    
+    damage: 4
+    width: 4.5
+    length: 1
+    ammoMultiplier: 3
+    fromColor: FFCC79
+    toColor: CD8FFF
+    serrations: 0
+    shootEffect:none
+    smokeEffect:none
+        "collidesGround": true,
+  }
+    metaglass: {
+        type:ShrapnelBulletType
+        
+        damage: 8
+        width: 12
+        length: 1.5
+        ammoMultiplier: 5
+        reloadMultiplier: 1.5
+        fromColor: FFCC79
+        toColor: FFF1D5
+        shootEffect:none
+        smokeEffect:steam
+      "collidesGround": true,
+        }
+
+
+
+  
+
+
+
+    }
+
+shoot: {
+    shots: 1
+    
+   "shotDelay": 0
+
+    spread: 30
+    
+ 
+}
+
+requirements: [
+copper/100
+lead/150
+]
+category: turret
+research: scatter

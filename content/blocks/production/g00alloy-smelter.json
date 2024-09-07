@@ -1,0 +1,51 @@
+{
+  "type": "genericCrafter",
+  "name": "Alloy Smelter",
+  "health": 300,
+  "description": "Mix molten Platinum and Chromium into alloys with improved properties.",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 10,
+  "craftTime": 90,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "steam",
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+          {
+            "type": "DrawDefault"
+          },
+          {
+            "type": "DrawGlowRegion",
+            "color": "adcfff",
+          }
+       ]
+    }
+  "consumes": {
+    "power": 1.2,
+    "items": [
+      "00platin/1",
+      "01chrom/1"
+    ]
+  },
+  "requirements": [
+    "00platin/65",
+    "01chrom/35",
+  ],
+  "category": "crafting",
+    "outputItem": {"item": "10a-alloy", "amount": 2},
+  "research": {
+    "parent": "j00core-0",
+    "requirements": [
+      "00platin/120",
+      "01chrom/90"
+    ],
+    "objectives": [
+      {
+        "type": "SectorComleted",
+        "preset": "81m-0-safeZone"
+      }
+    ]
+  }
+}

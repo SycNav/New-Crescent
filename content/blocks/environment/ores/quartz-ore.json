@@ -1,0 +1,6 @@
+{
+  "type": "oreBlock",
+  "itemDrop": "11quartz",
+  "variants": 3,
+  "wallOre": true
+}

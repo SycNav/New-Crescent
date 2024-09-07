@@ -1,0 +1,8 @@
+{
+  "cost": 1,
+  "type": "item",
+  "name": "Dust",
+  "description": "Dust on Minus with properties similar to Sands. Very toxic and highly corrosive.",
+  "color": "fefefe",
+  "hardness": 0  
+}

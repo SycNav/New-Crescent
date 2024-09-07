@@ -1,0 +1,14 @@
+{
+    "type": "Wall",
+    "name": "Platinum Wall",
+    "description": "Protects units and structors. Simple but low resistance.",
+    "health": 1000,
+    "armor": 2,
+    "size": 1,
+    "category": "defense",
+    "absorbLasers": false,
+    "requirements": [
+        "00platin/6"
+    ],
+    "research": "j00core-0"
+}

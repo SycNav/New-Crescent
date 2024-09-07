@@ -1,0 +1,76 @@
+{
+  "name": "Methy",
+  "description": "Air type, Support class, build faster, can heal block and have Force shield with RepairField within Field",
+  "type": "flying",
+  "flying": true,
+  "health": 4000,
+  "armor": 18,
+  "speed": 1.8,
+  "mineTier": 2,
+  "buildSpeed": 2.5,
+  "hitSize": 8,
+        "abilities": [
+                {
+                        "type": "RepairFieldAbility",
+                        "amount": 80,
+                        "healEffect": "none",
+                        "reload": 80,
+                        "range": 81,
+                        "activeEffect": {
+                                "type": "WaveEffect",
+                                "lifetime": 18,
+                                "sizeFrom": 0,
+                                "sizeTo": 81,
+                                "strokeFrom": 1.8,
+                                "strokeTo": 0,
+                                "colorFrom": "97FFA8",
+                                "colorTo": "97FFA881"
+                        }
+                }
+     {
+      "type": "forceFieldAbility",
+      "sides": 8,
+      "radius": 18,
+      "max": 800,
+      "regen": 0.666666666666,
+      "cooldown": 180
+
+     }
+      
+
+        ],
+// "ammoType": "PowerAmmoType",
+ "weapons":[
+  {
+   "top": false,
+   "x": 0,
+   "y": 3,
+   "reload": 40,
+   "mirror": false,
+   "alternate": true,
+   "recoil": 0,
+   "recoils": 2,
+   "recoilTime": 18,
+   "shootSound": "laser",
+   "bullet":{
+    "recoil": 1.8,
+    "sideAngle": 36,
+    "sideWidth": 1.8,
+    "sideLength": 18,
+    "length": 118,
+    "damage": 180,
+    "type": "laserBulletType",
+    "speed": 0,
+    "lifetime": 30,
+    "healPercent": 18,
+    "collidesTeam": true,
+    
+   
+   }
+  
+ 
+  
+    
+}
+]
+}

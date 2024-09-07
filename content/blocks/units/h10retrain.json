@@ -1,0 +1,34 @@
+{
+        "type": "Reconstructor",
+        "name": "Unit Upgrader",
+        "size":3,
+        "liquidCapacity": 80,
+        "consumes": {
+                "power": 4,
+                        "items": [
+                                "main/80",
+                              
+                        ],
+                "liquid": "water/0.18"
+        },
+        "upgrades":[
+        ["fs0","fs1"],
+        ],
+        "constructTime": 2400,
+        "requirements": [
+  "main/100",
+    
+        ],
+        "category": "units",
+        "buildVisibility": "shown",
+        "researchCostMultiplier": 2,
+        "research": {
+                "parent": "h01fleet-train",
+                "objectives": [
+                        {
+                                "type": "SectorCompleted",
+                                "preset": "81m-0-safeZone"
+                        }
+                ]
+        }
+}

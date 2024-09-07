@@ -1,0 +1,14 @@
+{
+    "type": "Wall",
+    "name": "Large Platinum Wall",
+    "description": "Protects units and structors. Simple but low resistance.",
+    "health": 4000,
+    "armor": 3,
+    "size": 2,
+    "category": "defense",
+    "absorbLasers": false,
+    "requirements": [
+        "00platin/24"
+    ],
+    "research": "f00platin-wall"
+}

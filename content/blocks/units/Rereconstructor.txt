@@ -1,0 +1,44 @@
+type: Reconstructor
+size: 5
+constructTime: 2400
+liquidCapacity: 60
+consumes: {
+  power: 8
+    items: {
+      items: [
+        moonstone/180
+        aerogel/120
+        cryogenium/80
+      ]
+    }
+  liquid: {
+    liquid: xenon
+    amount: 1
+  }
+}
+upgrades: [
+  [cryospider2, cryospider3]
+  [cryoflare2, cryoflare3]
+  [axoflare2, axoflare3]
+  [cryomech2, cryomech3]
+]
+requirements: [
+  yttrium/400
+  aerogel/200
+  moonstone/150
+]
+category: units
+research: {
+    parent: "Constructor-1",
+    objectives: [
+        {
+            type: "SectorComplete",
+            preset: "Secret-passage"
+        }
+    ]
+},
+researchCost: [
+    yttrium/3000
+    aluminium/1750
+    moonstone/1500
+  ]

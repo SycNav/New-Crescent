@@ -1,0 +1,34 @@
+{
+  "type":"flying",
+  "name": "fighter",
+  "description": "A new fighter with minigun and homing missile",
+  "template": "SerpuloUnitType",
+  "flying": true,
+  "speed": 2,
+  "drag": 0.1,
+  "accel": 0.1,
+  "rotateSpeed": 8,
+  "hitSize": 18,
+  "health": 180,
+  "research": "",
+  "researchCostMultiplier": 0,
+  "weapons": [
+    {
+      "name": "launcher",
+      "top": true,
+      "y": 1,
+      "reload": 20,
+      "x": 7,
+      "mirror": true,
+      "shootSound": "ShootBig",
+      "bullet": {
+        "type":"BulletType",
+        
+        "speed": 0,
+        "keepVelocity": false,
+        "collidesAir": false,
+        "spawnUnit": "missile"
+      }
+    }
+  ]
+}

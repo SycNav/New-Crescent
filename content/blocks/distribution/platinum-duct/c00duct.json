@@ -1,0 +1,32 @@
+{
+  "type": "conveyor",
+  "name": "Platinum Duct",
+  "description": "Transports items using a magnetic field created from Platinum in a vacuum duct.",
+  "speed": 0.8,
+  "health": 180,
+  "alwaysUnlocked": false,
+
+  "junctionReplacement": "c01junction",
+  "bridgeReplacement": "c03bridge",
+
+  "research": {
+    "parent": "j00core-0",
+    "requirements": [
+      "00platin/10"
+    ],
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "81m-0-safeZone"
+
+      }
+    ]
+  },
+  
+  "requirements": [
+    "00platin/1"
+  ],
+  "researchCostMultiplier": 1
+
+}
+

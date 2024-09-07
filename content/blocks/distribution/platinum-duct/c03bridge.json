@@ -1,0 +1,22 @@
+{
+  "type": "itemBridge",
+  "name": "Platinum Bridge",
+  "description": "Bridge can make item pass through terrain.",
+  "hasPower": false,
+  "health": 200,
+  "range": 4,
+  "transportTime": 0.8,
+  "alwaysUnlocked": false,
+  "research": {
+    "parent": "c00duct",
+    "requirements": [
+      "00platin/50",
+      "01chrom/25"
+    ]
+  },
+  "requirements": [
+    "00platin/3",
+    "01chrom/2"
+  ],
+  "researchCostMultiplier": 1
+}

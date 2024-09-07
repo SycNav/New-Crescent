@@ -1,0 +1,57 @@
+{
+  "type": "attributeCrafter",
+  "name": "Ice Sifter",
+  "health": 400,
+  "description": "Sifts surface to mine water from ice. Requires icy floors.",
+  "size": 2,
+  "hasLiquids": true,
+  "squareSprite": false,
+  "outputLiquid": "water/0.18",
+  "requirements": [
+    "00platin/20",
+    "11quartz/15"
+  ],
+  "attribute": "iceWater",
+  "baseEfficiency": 0,
+  "minEfficiency": 0.1,
+  "maxBoost": 4,
+  
+  "category": "production",
+  "research": {
+    "parent": "b00platin",
+    "requirements": [
+      "00platin/100",
+      "11quartz/40"
+    ],
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "81m-0-safeZone"
+      }
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "drawDefault"
+      },
+      {
+        "type": "drawLiquidTile",
+  //      "suffix": "-liquid",
+        "drawLiquid": "water"
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-rotator",
+        "spinSprite": true,
+        "rotateSpeed": -1.8
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-top"
+      }
+    ]
+  }
+}
+

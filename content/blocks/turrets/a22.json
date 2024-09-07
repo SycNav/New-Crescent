@@ -1,0 +1,73 @@
+{
+ "name": "Tesla",
+ "description": "Electrical Class. Fires high voltage arc at crowd enemies, but poorly against single target.",
+ "type": "powerTurret",
+ "category": "turret",
+ 
+ "shootType":{
+  "type": "LightningBulletType",
+ 
+ "damage": 80,
+ "lightningLength": 24,
+ 
+ "ammoMultiplier": 1,
+ "buildingDamageMultiplier": 0.4,
+ "lightningType": {
+  "type": "lightningBulletType",
+  "lightningLength": 8,
+  "lightningLengthRand": 4,
+  
+  "damage": 18,
+  "lifetime": 8,
+  "hitEffect": "hitLancer",
+  "status": "shocked",
+  "statusDuration": 18,
+  "hittable": false,
+  "lightColor": "ffffff",
+  
+  "buildingDamageMultiplier": 0.4,
+ }
+ }
+ "reload": 12,
+ "shootCone": 40,
+ "rotateSpeed": 8,
+ "targetAir": false,
+ "range": 180,
+ "shootEffect": "lightningShoot",
+ "size": 3,
+ "health": 1800,
+ "heatColor": "ff8181",
+ "shootSound": "spark",
+ 
+ 
+ 
+
+        "coolantMultiplier": 1.8,
+        "consumes": {
+                "power": 4,
+                "coolant": {
+                        "amount": 0.5,
+                        "optional": true
+                }
+        },
+  "requirements": [
+    "00platin/50"
+  ],
+
+  "research": {
+    "parent": "a01",
+    "requirements": [
+      "00platin/150",
+      "10a-alloy/100",
+      "01chrom/100"
+    ],
+    "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "81m-0-safeZone"
+      }
+    ]
+  }
+
+
+}

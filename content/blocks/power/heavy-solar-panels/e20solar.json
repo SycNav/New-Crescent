@@ -1,0 +1,48 @@
+{
+  "type": "solarGenerator",
+  "size": 1,
+  "name": "Heavy Solar Panel",
+  "description": "Generates a small amount of power from sunlight.",
+  "health": 80,
+  "hasPower": true,
+  "powerProduction": 0.15,
+  
+  "requirements": [
+    {
+      "item": "00platin",
+      "amount": 15
+    },
+    {
+      "item": "01chrom",
+      "amount": 5
+    }
+  ],
+
+
+  "category": "power",
+  "research": {
+    "parent": "e00node",
+    "requirements": [
+      "00platin/100",
+      "01chrom/50"
+    ],
+    "objectives": [
+      {
+        "type": "SectorComleted",
+        "preset": "81m-0-safeZone"
+      }
+    ]
+  },
+
+
+
+  
+  "update": true,
+  "consumes": {
+    "power": {
+      "max": 0,
+      "capacity": 0
+  
+    }
+  }
+}

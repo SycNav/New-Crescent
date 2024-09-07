@@ -1,0 +1,46 @@
+{
+  "name": "Sharpened Drill",
+  "description": "Mines items from ores using sharp blades made of Luminescent Quartz. Faster than Platinum Drills.",
+  "type": "Drill",
+  "health": 600,
+  "hasLiquids": true,
+  "size": 2,
+  "itemCapacity": 8,
+  "liquidCapacity": 18,
+  "tier": 3,
+  "rotateSpeed": 2,
+  "drillTime": 240,
+  "drawMineItem": true,
+
+
+  "liquidBoostIntensity": 1.8,
+  "canOverdrive": true,
+  "consumes": {
+   "liquid":{
+    "liquid": "water",
+    "amount": 0.05,
+    "booster": true,
+    "optional": true
+   }
+  }
+
+
+  "requirements": [
+    "00platin/10",
+    "11quartz/5"
+  ],
+  "category": "production",
+  "research": {
+    "parent": "b00platin",
+    "requirements": [
+      "00platin/200",
+      "11quartz/100"
+    ],
+    "objectives": [
+      {
+        "type": "SectorCompleted",
+        "preset": "81m-0-safeZone"
+      }
+    ]
+  }
+}

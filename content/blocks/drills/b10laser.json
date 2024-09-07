@@ -1,0 +1,45 @@
+{
+  "name": "Laser Bore",
+  "type": "beamDrill",
+  "health": 600,
+  "description": "Drills basic items from the surface. The initial drill used on Minus.",
+  "hasLiquids": true,
+  "size": 2,
+  "itemCapacity": 8,
+  "liquidCapacity": 18,
+  "tier": 2,
+  
+  "drillTime": 240,
+  
+
+  "canOverdrive": true,
+  "consumes": {
+   "liquid":{
+    "liquid": "cryofluid",
+    "amount": 0.05,
+    "booster": true,
+    "optional": true
+   }
+  }
+
+
+
+  "requirements": [
+    "01chrom/5",
+    "10a-alloy/10"
+  ],
+  "category": "production",
+  "research": {
+    "parent": "b00platin",
+    "requirements": [
+      "01chrom/50",
+      "10a-alloy/100"
+    ],
+    "objectives": [
+      {
+        "type": "SectorCompleted",
+        "preset": "81m-0-safeZone"
+      }
+    ]
+  }
+}

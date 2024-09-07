@@ -1,0 +1,44 @@
+{
+  "type": "flying",
+  "name": "Delta",
+  "mineSpeed": 10,
+  "flying": true,
+  "speed": 4,
+  "health": 25122008,
+  "rotateSpeed": 18,
+  "mineFloor": true,
+  "buildSpeed": 2,
+  "mineTier": 1,
+  "fogRadius": 0,
+  "killable": false,
+  "hittable": false,
+  "targetable": false,
+  "outlineColor": d1e2f0,
+  "faceTarget": true
+  "weapons": [
+  {
+    "name": "core-0-mender",
+    "x": 0,
+    "y": 2,
+    "mirror": false,
+    "rotate": false,
+    "type": "RepairBeamWeapon",
+    "beamWidth": 0.81,
+    "repairSpeed": 1.3334,
+    "rotateSpeed": 0,
+    "shootCone": 10,
+    
+    "targetUnits": false,
+    "targetBuildings": true,
+    "autoTarget": false,
+    "controllable": true,
+    "bullet": {
+      "maxRange": 80,
+     
+    
+      
+    }
+  }
+  ]
+}
+

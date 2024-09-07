@@ -1,0 +1,45 @@
+{
+  "name": "Platinum Drill",
+  "description": "Drills basic items from the surface. The initial drill used on Minus.",
+  "type": "Drill",
+  "health": 400,
+  "hasLiquids": true,
+  "size": 2,
+  "itemCapacity": 8,
+  "liquidCapacity": 18,
+  "tier": 2,
+  "rotateSpeed": 1,
+  "drillTime": 480,
+  "drawMineItem": true,
+
+
+  "liquidBoostIntensity": 1.8,
+  "canOverdrive": true,
+  "consumes": {
+   "liquid":{
+    "liquid": "water",
+    "amount": 0.05,
+    "booster": true,
+    "optional": true
+   }
+  }
+
+
+
+  "requirements": [
+    "00platin/15"
+  ],
+  "category": "production",
+  "research": {
+    "parent": "j00core-0",
+    "requirements": [
+      "00platin/15"
+    ],
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "81m-0-safeZone"
+      }
+    ]
+  }
+}

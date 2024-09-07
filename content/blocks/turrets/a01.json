@@ -1,0 +1,90 @@
+{
+  "name": "Colt",
+  "description": "Original class. A turret that uses high-melting soft bullets fired at high speed, causing high damage, strong enough to fight new forces on Minus.",
+  "type": "itemTurret",
+  "health": 1800,
+  "range": 200,
+  "reload": 18,
+  "size": 2,
+  "shootSound": "artillery",
+
+  "research": {
+    "parent": "j00core-0",
+    "requirements": [
+      "00platin/50"
+    ],
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "81m-0-safeZone"
+      }
+    ]
+  },
+  
+
+
+  "ammoTypes": {
+    "00platin":{
+      "type": "basicBulletType",
+      "speed": 4,
+      "lifetime": 50,
+      "damage": 140,
+      "killShooter": false, 
+      "keepVelocity": false,
+      "collidesAir": true,
+      "collidesGround": true,
+      "sprite": "bullet",
+      "trailLength": 4,
+      "trailColor": "eeeeee",
+      
+      "width": 8,
+      "ammoMultiplier": 5, 
+      
+    },
+    "11quartz":{
+      "type": "basicBulletType",
+      "speed": 4,
+      "lifetime": 58,
+      "damage": 180,
+      "killShooter": false, 
+      "keepVelocity": false,
+      "collidesAir": true,
+      "collidesGround": true,
+      "sprite": "bullet",
+      "trailLength": 4,
+      "trailColor": "eeefff",
+      
+      
+      "width": 8,
+      "ammoMultiplier": 5, 
+      
+    }
+  },
+
+
+        "coolantMultiplier": 1.8,
+        "consumes": {
+                "coolant": {
+                        "amount": 0.5,
+                        "optional": true
+                }
+        },
+ 
+  "requirements": [
+    "00platin/50"
+  ],
+
+  "shoot": {
+   "firstShotDelay": 0,
+   "shots": 1,
+   "shotDelay": 0
+  },
+
+
+
+  "category": "turret",
+  "rotateSpeed": 8,
+  "shootCone": 8.1,
+  "targetGround": true,
+  "targetAir": true
+}

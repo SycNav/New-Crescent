@@ -1,0 +1,52 @@
+{
+  "type": "SolarGenerator",
+  "size": 2,
+  "name": "Big Heavy Solar Panel",
+  "description": "Generates a medium amount of power from sunlight.",
+  "health": 180,
+  "hasPower": true,
+  "powerProduction": 0.7,
+  
+  "requirements": [
+    {
+      "item": "10a-alloy",
+      "amount": 50
+    },
+    {
+      "item": "11quartz",
+      "amount": 20
+    },
+    { "item": "titanium",
+      "amount": 20 
+    }
+  ]
+
+
+
+  "category": "power",
+  "research": {
+    "parent": "e20solar",
+    "requirements": [
+      "10a-alloy/500",
+      "11quartz/500",
+      "titanium/500",
+    ],
+    "objectives": [
+      {
+        "type": "SectorComleted",
+        "preset": "81m-0-safeZone"
+      }
+    ]
+  },
+
+
+
+ 
+  "update": true,
+  "consumes": {
+    "power": {
+      "max": 0,
+      "capacity": 0
+    }
+  }
+}

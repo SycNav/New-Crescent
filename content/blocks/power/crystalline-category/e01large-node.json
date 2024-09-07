@@ -1,0 +1,33 @@
+{
+  "name": "Large Crystalline Node",
+  "type": "PowerNode",
+  "size": 2,
+  "health": 800,
+  "laserRange": 18,
+  "maxNodes": 18,
+  "hasPower": true,
+  "laserColor2": "D7FCFCFF",
+  "requirements": [
+    "00platin/8",
+    "01chrom/6",
+    "11quartz/4"
+  ],
+
+
+  "category": "power",
+  "research": {
+    "parent": "e00node",
+    "requirements": [
+      "00platin/200",
+      "01chrom/180",
+      "11quartz/80"
+    ],
+    "objectives": [
+      {
+        "type": "SectorComleted",
+        "preset": "81m-0-safeZone"
+      }
+    ]
+  },
+
+}

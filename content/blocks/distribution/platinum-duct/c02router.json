@@ -1,0 +1,18 @@
+{
+  "type": "router",
+  "name": "Platinum Router",
+  "description": "Allows items to be inserted on one side and released on the other 3 sides",
+  "speed": 7.5,
+  "health": 180,
+  "alwaysUnlocked": false,
+  "research": {
+    "parent": "c00duct",
+    "requirements": [
+      "00platin/20"
+    ]
+  },
+  "requirements": [
+    "00platin/2"
+  ],
+  "researchCostMultiplier": 1
+}

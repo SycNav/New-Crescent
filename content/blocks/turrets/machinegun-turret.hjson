@@ -1,0 +1,93 @@
+type: ItemTurret
+name: Duo Machinegun
+description: Very Fast Shooting But Low Effiency
+health: 600
+size: 1
+ammoUseEffect: casing1
+inaccuracy: 20
+targetGround: true
+targetAir: true
+reload: 8
+range: 150
+shootCone: 20
+rotateSpeed: 14
+researchCostMultiplier: 0.5
+coolantMultiplier: 2
+    consumes: {
+        coolant: {
+        amount: 0.25
+        optional: true
+        }
+    }
+ammoTypes: {
+copper: {
+    damage: 6
+    speed: 6
+    width: 4
+    height: 9
+    lifetime: 26
+    ammoMultiplier: 4
+    }
+    lead: {
+        damage: 12
+        speed: 8
+        width: 4
+        height: 9
+        lifetime: 20
+        ammoMultiplier: 4
+        reloadMultiplier: 0.75
+        pierce: true
+        backColor: 9700FF
+        frontColor: FFFFFF
+        }
+        titanium: {
+            damage: 8
+            speed: 4
+            width: 4
+            height: 4
+            lifetime: 35
+            ammoMultiplier: 6
+            reloadMultiplier: 0.9
+            homingPower: 5
+            homingRange: 75
+            backColor: D8FF00
+            frontColor: EDFFDC
+            }
+            thorium: {
+                damage: 3
+                speed: 8
+                width: 5
+                height: 5
+                lifetime: 23
+                ammoMultiplier: 6
+                reloadMultiplier: 1.5
+                backColor: 00FFFF
+                frontColor: FFFFFF
+                fragBullet: {
+                    type:BasicBulletType
+                    damage: 3
+                    speed: 6
+                    height: 14
+                    width: 2
+                    shrinkY: -0.5
+                    shrinkX: 1
+                    pierce: true
+                    frontColor:FFFFFF
+                    backColor:00FFFF
+                }
+                fragBullets: 3
+                fragLifeMin: 0.2
+                fragLifeMax: 0.3
+                status: shocked
+                statusDuration: 60
+                despawnEffect: none
+                hitEffect: none
+        }
+}
+
+requirements: [
+copper/60
+lead/70
+]
+category: turret
+research: duo

@@ -1,0 +1,56 @@
+{
+  "type": "attributeCrafter",
+  "name": "Dust Condenser",
+  "health": 400,
+  "description": "Spray water onto dust surface to accumulate Dust.",
+  "size": 2,
+  "hasLiquids": true,
+  "squareSprite": false,
+  "outputItem": "12dust/1",
+  "requirements": [
+    "00platin/25",
+    "11quartz/10"
+  ],
+  "attribute": "dust",
+  "baseEfficiency": 0,
+  "minEfficiency": 0.0000001,
+  "maxBoost": 4,
+
+  "consumes":{
+   "liquids":[
+    "water/0.2"
+   ]
+  },
+  
+  "category": "production",
+  "research": {
+    "parent": "b00platin",
+    "requirements": [
+      "00platin/300",
+      "11quartz/80"
+    ],
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "81m-0-safeZone"
+      }
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "drawDefault"
+      },
+      {
+        "type": "DrawLiquidTile",
+        
+        "drawLiquid": "water"
+      },
+      {
+        "type": "drawRegion",
+        "suffix": "-top"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Crystalline Node",
+  "type": "PowerNode",
+  "size": 1,
+  "health": 180,
+  "laserRange": 8,
+  "maxNodes": 8,
+  "hasPower": true,
+  "laserColor2": "D7FCFCFF",
+  "category": "power",
+  "requirements": [
+    "00platin/2",
+    "01chrom/1"
+  ],
+
+
+  "category": "power",
+  "research": {
+    "parent": "j00core-0",
+    "requirements": [
+      "00platin/20",
+      "01chrom/10"
+    ],
+    "objectives": [
+      {
+        "type": "SectorComleted",
+        "preset": "81m-0-safeZone"
+      }
+    ]
+  },
+
+}

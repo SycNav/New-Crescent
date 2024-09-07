@@ -1,0 +1,18 @@
+{
+  "type": "junction",
+  "name": "Platinum Junction",
+  "description": "Allows duct to pass through each other.",
+  "speed": 7.5,
+  "health": 180,
+  "alwaysUnlocked": false,
+  "research": {
+    "parent": "c00duct",
+    "requirements": [
+      "00platin/20"
+    ]
+  },
+  "requirements": [
+    "00platin/2"
+  ],
+  "researchCostMultiplier": 1
+}
