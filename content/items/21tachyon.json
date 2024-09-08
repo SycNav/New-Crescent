@@ -1,0 +1,12 @@
+{
+  "cost": 4,
+  "type": "material",
+  "name": "Tachyon Gem",
+  "description": "Used in time-travelling technologies, production and boosting. Radiates particles with mysterious properties.",
+  "color": "54d67d",
+  "radioactivity": 3,
+  "frames": 3,
+  "transitionFrames": 2,
+  "frameTime" : 5,
+  "research": "quantum-gem"
+}

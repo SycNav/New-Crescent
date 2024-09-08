@@ -1,0 +1,43 @@
+{
+  "type": "tank",
+  "name": "Blitz",
+  "description": "Quick and durable. Equipped with a rail gun.",
+  "hitSize": 8,
+  "treadRects": [{
+    "x": -31,
+    "y": -42,
+    "width": 16,
+    "height": 84
+  }],
+  "singleTarget": false,
+  "omniMovement": false,
+  "rotateMoveFirst": true,
+  "faceTarget": false,
+  "health": 800,
+  "armor": 4,
+  "speed": 1.8,
+  "rotateSpeed": 4.5,
+  "itemCapacity": 0,
+  "outlineColor": "404448",
+//  "research": "15",
+  "weapons": [{
+    "x": 0,
+    "y": -1,
+    "name": "rp0-gun",
+    "reload": 30,
+    "mirror": false,
+    "rotate": true,
+    "rotateSpeed": 8,
+    "shootSound": "artillery",
+    "bullet": {
+      "type": "basicBulletType",
+      "instantDisappear": false,
+      "damage": 80,
+      "speed": 8,
+      "lifetime": 18,
+      "trailLength": 8,
+      "trailColor": "FFFFFF"
+    }
+  }]
+}
+

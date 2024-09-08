@@ -1,6 +1,6 @@
 {
   "cost": 2,
-  "type": "item",
+  "type": "material",
   "name": "Mass Alloy",
   "description": "Used in units, heavy structures and advanced technology. Replacing Silicon on Surpulo.",
   "color": "b9c7ea"

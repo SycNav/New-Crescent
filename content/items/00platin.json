@@ -1,6 +1,6 @@
 {
   "cost": 1,
-  "type": "Item",
+  "type": "resource",
   "name": "Platinum",
   "description": "A fundamental material that operates stably against the corrosion of hostile environment.",
   "color": "cfcfcf",

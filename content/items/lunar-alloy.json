@@ -1,6 +1,6 @@
 {
   "cost": 1,
-  "type": "item",
+  "type": "material",
   "name": "Lunar Alloy",
   "description": "A strong reflective material",
   "color": "cad9ef"

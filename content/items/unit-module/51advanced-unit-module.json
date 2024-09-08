@@ -1,0 +1,7 @@
+{
+  "cost": 4,
+  "type": "material",
+  "name": "Advanced Unit Module",
+  "description": "Used to upgrade Tier 3 units to Tier 4.",
+  "color": "e8d174"
+}

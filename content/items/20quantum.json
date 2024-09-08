@@ -1,0 +1,12 @@
+{
+  "cost": 4,
+  "type": "material",
+  "name": "Quantum Gem",
+  "description": "Used in quantum-teleporting technologies. More extreme than Phase Fabric. Can be used to convert into Tachyon Gem with unique power.",
+  "color": "ffe466",
+  "radioactivity": 1.7,
+  "frames": 4,
+  "transitionFrames": 1,
+  "frameTime" : 10,
+  "research": "phase-fabric"
+}
