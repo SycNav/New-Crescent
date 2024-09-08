@@ -14,11 +14,11 @@
     "buildingDamageMultiplier": 0.4,
     "lightningType": {
       "type": "lightningBulletType",
-      "lightningLength": 8,
-      "lightningLengthRand": 4,
+      "lightningLength": 4,
+      "lightningLengthRand": 1.8,
 
       "damage": 18,
-      "lifetime": 8,
+      "lifetime": 1.8,
       "hitEffect": "hitLancer",
       "status": "shocked",
       "statusDuration": 18,
