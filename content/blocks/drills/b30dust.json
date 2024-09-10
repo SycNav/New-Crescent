@@ -1,15 +1,15 @@
 {
   "type": "attributeCrafter",
   "name": "Dust Condenser",
-  "health": 400,
+  "health": 800,
   "description": "Spray water onto dust surface to accumulate Dust.",
   "size": 2,
   "hasLiquids": true,
   "squareSprite": false,
   "outputItem": "12dust/1",
   "requirements": [
-    "00platin/25",
-    "11quartz/10"
+    "00platin/50",
+    "11quartz/20"
   ],
   "attribute": "dust",
   "baseEfficiency": 0,
