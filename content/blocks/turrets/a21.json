@@ -73,7 +73,7 @@
     "objectives": [
       {
         "type": "SectorComlete",
-        "preset": "81m-0-safeZone"
+        "preset": "CrS"
       }
     ]
   }
