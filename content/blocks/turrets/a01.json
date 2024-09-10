@@ -9,14 +9,14 @@
   "shootSound": "artillery",
 
   "research": {
-    "parent": "j00core-0",
+    "parent": "a00",
     "requirements": [
       "00platin/50"
     ],
     "objectives": [
       {
         "type": "SectorComlete",
-        "preset": "a00"
+        "preset": "81m-0-safeZone"
       }
     ]
   },
