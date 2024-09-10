@@ -2,15 +2,15 @@
   "name": "Crystalline Node",
   "type": "PowerNode",
   "size": 1,
-  "health": 180,
+  "health": 400,
   "laserRange": 8,
   "maxNodes": 8,
   "hasPower": true,
   "laserColor2": "D7FCFCFF",
   "category": "power",
   "requirements": [
-    "00platin/2",
-    "01chrom/1"
+    "00platin/10",
+    "01chrom/5"
   ],
 
   "research": {
