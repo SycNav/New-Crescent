@@ -10,7 +10,7 @@
   "requirements": [
     {
       "item": "00platin",
-      "amount": 210
+      "amount": 300
     },
     {
       "item": "10a-alloy",
@@ -22,7 +22,7 @@
     },
     {
       "item": "phase-fabric",
-      "amount": 50
+      "amount": 100
     }
   ],
 
