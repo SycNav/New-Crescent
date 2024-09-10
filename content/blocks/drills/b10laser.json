@@ -1,7 +1,7 @@
 {
   "name": "Laser Bore",
   "type": "beamDrill",
-  "health": 600,
+  "health": 1000,
   "description": "Drills basic items from the surface. The initial drill used on Minus.",
   "hasLiquids": true,
   "size": 2,
@@ -23,8 +23,8 @@
   },
 
   "requirements": [
-    "01chrom/5",
-    "10a-alloy/10"
+    "01chrom/50",
+    "10a-alloy/20"
   ],
   "category": "production",
   "research": {
