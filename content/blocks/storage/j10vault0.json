@@ -3,7 +3,7 @@
   "name": "Rise Container",
   "size": 2,
   "itemCapacity": 800,
-  "research": "j00core-0",
+  "research": "CrS",
   "category": "effect",
   "requirements": [
     "00platin/1"

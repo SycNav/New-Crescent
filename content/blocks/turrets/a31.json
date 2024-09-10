@@ -2,7 +2,7 @@
   "type": "itemTurret",
   "name": "Striker",
   "description": "Spread Class. File a projectile that releases fragments that deal area damage, air only.",
-  "decription": "Blast Class.",
+  "health": 1800
   "ammoTypes": {
     "01chrom": {
       "type": "FlakBulletType",
