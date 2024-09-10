@@ -2,7 +2,7 @@
   "name": "Platinum Drill",
   "description": "Drills basic items from the surface. The initial drill used on Minus.",
   "type": "Drill",
-  "health": 400,
+  "health": 800,
   "hasLiquids": true,
   "size": 2,
   "itemCapacity": 8,
@@ -25,13 +25,13 @@
   },
 
   "requirements": [
-    "00platin/15"
+    "00platin/40"
   ],
   "category": "production",
   "research": {
     "parent": "j00core-0",
     "requirements": [
-      "00platin/15"
+      "00platin/20"
     ],
     "objectives": [
       {
