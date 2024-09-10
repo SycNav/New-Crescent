@@ -15,8 +15,8 @@
     ],
     "objectives": [
       {
-        "type": "OnSector",
-        "preset": "81m-0-safeZone"
+        "type": "SectorComlete",
+        "preset": "a00"
       }
     ]
   },
