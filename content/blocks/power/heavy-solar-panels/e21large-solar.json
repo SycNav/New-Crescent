@@ -10,14 +10,14 @@
   "requirements": [
     {
       "item": "10a-alloy",
-      "amount": 50
+      "amount": 100
     },
     {
       "item": "11quartz",
-      "amount": 20
+      "amount": 50
     },
     { "item": "titanium",
-      "amount": 20 
+      "amount": 50
     }
   ],
 
@@ -31,8 +31,8 @@
     ],
     "objectives": [
       {
-        "type": "SectorComleted",
-        "preset": "81m-0-safeZone"
+        "type": "SectorComlete",
+        "preset": "CrS"
       }
     ]
   },
