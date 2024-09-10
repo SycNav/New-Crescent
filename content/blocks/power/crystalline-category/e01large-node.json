@@ -2,15 +2,15 @@
   "name": "Large Crystalline Node",
   "type": "PowerNode",
   "size": 2,
-  "health": 800,
+  "health": 1200,
   "laserRange": 18,
   "maxNodes": 18,
   "hasPower": true,
   "laserColor2": "D7FCFCFF",
   "requirements": [
-    "00platin/8",
-    "01chrom/6",
-    "11quartz/4"
+    "00platin/50",
+    "01chrom/20",
+    "11quartz/15"
   ],
 
   "category": "power",
@@ -23,8 +23,8 @@
     ],
     "objectives": [
       {
-        "type": "SectorComleted",
-        "preset": "81m-0-safeZone"
+        "type": "SectorComlete",
+        "preset": "CrS"
       }
     ]
   }
