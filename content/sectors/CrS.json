@@ -1,0 +1,10 @@
+{
+  "captureWave": 80,
+  "localizedName": "Death Zone: CrS",
+  "planet": "minus",
+  "sector": 8,
+  "difficulty": 5,
+  "alwaysUnlocked": false,
+  "overrideLaunchDefaults": true,
+  "addStartingItems": true
+}

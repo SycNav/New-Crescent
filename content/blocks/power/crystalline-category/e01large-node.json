@@ -23,7 +23,7 @@
     ],
     "objectives": [
       {
-        "type": "SectorComlete",
+        "type": "SectorComleted",
         "preset": "CrS"
       }
     ]
