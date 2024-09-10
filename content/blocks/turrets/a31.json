@@ -99,7 +99,7 @@
   ],
 
   "research": {
-    "parent": "j00core-0",
+    "parent": "a00",
     "requirements": [
       "00platin/80",
       "01chrom/80"
