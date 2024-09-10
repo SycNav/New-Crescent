@@ -2,7 +2,7 @@
   "name": "Sharpened Drill",
   "description": "Mines items from ores using sharp blades made of Luminescent Quartz. Faster than Platinum Drills.",
   "type": "Drill",
-  "health": 600,
+  "health": 1000,
   "hasLiquids": true,
   "size": 2,
   "itemCapacity": 8,
@@ -25,8 +25,8 @@
   },
 
   "requirements": [
-    "00platin/10",
-    "11quartz/5"
+    "00platin/40",
+    "11quartz/15"
   ],
   "category": "production",
   "research": {
