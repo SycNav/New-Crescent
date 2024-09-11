@@ -27,8 +27,8 @@
     ],
     "objectives": [
       {
-        "type": "SectorComleted",
-        "preset": "81m-0-safeZone"
+        "type": "SectorComlete",
+        "preset": "CrS"
       }
     ]
   },

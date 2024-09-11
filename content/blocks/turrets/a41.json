@@ -68,7 +68,7 @@
   "coolantMultiplier": 0.62,
   "category": "turret",
   "research": {
-    "parent": "j00core-0",
+    "parent": "a00",
     "requirements": [
       "00platin/1000",
       "01chrom/2000",
@@ -77,8 +77,8 @@
     ],
     "objectives": [
       {
-        "type": "SectorComleted",
-        "preset": "81m-0-safeZone"
+        "type": "SectorComlete",
+        "preset": "CrS"
       }
     ]
   }

@@ -11,22 +11,24 @@
       "unit": "at0",
       "time": 1200,
       "requirements": [
-        "00platin/25",
-        "10a-alloy/10"
+        "11quartz/80",
+        "10a-alloy/120"
       ]
     },
     {
       "unit": "as0",
       "time": 1200,
       "requirements": [
-        "00platin/25",
-        "10a-alloy/10"
+        "11quartz/100",
+        "10a-alloy/180",
+        "titanium/120"
       ]
     }
   ],
   "requirements": [
-    "10a-alloy/50",
-    "00platin/30"
+    "10a-alloy/200",
+    "01chrom/180",
+    "11quartz/120"
   ],
   "category": "units",
   "research": {
@@ -34,12 +36,13 @@
     "objectives": [
       {
         "type": "OnSector",
-        "preset": "81m-0-safeZone"
+        "preset": "CrS"
       }
     ]
   },
   "researchCost": [
-    "10a-alloy/60",
-    "00platin/40"
+    "10a-alloy/800",
+    "01chrom/800",
+    "11quartz/800"
   ]
 }

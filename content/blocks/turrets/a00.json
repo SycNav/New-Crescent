@@ -1,21 +1,21 @@
 {
-  "name": "Colt",
-  "description": "Original class. A turret that uses high-melting soft bullets fired at high speed, causing high damage, strong enough to fight new forces on Minus.",
+  "name": "Twin",
+  "description": "Original class. A turret have limit size with deal damame.",
   "type": "itemTurret",
-  "health": 1800,
-  "range": 200,
-  "reload": 18,
-  "size": 2,
-  "shootSound": "artillery",
+  "health": 800,
+ 
+  "reload": 30,
+  "size": 1,
+  
 
   "research": {
-    "parent": "a00",
+    "parent": "j00core-0",
     "requirements": [
       "00platin/50"
     ],
     "objectives": [
       {
-        "type": "SectorComlete",
+        "type": "OnSector",
         "preset": "81m-0-safeZone"
       }
     ]
@@ -28,7 +28,7 @@
       "type": "basicBulletType",
       "speed": 4,
       "lifetime": 50,
-      "damage": 140,
+      "damage": 40,
       "killShooter": false, 
       "keepVelocity": false,
       "collidesAir": true,
@@ -37,13 +37,13 @@
       "trailLength": 4,
       "trailColor": "eeeeee",
       "width": 8,
-      "ammoMultiplier": 5
+      "ammoMultiplier": 2
     },
     "11quartz":{
       "type": "basicBulletType",
       "speed": 4,
-      "lifetime": 58,
-      "damage": 180,
+      "lifetime": 60,
+      "damage": 80,
       "killShooter": false, 
       "keepVelocity": false,
       "collidesAir": true,
@@ -52,7 +52,7 @@
       "trailLength": 4,
       "trailColor": "eeefff",
       "width": 8,
-      "ammoMultiplier": 5
+      "ammoMultiplier": 2
     }
   },
 
@@ -65,7 +65,7 @@
   },
 
   "requirements": [
-    "00platin/50"
+    "00platin/20"
   ],
 
   "shoot": {

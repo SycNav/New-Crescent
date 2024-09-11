@@ -51,7 +51,7 @@
   ],
 
   "research": {
-    "parent": "a01",
+    "parent": "a21",
     "requirements": [
       "00platin/150",
       "10a-alloy/100",
@@ -60,7 +60,7 @@
     "objectives": [
       {
         "type": "SectorComplete",
-        "preset": "81m-0-safeZone"
+        "preset": "CrS"
       }
     ]
   }
