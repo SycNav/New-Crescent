@@ -1,11 +1,11 @@
 {
   "type": "floor",
-  "name": "Minus Ice",
+  "name": "Ancient Icy Floor",
   "variants": 3,
   "playerUnmineable": true,
   "attributes": {
-    "dusts": 0.2,
-    "iceWater": 0.18,
-    "cryo": 0.08
+    "dusts": 0.01,
+    "iceWater": 0.2,
+    "cryo": 0.25
   }
 }

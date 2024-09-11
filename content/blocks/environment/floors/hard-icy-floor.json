@@ -5,6 +5,7 @@
   "playerUnmineable": true,
   "attributes": {
     "dusts": 0.05,
-    "iceWater": 0.18
+    "iceWater": 0.18,
+    "cryo": 0.08
   }
 }
