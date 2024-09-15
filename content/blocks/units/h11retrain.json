@@ -2,7 +2,7 @@
   "type": "Reconstructor",
   "name": "Improvement Upgrader",
   "description": "Upgrade inputted units from tier 2 to tier 3.",
-  "size":3,
+  "size":5,
   "liquidCapacity": 80,
   "consumes": {
     "power": 4,
