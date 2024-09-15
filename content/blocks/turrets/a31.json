@@ -1,78 +1,77 @@
 {
+  "name": "Detonator",
+  "description": "Shoot armor-piercing blast, extremely high damage but minimal range.",
   "type": "itemTurret",
-  "name": "Striker",
-  "description": "Spread Class. File a projectile that releases fragments that deal area damage, air only.",
-  "health": 1800
+  "health": 1750,
+  "range": 120,
+  "reload": 30,
+  "size": 3,
+
   "ammoTypes": {
-    "01chrom": {
-      "type": "FlakBulletType",
-      "lifetime": 80, 
-      "speed": 3,
-      "damage": 20,
-      "ammoMultiplier": 8,
-      "shootEffect": "shootSmall",
-      "reloadMultiplier": 0.6,
-      "width": 6,
-      "height": 8,
-      "hitEffect": "flakExplosion",
-      "splashDamage": 160,
-      "splashDamageRadius": 18
-    },
-    "11quartz": {
-      "type": "FlakBulletType",
-      "lifetime": 80,
-      "speed": 3,
-      "damage": 40,
-      "ammoMultiplier": 8,
-      "shootEffect": "shootSmall",
-      "reloadMultiplier": 0.8,
-      "width": 6,
-      "height": 8,
-      "hitEffect": "flakExplosion",
-      "splashDamage": 180,
-      "splashDamageRadius": 24,
-      "fragBullets": 8,
-      "fragBullet": {
-      "type": "FlakBulletType",
-      "hitEffect": "flakExplosion",
-      "splashDamage": 80,
-      "splashDamageRadius": 8,
-      "width": 6,
-      "height": 8,
-      "shrinkY": 1.8,
-      "lifetime": 36,
+    "11quartz":{
+      "type": "ShrapnelBulletType",
+      "damage": 90,
+      "killShooter": false, 
+      "keepVelocity": false,
+      "collidesAir": true,
+      "collidesGround": true,
+      "trailColor": "d8f3ff",
+      "trailLength": 32,
+      "trailWidth": 3,
       
-      "backColor": "818181",
-      "frontColor": "ffffff",
-      "despawnEffect": "none",
-      "collidesGround": false
-      }
+      "length": 100,
+      "width": 8,
+      "ammoMultiplier": 2,
+      "toColor": "bfecff"
+    },
+    "titanium":{
+      "type": "ShrapnelBulletType",
+      "damage": 125,
+      "killShooter": false, 
+      "keepVelocity": false,
+      "collidesAir": true,
+      "collidesGround": true,
+      "trailColor": "dbe1fc",
+      "trailLength": 32,
+      "trailWidth": 3,
+      
+      "length": 120,
+      "width": 8,
+      "ammoMultiplier": 2,
+      "toColor": "acbbfc"
+    },
+    "thorium":{
+      "type": "ShrapnelBulletType",
+      "damage": 180,
+      "shootEffect": "thoriumShoot",
+      "smokeEffect": "thoriumShoot",
+      "killShooter": false, 
+      "keepVelocity": false,
+      "collidesAir": true,
+      "collidesGround": true,
+      "trailColor": "fff7fd",
+      "trailLength": 32,
+      "trailWidth": 3,
+      
+      "length": 100,
+      "width": 8,
+      "ammoMultiplier": 2,
+      "toColor": "ffbfef"
     }
   },
+ 
+  "requirements": [
+    "10a-alloy/240",
+    "11quartz/65",
+    "titanium/140",
+    "thorium/140"
+  ],
 
-
-  "drawer": {
-    "type": "DrawTurret",
-    "parts": [
-      {
-        "type": "RegionPart",
-        "mirror": false,
-        "suffix": "-gun",
-        "under": true,
-        "progress": "recoil",
-        "moveY": -8
-      },
-      {
-        "type": "RegionPart",
-        "mirror": false,
-        "suffix": "-body",
-        "under": true,
-        "progress": "recoil",
-        "moveY": -2
-      }
-    ]
+  "shoot": {
+    "firstShotDelay": 0,
+    "shots": 1,
+    "shotDelay": 0
   },
-
   "coolantMultiplier": 1.8,
   "consumes": {
     "coolant": {
@@ -80,36 +79,10 @@
       "optional": true
     }
   },
-  "reload": 45,
-  "range": 240,
-  "size": 2,
-  "recoilTime": 40,
-  "targetGround": false,
-  "recoil": 2,
-  "rotateSpeed": 8,
-  "inaccuracy": 8,
-  "shootCone": 40,
-  "scaledHealth": 1800,
-  "shootSound": "shootSnap",
 
   "category": "turret",
-  "requirements": [
-    "00platin/40",
-    "01chrom/20"
-  ],
-
-  "research": {
-    "parent": "a00",
-    "requirements": [
-      "00platin/80",
-      "01chrom/80"
-    ],
-    "objectives": [
-      {
-        "type": "OnSector",
-        "preset": "81m-0-safeZone"
-      }
-    ]
-  }
+  "rotateSpeed": 8,
+  "shootCone": 8.1,
+  "targetGround": true,
+  "targetAir": true
 }
-
