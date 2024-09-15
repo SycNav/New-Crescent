@@ -1,7 +1,7 @@
 {
   "type": "Reconstructor",
-  "name": "Development Upgrader",
-  "description": "Upgrade inputted units from tier 1 to tier 2.",
+  "name": "Improvement Upgrader",
+  "description": "Upgrade inputted units from tier 2 to tier 3.",
   "size":3,
   "liquidCapacity": 80,
   "consumes": {
@@ -12,7 +12,7 @@
     "liquid": "water/0.18"
   },
   "upgrades":[
-    ["fs0","fs1"]
+    ["fs1","fs2"]
   ],
   "constructTime": 2400,
   "requirements": [
@@ -22,7 +22,7 @@
   "buildVisibility": "shown",
   "researchCostMultiplier": 2,
   "research": {
-    "parent": "h01fleet-train",
+    "parent": "h10retrain",
     "objectives": [
       {
         "type": "SectorCompleted",
