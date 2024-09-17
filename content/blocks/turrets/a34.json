@@ -1,8 +1,8 @@
 {
   "type": "itemTurret",
-  "name": "A34",
-  "description": "Coming soon...",
-  "health": 2860,
+  "name": "Striker",
+  "description": "Spread Class. File a projectile that releases fragments that deal area damage, air only.",
+  "health": 1800,
   "ammoTypes": {
     "01chrom": {
       "type": "FlakBulletType",
@@ -57,7 +57,7 @@
       {
         "type": "RegionPart",
         "mirror": false,
-        "suffix": "-barrel-l",
+        "suffix": "-gun",
         "under": true,
         "progress": "recoil",
         "moveY": -8
@@ -65,12 +65,11 @@
       {
         "type": "RegionPart",
         "mirror": false,
-        "suffix": "-barrel-r",
+        "suffix": "-body",
         "under": true,
         "progress": "recoil",
-        "moveY": -8
+        "moveY": -2
       }
-
     ]
   },
 
@@ -83,7 +82,7 @@
   },
   "reload": 45,
   "range": 240,
-  "size": 2,
+  "size": 4,
   "recoilTime": 40,
   "targetGround": false,
   "recoil": 2,
@@ -113,4 +112,3 @@
     ]
   }
 }
-
