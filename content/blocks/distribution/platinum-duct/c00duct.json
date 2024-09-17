@@ -2,7 +2,7 @@
   "type": "conveyor",
   "name": "Platinum Duct",
   "description": "Transports items using a magnetic field created from Platinum in a vacuum duct.",
-  "speed": 0.8,
+  "speed": 0.4,
   "health": 180,
   "alwaysUnlocked": false,
 
