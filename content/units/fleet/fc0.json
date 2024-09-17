@@ -36,7 +36,7 @@
       "shootStatusDuration": 165,
       "shootStatus": "unmoving",
       "shootSound": "laser",
-      "alwaysShooting": true,
+      "alwaysShooting": false,
       "shoot": {
         "firstShotDelay": 165
       },
