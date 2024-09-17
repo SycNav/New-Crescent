@@ -1,0 +1,364 @@
+{
+  "type": "flying",
+  "name": "Syl",
+  "description": "Fleet Type, Carrier Class. a small carrier have cool fighter can attack far away.",
+  "speed": 0.4,
+  "accel": 0.1,
+  "drag": 0.08,
+  "rotateSpeed": 0.4,
+  "flying": true,
+  "lowAltitude": true,
+  "health": 8000,
+  "engineOffset": 40,
+  "engineSize": 8,
+  "hitSize": 56,
+  "armor": 8,
+  "parts": [
+    {
+      "type": "RegionPart",
+      "mirror": false,
+      "top": false,
+      "suffix": "-bottom",
+      "layer": 0.1
+    }
+  ],
+  "weapons": [
+    { 
+      "x": -11,
+      "y": 19.7,      
+      "mirror": false,      
+      "shake": 8,
+      "shootY": 0,
+      "rotateSpeed": 0,
+      "rotate": false,
+      "reload": 480,
+      "recoilTime": 0,
+      "shootStatusDuration": 165,
+      "shootStatus": "unmoving",
+      "shootSound": "laser",
+      "alwaysShooting": true,
+      "shoot": {
+        "firstShotDelay": 165
+      },
+      "bullet": {
+        "damage":0,
+        "killShooter": false,
+        "splashDamage":400,
+        "splashDamageRadius": 180,
+        "type": "ExplosionBulletType",
+        "collidesAir": true,
+        "collidesGround": true,
+        "instantDisappear": true,
+        "despawnEffect": {
+          "type": "multiEffect",
+          "effects": [
+          {
+            "type": "WaveEffect",
+            "lifetime": 80,
+            "sizeFrom": 180,
+            "sizeTo": 240,
+            "strokeFrom": 8,
+            "strokeTo": 0,
+            "colorFrom": "d1efff",
+            "colorTo": "d1efff80"
+          },
+          {      
+            "type": "ParticleEffect",
+            "particles": 80, 
+            "lifetime": 56,
+            "sizeFrom": 1.8,
+            "sizeTo": 0.18,
+            "colorTo": "FFFFFF",
+            "colorFrom": "FFFFFF80",
+            "length": 180,            
+          },
+          {      
+            "type": "ParticleEffect",
+            "particles": 80, 
+            "lifetime": 80,
+            "sizeFrom": 1.8,
+            "sizeTo": 0.18,
+            "colorTo": "FFFFFF",
+            "colorFrom": "FFFFFF80",
+            "length": 240,            
+          }
+          ]
+        }
+        "chargeEffect": {
+          "type": "multiEffect",
+          "effects": [
+          {
+            "type": "WaveEffect",
+            "lifetime": 100,
+            "sizeFrom": 180,
+            "sizeTo": 0,
+            "strokeFrom": 0,
+            "strokeTo": 4,
+            "colorFrom": "d1efff",
+            "colorTo": "d1efff80"
+          },
+          {
+            "type": "WaveEffect",
+            "lifetime": 120,
+            "sizeFrom": 180,
+            "sizeTo": 0,
+            "strokeFrom": 0,
+            "strokeTo": 4,
+            "colorFrom": "ffaaff",
+            "colorTo": "ffaaff"
+          },
+          {
+            "type": "WaveEffect",
+            "lifetime": 160,
+            "sizeFrom": 180,
+            "sizeTo": 0,
+            "strokeFrom": 4,
+            "strokeTo": 0,
+            "colorFrom": "ffffff",
+            "colorTo": "ffffff80"
+          },
+          {      
+            "type": "ParticleEffect",
+            "particles": 40, 
+            "lifetime": 140,
+            "sizeFrom": 1.8,
+            "sizeTo": 0.18,
+            "colorTo": "FFFFFF",
+            "colorFrom": "FFFFFF80",
+            "length": -180,
+            "baseLength": 180,
+          },
+          {      
+            "type": "ParticleEffect",
+            "particles": 40, 
+            "lifetime": 150,
+            "sizeFrom": 1.8,
+            "sizeTo": 0.18,
+            "colorTo": "D0EFFF",
+            "colorFrom": "D0EFFF80",
+            "length": -180,
+            "baseLength": 180,
+          },
+          {      
+            "type": "ParticleEffect",
+            "particles": 40, 
+            "lifetime": 170,
+            "sizeFrom": 1.8,
+            "sizeTo": 0.18,
+            "colorTo": "FFaaFF",
+            "colorFrom": "FFaaFF80",
+            "length": -180,
+            "baseLength": 180,
+          }
+          ]
+        }
+      },
+      "parts": [
+        {
+          "type": "RegionPart",
+          "suffix": "fc0-part",
+          "layerOffset": 0,
+          "recoilIndex": 0,        
+          "x": 11,
+          "y": -19.7,
+          "heatProgress": "heat",
+          "moveX": -1,
+          "moves": [{
+            "progress": "recoil",
+            "x": 2
+          }],
+          "children":[{
+            "type":"RegionPart",
+            "suffix":"fc0-part-heatt",
+            "layerOffset": 0.1,
+            "blending": "additive",
+            "color":"a05050",
+            "outline":false
+          }]
+        }
+      ]
+    },            
+    {
+      "x": -3,
+      "y": 28,
+      "mirror": false,     
+      "shake": 8,
+      "shootY": 8,
+      "rotateSpeed": 0,
+      "rotate": false,
+      "reload": 480,
+      "recoilTime": 180,
+      "shootStatusDuration": 170,
+      "shootStatus": "unmoving",
+      "shootSound": "laser",
+      "shoot": {
+        "firstShotDelay": 170
+      },
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 320,
+        "sideAngle": 8,
+        "sideWidth": 1.8,
+        "sideLength": 80,
+        "width": 32,
+        "length": 320, 
+        "shootEffect": {
+          "type": "multiEffect",
+          "effects": [
+            "shockwave",
+            "lancerLaserShoot"
+          ]
+        },
+        "chargeEffect": {
+          "type": "multiEffect",
+          "effects": [
+            "lancerLaserCharge"    
+          ]
+        }
+      }
+      "parts": [{
+        "type": "RegionPart",
+        "suffix": "fc0-gun1",
+        "layerOffset": 0,
+        "recoilIndex": 0,        
+        "x": 3,
+        "y": -28,
+        "moveY": 0,
+        "moves": [{
+          "progress": "recoil",
+          "y": -2
+          }]
+      }]
+    },      
+    {
+      "x": 4,
+      "y": 20,
+      "mirror": false,     
+      "shake": 8,
+      "shootY": 8,
+      "rotateSpeed": 0,
+      "rotate": false,
+      "reload": 480,
+      "recoilTime": 320,
+      "shootStatusDuration": 75,
+      "shootStatus": "unmoving",
+      "shootSound": "laser",
+      "shoot": {
+        "firstShotDelay": 185
+      },
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 180,
+        "sideAngle": 8,
+        "sideWidth": 1.8,
+        "sideLength": 80,
+        "width": 32,
+        "length": 320, 
+        "shootEffect": {
+          "type": "multiEffect",
+          "effects": [
+            "shockwave",
+            "lancerLaserShoot"
+          ]
+        },
+        "chargeEffect": {
+          "type": "multiEffect",
+          "effects": [
+            "lancerLaserCharge"        
+          ]
+        }
+      }
+      "parts": [{
+        "type": "RegionPart",
+        "suffix": "fc0-gun2",
+        "layerOffset": 0,
+        "recoilIndex": 0,        
+        "x": -4,
+        "y": -20,
+        "moveY": 0,
+        "moves": [{
+          "progress": "recoil",
+          "y": -2
+          }]
+      }]
+    },
+    {
+      "x": 16,
+      "y": 24,
+      "mirror": false,     
+      "shake": 8,
+      "shootY": 8,
+      "rotateSpeed": 0,
+      "rotate": false,
+      "reload": 480,
+      "recoilTime": 400,
+      "shootStatusDuration": 205,
+      "shootStatus": "unmoving",
+      "shootSound": "laser",
+      "shoot": {
+        "firstShotDelay": 205
+      },
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 200,
+        "sideAngle": 8,
+        "sideWidth": 1.8,
+        "sideLength": 80,
+        "width": 40,
+        "length": 320, 
+        "shootEffect": {
+          "type": "multiEffect",
+          "effects": [
+            "shockwave",
+            "lancerLaserShoot"
+          ]
+        },
+        "chargeEffect": {
+          "type": "multiEffect",
+          "effects": [
+            "lancerLaserCharge"    
+          ]
+        }
+      }
+      "parts": [{
+        "type": "RegionPart",
+        "suffix": "fc0-gun3",
+        "layerOffset": 0,
+        "recoilIndex": 0,        
+        "x": -16,
+        "y": -24,
+        "moveY": 2,
+        "moves": [{
+          "progress": "recoil",
+          "y": -0.5
+          }]
+      }]
+    },        
+    {
+      "reload": 1800,    
+      "shootCone": 360,
+      "mirror": false,
+      "x": 20,
+      "y": -30,
+      "rotate": false,
+      "rotateSpeed": 0,
+      "range": 45,
+      "baseRotation": -45,
+      "xRand":10,
+      "shoot": {
+        "shots": 1,
+        "firstShotDelay": 180,
+        "shots": 2,
+        "shotDelay": 40,
+      },
+      "alwaysShooting": true,
+      "shootSound": "blaster",
+      "bullet": {
+        "type": "basicBulletType",
+        "damage": 200,
+        "spawnUnit": "fc0-raid",
+
+      }
+    },
+  ]
+}
