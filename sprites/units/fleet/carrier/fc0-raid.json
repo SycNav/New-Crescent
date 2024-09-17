@@ -1,0 +1,42 @@
+{
+  "type": "flying",
+  "name": "CR1",
+  "description": "Raid Carrier",
+  "health": 1200,
+  "speed": 2,
+  "range": 0,
+  "maxRange": 8000,
+  "lifetime":1800,
+  "accel": 0.08,
+  "drag": 0.08,
+  "flying": true,
+  "hitSize": 8,
+  "targetAir": false,
+  "range": 180,
+  "faceTarget": true,
+  "armor": 4,
+  "isEnemy": false,
+  "playerControllable": false,
+  "useUnitCap": false,
+  "controller": "FlyingAI",
+  "circleTarget": true,
+  "weapons": [{
+    "minShootVelocity": 0.8,
+    "alwaysShooting": true,
+    "x": 4,
+    "reload": 5,
+    "shootCone": 180,
+    "ignoreRotation": true,
+    "bullet": {
+      "type": "basicBulletType",
+      "damage": 80,
+      "speed": 4,
+      "lifetime": 60,
+      "width": 6,
+      "height": 8,
+      "hitEffect": "flakExplosion"
+    }
+  }]
+}
+
+
