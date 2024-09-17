@@ -356,9 +356,8 @@
       "bullet": {
         "type": "basicBulletType",
         "damage": 200,
-        "spawnUnit": "fc0-raid",
-
+        "spawnUnit": "fc0-raid"
       }
-    },
+    }
   ]
 }
