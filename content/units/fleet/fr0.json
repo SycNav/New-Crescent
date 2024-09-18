@@ -5,7 +5,7 @@
   "flying": true,
   "health": 800,
   "speed": 2,
-  "hitSize": 4,
+  "hitSize": 8,
   "parts": [
     {
       "type": "regionPart",
