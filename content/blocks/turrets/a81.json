@@ -1,0 +1,88 @@
+{
+  "name": "Detonator",
+  "description": "Shoot armor-piercing blast, extremely high damage but minimal range.",
+  "type": "itemTurret",
+  "health": 1750,
+  "range": 120,
+  "reload": 30,
+  "size": 3,
+
+  "ammoTypes": {
+    "11quartz":{
+      "type": "ShrapnelBulletType",
+      "damage": 90,
+      "killShooter": false, 
+      "keepVelocity": false,
+      "collidesAir": true,
+      "collidesGround": true,
+      "trailColor": "d8f3ff",
+      "trailLength": 32,
+      "trailWidth": 3,
+      
+      "length": 100,
+      "width": 8,
+      "ammoMultiplier": 2,
+      "toColor": "bfecff"
+    },
+    "titanium":{
+      "type": "ShrapnelBulletType",
+      "damage": 125,
+      "killShooter": false, 
+      "keepVelocity": false,
+      "collidesAir": true,
+      "collidesGround": true,
+      "trailColor": "dbe1fc",
+      "trailLength": 32,
+      "trailWidth": 3,
+      
+      "length": 120,
+      "width": 8,
+      "ammoMultiplier": 2,
+      "toColor": "acbbfc"
+    },
+    "thorium":{
+      "type": "ShrapnelBulletType",
+      "damage": 180,
+      "shootEffect": "thoriumShoot",
+      "smokeEffect": "thoriumShoot",
+      "killShooter": false, 
+      "keepVelocity": false,
+      "collidesAir": true,
+      "collidesGround": true,
+      "trailColor": "fff7fd",
+      "trailLength": 32,
+      "trailWidth": 3,
+      
+      "length": 100,
+      "width": 8,
+      "ammoMultiplier": 2,
+      "toColor": "ffbfef"
+    }
+  },
+ 
+  "requirements": [
+    "10a-alloy/240",
+    "11quartz/65",
+    "titanium/140",
+    "thorium/140"
+  ],
+
+  "shoot": {
+    "firstShotDelay": 0,
+    "shots": 1,
+    "shotDelay": 0
+  },
+  "coolantMultiplier": 1.8,
+  "consumes": {
+    "coolant": {
+      "amount": 0.5,
+      "optional": true
+    }
+  },
+
+  "category": "turret",
+  "rotateSpeed": 8,
+  "shootCone": 8.1,
+  "targetGround": true,
+  "targetAir": true
+}
