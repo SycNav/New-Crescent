@@ -1,12 +1,15 @@
 # New-Crescent (WIP)
 
-Project was in testing, all featured maybe change in future..
+Project still in testing, all featured may change in future..
 
 Author: CrS Team .( Discord: SyNav).
 
 
 Spriter: TDaggers [TDRS], Ru, Quy109372 
 
-Content: SyNav [SycNav], TDaggers [TDRS], CrystalMist, EarGods 
+Content: SyNav [SycNav], TDaggers [TDRS], CrystalMist, EarGods [Dawid]
 
-Script: SyNav [SycNav], Quy109372, EarGods 
+Scripter: SyNav [SycNav], Quy109372, EarGods [dawid]
+
+All bug or glitch must be report to CrS team to fix
+join us in discord (link o day nha synav peo)
