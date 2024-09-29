@@ -2,7 +2,7 @@
   "cost": 1,
   "type": "resource",
   "name": "Dust",
-  "description": "Dust on Minus with properties similar to Sands. Very toxic and highly corrosive.",
+  "description": "Dust on Minus with properties almost similar to Sands. Very toxic and highly corrosive.",
   "color": "fefefe",
   "hardness": 0  
 }
