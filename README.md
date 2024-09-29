@@ -7,7 +7,7 @@ Author: CrS Team .( Discord: SyNav).
 
 Spriter: TDaggers [TDRS], Ru, Quy109372 
 
-Content: SyNav [SycNav], TDaggers [TDRS], CrystalMist, EarGods [Dawid]
+Content: SyNav [SycNav], TDaggers [TDRS], CryptalMist, EarGods [Dawid]
 
 Scripter: SyNav [SycNav], Quy109372, EarGods [dawid]
 
