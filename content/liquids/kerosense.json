@@ -9,6 +9,5 @@
   "temperature": 0.5,
   "heatCapacity": 0.4,
   "viscosity": 0.45,
-  "coolant": false,
-  "effect": ""
+  "coolant": false
 }
