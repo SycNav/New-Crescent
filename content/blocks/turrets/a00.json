@@ -1,10 +1,10 @@
 {
   "name": "Twin",
-  "description": "Original class. A turret have limit size with deal damame.",
+  "description": "[Original class]. A turret have limit size and damage.",
   "type": "itemTurret",
-  "health": 800,
+  "health": 700,
  
-  "reload": 18,
+  "reload": 15,
   "size": 1,
   
 
@@ -28,7 +28,7 @@
       "type": "basicBulletType",
       "speed": 4,
       "lifetime": 50,
-      "damage": 40,
+      "damage": 50,
       "killShooter": false, 
       "keepVelocity": false,
       "collidesAir": true,
@@ -37,7 +37,7 @@
       "trailLength": 4,
       "trailColor": "eeeeee",
       "width": 8,
-      "ammoMultiplier": 2
+      "ammoMultiplier": 4
     },
     "11quartz":{
       "type": "basicBulletType",
@@ -52,7 +52,7 @@
       "trailLength": 4,
       "trailColor": "eeefff",
       "width": 8,
-      "ammoMultiplier": 2
+      "ammoMultiplier": 8
     }
   },
 
