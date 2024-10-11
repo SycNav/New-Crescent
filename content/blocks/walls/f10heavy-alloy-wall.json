@@ -1,8 +1,8 @@
 {
     "type": "Wall",
-    "name": "Aviation Wall",
-    "description": "Protects units and structors. Heavier and stronger than Platinum Wall.",
-    "health": 980,
+    "name": "heavy alloy Wall",
+    "description": "Protects units and structors. Heavier , stronger and better than Platinum Wall.",
+    "health": 2500,
     "armor": 3,
     "size": 1,
     "category": "defense",
