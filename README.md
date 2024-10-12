@@ -1,15 +1,30 @@
-# New-Crescent (WIP)
+## New Crescent
 
-Project still in testing, all featured may change in future..
+**A Work in Progress**
 
-Author: CrS Team .( Discord: SyNav).
+This project is still under development, and features may change in the future. 
 
+**Contributors**
 
-Spriter: TDaggers [TDRS], Ru, Quy109372 
+* **Author:** CrS Team (Lead: [SyNav](https://github.com/SycNav))
+* **Sprites:**
+    * [TDaggers](https://github.com/TDaggers)
+    * Ru (kyrusis2)
+    * [Quy](https://github.com/Quy109372)
+* **Contents:**
+    * [SyNav](https://github.com/SycNav)
+    * [TDaggers](https://github.com/TDaggers)
+    * [Crypt](https://github.com/cryptalmist)
+    * [EarGods](https://github.com/Earthegodlybeing)
+* **Scripting:**
+    * [SyNav](https://github.com/SycNav)
+    * [Quy](https://github.com/Quy109372)
+    * [EarGods](https://github.com/Earthegodlybeing)
 
-Content: SyNav [SycNav], TDaggers [TDRS], CryptalMist, EarGods [Dawid]
+**Bug Reporting**
 
-Scripter: SyNav [SycNav], Quy109372, EarGods [dawid]
+Please report any bugs or glitches to the CrS team for fixing.
 
-All bug or glitch must be report to CrS team to fix
-join us in discord (link o day nha synav peo)
+**Join the Community**
+
+Join our Discord server to stay updated on the project and connect with the community! ([discord](https://discord.gg/FHg4FDDeVH))
