@@ -1,7 +1,7 @@
 {
   "type": "tank",
   "name": "Blitz",
-  "description": "Ground type, Great class, quickly and compact, equipped with Rail gun.",
+  "description": "Ground type, tank class, quickly and compact, equipped with a Rail gun.",
   "hitSize": 8,
 //  "treadRects": [
 //    {
@@ -15,7 +15,7 @@
   "omniMovement": false,
   "rotateMoveFirst": true,
   "faceTarget": false,
-  "health": 1800,
+  "health": 1500,
   "armor": 4,
   "speed": 0.8,
   "rotateSpeed": 4.5,
@@ -27,7 +27,7 @@
       "x": 0,
       "y": -1,
       "name": "at0-gun",
-      "reload": 30,
+      "reload": 35,
       "mirror": false,
       "rotate": true,
       "rotateSpeed": 8,
@@ -35,7 +35,7 @@
       "bullet": {
         "type": "basicBulletType",
         "instantDisappear": false,
-        "damage": 80,
+        "damage": 50,
         "speed": 8,
         "lifetime": 18,
         "trailLength": 8,
