@@ -1,15 +1,15 @@
 {
     "type": "Wall",
-    "name": "Aviation Wall",
+    "name": "Large heavy alloy Wall",
     "description": "Protects units and structors. Heavier and stronger than Platinum Wall.",
-    "health": 980,
-    "armor": 3,
-    "size": 1,
+    "health": 10000,
+    "armor": 4,
+    "size": 2,
     "category": "defense",
     "absorbLasers": false,
     "requirements": [
-        "10a-alloy/6",
-        "01chrom/4"
+        "10a-alloy/24",
+        "01chrom/16"
     ],
-    "research": "f00platin-wall"
+    "research": "f10mass-wall"
 }
