@@ -2,7 +2,7 @@
     "type": "Wall",
     "name": "Large Platinum Wall",
     "description": "Protects units and structors. Simple but low resistance.",
-    "health": 4000,
+    "health": 6000,
     "armor": 3,
     "size": 2,
     "category": "defense",
