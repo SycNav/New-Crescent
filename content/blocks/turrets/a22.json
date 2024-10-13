@@ -11,7 +11,7 @@
     "lightningLength": 24,
 
     "ammoMultiplier": 1,
-    "buildingDamageMultiplier": 0.123456789,
+    "buildingDamageMultiplier": 0.64209,
     "lightningType": {
       "type": "lightningBulletType",
       "lightningLength": 4,
