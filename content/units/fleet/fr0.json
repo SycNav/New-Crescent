@@ -3,7 +3,7 @@
   "description": "Air type, Raid class, highly mobile and easy to build fast and cheap, only weakness is bad armor",
   "type": "flying",
   "flying": true,
-  "health": 800,
+  "health": 1800,
   "speed": 2,
   "hitSize": 8,
   "parts": [
@@ -16,30 +16,141 @@
       "weaponIndex": 1
     }
   ],
-  "weapons":[
+  "weapons": [
     {
-      "x": 3,
-      "y": 4,
-      "recoil": 1,
+      "shootSound": "shockBlast",
+      "x": 0,
+      "y": 0,
+      "shootStatus": "unmoving",
+      "shootStatusDuration": 40,
+      "shootY": 8,
+      "reload": 60,
+      "mirror": false        
+      "chargeEffect": "lancerLaserCharge",
       
-      "mirror": true,
-      "alternate": false,  
-      
-      "reload": 20,
       "shoot": {
-        "shots": 2,
-        "shotDelay": 5
-      },
-      "shootSound": "blaster",
+        "firstShotDelay": 40,
+      }
       "bullet": {
-        "type": "BasicBulletType",
-        "keepVelocity": false,
-        "collidesAir": true,
-        "damage": 20,
-        "speed": 4,
-        "trailColor": "818181",
-        "trailLength": 4,
-        "trailWidth": 1.8
+        "shoot": {
+          "type": "ShootHelix",
+          "mag": 1,
+          "scl": 5
+        },
+        "shootEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "shootTitan",
+              "colorTo": "80CCFF00",
+              "colorFrom": "80CCFF80",
+              "sizeTo": 1.8,
+              "lifetime": 40,
+              "strokeFrom": 4
+            },
+            {
+              "type": "waveEffect",
+              "colorTo": "80CCFF00",
+              "colorFrom": "80CCFF80",
+              "sizeTo": 1.8,
+              "lifetime": 40,
+              "strokeFrom": 4
+            },        
+            "lancerLaserShoot",      
+          ]
+        },
+        "smokeEffect": "none",
+        "hitColor": "80CCFF",
+        "despawnSound": "spark",
+        "trailEffect": {
+          "type": "multiEffect",
+          "effects": [        
+            "missileTrail",        
+            {
+              "type": "waveEffect",
+              "colorTo": "80CCFF00",
+              "colorFrom": "80CCFF80",
+              "sizeTo": 4,
+              "lifetime": 1,
+              "strokeFrom": 4,
+              "strokeTo": 4
+            },
+          ]
+        }
+        "trailInterval": 2,
+        "trailParam": 4,
+        "speed": 2,
+        "damage": 80,
+        "lifetime": 80,
+        "width": 18,
+        "height": 18,
+        "backColor": "60AAFF",
+        "frontColor": "AACCFF",
+        "trailColor": "80AAFF",
+        "trailLength": 8,
+        "trailWidth": 2,
+        "despawnEffect": {
+          "type": "explosionEffect",
+          "waveColor": "80CCFF",
+          "smokeColor": "80808080",
+          "sparkColor": "80CCFF",
+          "waveStroke": 3.2,
+          "waveRad": 40
+        },
+        "chargeEffect": {
+          "type": "multiEffect",
+          "effects":[
+            "lancerLaserChargeBegin",
+          {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 18, 
+          "lifetime": 40,
+          "sizeFrom": 1.8,
+          "sizeTo": 0.18,
+          "colorTo": "80CCFF",
+          "colorFrom": "80CCFF00",
+          "strokeFrom": 0.8,
+          "strokeTo": 0,
+          "length": -18,
+          "baseLength": 18,
+          }
+          ]
+        },
+        "hitEffect": {
+          "type": "explosionEffect",
+          "waveColor": "80CCFF",
+          "smokeColor": "80808080",
+          "sparkColor": "80CCFF",
+          "waveStroke": 3.2,
+          "waveRad": 40
+        },
+        "intervalBullet": {
+          "type": "LightningBulletType",
+          "damage": 18,
+          "coillidesAir": false,
+          "lightningColor": "80CCFF",
+          "lightningLength": 4,
+          "lightningLengthRand": 4,
+          "buildingDamageMultiplier": 0.2,
+          "lightningType": {
+            "type": "bulletType",
+            "lifetime": 80,
+            "hitEffect": "hitLancer",
+            "despawnEffect": "none",
+            "status": "shocked",
+            "statusDuration": 18,
+            "hittable": false,
+            "lightColor": "FFFFFF",
+            "buildingDamageMultiplier": 0.2
+          }
+        },
+        "bulletInterval": 4,
+        "lightningColor": "80CCFF",
+        "lightningDamage": 18,
+        "lightning": 8,
+        "lightningLength": 2,
+        "lightningLengthRand": 8
       }
     }
   ]
