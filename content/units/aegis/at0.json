@@ -39,10 +39,10 @@
           "progress": "recoil",
           "y": -0.4
         }]
-      }]
+      }],
       "shoot": {
         "shots": 8,
-        "shotDelay": 4,
+        "shotDelay": 4
       },
       "shootSound": "bolt",
       "reload": 90,
@@ -70,10 +70,8 @@
           "sizeTo": 0.08,
           "colorTo": "FFEECC",
           "colorFrom": "FF804080",
-          "length": 8,
-        }
-
-        
+          "length": 8
+        },
         "hitEffect": "shootSmallSmoke",
         
         "pointEffect": {
@@ -94,7 +92,6 @@
         },
       
         "pointEffectSpace": 0.8,
-        "length": 180,
         "pierceDamageFactor": 0.8,
         "shootEffect": "none",
         "smokeEffect": "none",

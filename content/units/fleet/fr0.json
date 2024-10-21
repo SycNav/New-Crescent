@@ -25,12 +25,12 @@
       "shootStatusDuration": 40,
       "shootY": 8,
       "reload": 60,
-      "mirror": false        
+      "mirror": false,
       "chargeEffect": "lancerLaserCharge",
       
       "shoot": {
-        "firstShotDelay": 40,
-      }
+        "firstShotDelay": 40
+      },
       "bullet": {
         "shoot": {
           "type": "ShootHelix",
@@ -56,7 +56,7 @@
               "lifetime": 40,
               "strokeFrom": 4
             },        
-            "lancerLaserShoot",      
+            "lancerLaserShoot"
           ]
         },
         "smokeEffect": "none",
@@ -74,9 +74,9 @@
               "lifetime": 1,
               "strokeFrom": 4,
               "strokeTo": 4
-            },
+            }
           ]
-        }
+        },
         "trailInterval": 2,
         "trailParam": 4,
         "speed": 2,
@@ -101,20 +101,20 @@
           "type": "multiEffect",
           "effects":[
             "lancerLaserChargeBegin",
-          {
-          "type": "ParticleEffect",
-          "line": true,
-          "particles": 18, 
-          "lifetime": 40,
-          "sizeFrom": 1.8,
-          "sizeTo": 0.18,
-          "colorTo": "80CCFF",
-          "colorFrom": "80CCFF00",
-          "strokeFrom": 0.8,
-          "strokeTo": 0,
-          "length": -18,
-          "baseLength": 18,
-          }
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "particles": 18, 
+              "lifetime": 40,
+              "sizeFrom": 1.8,
+              "sizeTo": 0.18,
+              "colorTo": "80CCFF",
+              "colorFrom": "80CCFF00",
+              "strokeFrom": 0.8,
+              "strokeTo": 0,
+              "length": -18,
+              "baseLength": 18
+            }
           ]
         },
         "hitEffect": {

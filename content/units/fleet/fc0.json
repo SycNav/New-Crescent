@@ -13,7 +13,7 @@
   "engineSize": 8,
   "hitSize": 56,
   "armor": 8,
-  "parts": [
+  "parts":[
     {
       "type": "RegionPart",
       "mirror": false,
@@ -21,7 +21,7 @@
       "suffix": "-bottom",
       "layer": 0.1
     }
-  ]
+  ],
   "weapons": [
     { 
       "x": -11,
@@ -52,38 +52,38 @@
         "despawnEffect": {
           "type": "multiEffect",
           "effects": [
-          {
-            "type": "WaveEffect",
-            "lifetime": 80,
-            "sizeFrom": 180,
-            "sizeTo": 240,
-            "strokeFrom": 8,
-            "strokeTo": 0,
-            "colorFrom": "d1efff",
-            "colorTo": "d1efff80"
-          },
-          {      
-            "type": "ParticleEffect",
-            "particles": 80, 
-            "lifetime": 56,
-            "sizeFrom": 1.8,
-            "sizeTo": 0.18,
-            "colorTo": "FFFFFF",
-            "colorFrom": "FFFFFF80",
-            "l,ength": 180,
-          }
-          {      
-            "type": "ParticleEffect",
-            "particles": 80, 
-            "lifetime": 80,
-            "sizeFrom": 1.8,
-            "sizeTo": 0.18,
-            "colorTo": "FFFFFF",
-            "colorFrom": "FFFFFF80",
-            "length": 240,    
-          }
+            {
+              "type": "WaveEffect",
+              "lifetime": 80,
+              "sizeFrom": 180,
+              "sizeTo": 240,
+              "strokeFrom": 8,
+              "strokeTo": 0,
+              "colorFrom": "d1efff",
+              "colorTo": "d1efff80"
+            },
+            {      
+              "type": "ParticleEffect",
+              "particles": 80, 
+              "lifetime": 56,
+              "sizeFrom": 1.8,
+              "sizeTo": 0.18,
+              "colorTo": "FFFFFF",
+              "colorFrom": "FFFFFF80",
+              "l,ength": 180
+            },
+            {      
+              "type": "ParticleEffect",
+              "particles": 80, 
+              "lifetime": 80,
+              "sizeFrom": 1.8,
+              "sizeTo": 0.18,
+              "colorTo": "FFFFFF",
+              "colorFrom": "FFFFFF80",
+              "length": 240    
+            }
           ]
-        }
+        },
         "chargeEffect": {
           "type": "multiEffect",
           "effects": [
@@ -126,7 +126,7 @@
             "colorTo": "FFFFFF",
             "colorFrom": "FFFFFF80",
             "length": -180,
-            "baseLength": 180,
+            "baseLength": 180
           },
           {      
             "type": "ParticleEffect",
@@ -137,7 +137,7 @@
             "colorTo": "D0EFFF",
             "colorFrom": "D0EFFF80",
             "length": -180,
-            "baseLength": 180,
+            "baseLength": 180
           },
           {      
             "type": "ParticleEffect",
@@ -148,7 +148,7 @@
             "colorTo": "FFaaFF",
             "colorFrom": "FFaaFF80",
             "length": -180,
-            "baseLength": 180,
+            "baseLength": 180
           }
           ]
         }
@@ -215,7 +215,7 @@
             "lancerLaserCharge"    
           ]
         }
-      }
+      },
       "parts": [{
         "type": "RegionPart",
         "suffix": "fc0-gun1",
@@ -319,7 +319,7 @@
             "lancerLaserCharge"    
           ]
         }
-      }
+      },
       "parts": [{
         "type": "RegionPart",
         "suffix": "fc0-gun3",
@@ -346,18 +346,17 @@
       "baseRotation": -45,
       "xRand":10,
       "shoot": {
-        "shots": 1,
         "firstShotDelay": 180,
         "shots": 2,
-        "shotDelay": 40,
+        "shotDelay": 40
       },
       "alwaysShooting": true,
       "shootSound": "blaster",
       "bullet": {
         "type": "basicBulletType",
         "damage": 200,
-        "spawnUnit": "fc0-raid",
+        "spawnUnit": "fc0-raid"
       }
-    },
+    }
   ]
 }

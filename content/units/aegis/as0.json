@@ -7,6 +7,9 @@
   "health": 2000,
   "buildSpeed": 0.8,
   "armor": 4,
+
+  "ammoType": "PowerAmmoType",
+
   "abilities": [
     {
       "type": "RepairFieldAbility",
@@ -26,7 +29,6 @@
       }
     }
   ],
-  // "ammoType": "PowerAmmoType",
   "weapons":[
     {
       "top": false,

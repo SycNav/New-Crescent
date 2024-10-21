@@ -1,6 +1,6 @@
 {
     "type": "Wall",
-    "name": "heavy alloy Wall",
+    "name": "Heavy Alloy Wall",
     "description": "Protects units and structors. Heavier , stronger and better than Platinum Wall.",
     "health": 2500,
     "armor": 3,
