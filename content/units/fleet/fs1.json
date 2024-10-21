@@ -36,7 +36,6 @@
       "cooldown": 180
     }
   ],
-// "ammoType": "PowerAmmoType",
   "weapons":[{
     "top": false,
     "x": 0,

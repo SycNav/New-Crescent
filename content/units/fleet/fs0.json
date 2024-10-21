@@ -28,7 +28,6 @@
       }
     }
   ],
-// "ammoType": "PowerAmmoType",
  "weapons":[{
     "top": false,
     "x": 4,
