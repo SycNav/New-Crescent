@@ -26,20 +26,39 @@
     {
       "x": 0,
       "y": -1,
-      "name": "at0-gun",
+      "parts":[{
+        "type": "RegionPart",
+        "suffix": "at0-gun",
+        "layerOffset": 1,
+        "recoilIndex": 0,
+        "progress": "warmup",
+        "x": 0,
+        "y": -1,
+        "moveY": 0,
+        "moves": [{
+          "progress": "recoil",
+          "y": -0.4
+        }]
+      }]
+      "shoot": {
+        "shots": 8,
+        "shotDelay": 4,
+      },
       "shootSound": "bolt",
-      "reload": 8,
-      "recoil": 1,
+      "reload": 90,
+      "recoil": 0.4,
+      "recoilTime": 32,
       "rotate": true,
       "rotateSpeed": 1.8,
       "mirror": false,
       "shootCone": 1.8,
       "inaccuracy": 1.8,
-      "shootY": 8,
+      "shootY": 5,
       "bullet": {
         "type": "RailBulletType",
         "length": 180,
         "damage": 80,
+        
         "endEffect": {      
           "type": "ParticleEffect",
           "line": true, 
@@ -52,8 +71,11 @@
           "colorTo": "FFEECC",
           "colorFrom": "FF804080",
           "length": 8,
-        }, 
-        "hitEffect": "none",        
+        }
+
+        
+        "hitEffect": "shootSmallSmoke",
+        
         "pointEffect": {
           "type": "ParticleEffect",
           "particles": 8,
@@ -69,11 +91,17 @@
           "colorFrom": "FFAA80",
           "colorTo": "FFEECC00",
           "cone": 1
-        },  
+        },
+      
         "pointEffectSpace": 0.8,
         "length": 180,
         "pierceDamageFactor": 0.8,
-        "smokeEffect": "shootSmallSmoke",
+        "shootEffect": "none",
+        "smokeEffect": "none",
+        
+         
+        
+
       }
     }
   ]
