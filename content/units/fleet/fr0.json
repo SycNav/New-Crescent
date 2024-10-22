@@ -24,7 +24,7 @@
       "shootStatus": "unmoving",
       "shootStatusDuration": 40,
       "shootY": 8,
-      "reload": 60,
+      "reload": 120,
       "mirror": false,
       "chargeEffect": "lancerLaserCharge",
       
