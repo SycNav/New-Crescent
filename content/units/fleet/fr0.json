@@ -5,17 +5,7 @@
   "flying": true,
   "health": 1800,
   "speed": 2,
-  "hitSize": 8,
-  "parts": [
-    {
-      "type": "regionPart",
-      "suffix": "-gun",
-      "mirror": true,
-      "progress": "recoil",
-      "moveY": -1,
-      "weaponIndex": 1
-    }
-  ],
+  "hitSize": 8, 
   "weapons": [
     {
       "shootSound": "shockBlast",
