@@ -45,7 +45,7 @@
         "shotDelay": 4
       },
       "shootSound": "bolt",
-      "reload": 90,
+      "reload": 180,
       "recoil": 0.4,
       "recoilTime": 32,
       "rotate": true,
