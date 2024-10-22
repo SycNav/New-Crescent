@@ -8,7 +8,7 @@
   "rotateSpeed": 0.4,
   "flying": true,
   "lowAltitude": true,
-  "health": 8000,
+  "health": 12000,
   "engineOffset": 40,
   "engineSize": 8,
   "hitSize": 56,
