@@ -4,7 +4,6 @@
   "description": "Raid Carrier",
   "health": 1200,
   "speed": 2,
-  "range": 0,
   "maxRange": 8000,
   "lifetime":1800,
   "accel": 0.08,

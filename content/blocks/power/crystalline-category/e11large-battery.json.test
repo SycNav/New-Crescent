@@ -1,0 +1,11 @@
+{
+    "type": "battery",
+    "name": "battery",
+    "description": "wada sigma",
+    "size": 6,
+    "health": 690,
+    "category": "power",
+    "requirements": {},
+    "powerCapacity": 1000,
+    "research": "battery"
+}

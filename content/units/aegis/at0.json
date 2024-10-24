@@ -3,14 +3,6 @@
   "name": "Blitz",
   "description": "Ground type, tank class, quickly and compact, equipped with a Rail gun.",
   "hitSize": 8,
-//  "treadRects": [
-//    {
-//      "x": -31,
-//      "y": -42,
-//      "width": 16,
-//      "height": 84
-//    }
-//  ],
   "singleTarget": false,
   "omniMovement": false,
   "rotateMoveFirst": true,
@@ -21,44 +13,38 @@
   "rotateSpeed": 4.5,
   "itemCapacity": 0,
   "outlineColor": "404448",
-//  "research": "15",
   "weapons": [
     {
+      "name": "at0-top",
+      "layerOffset": 2,
       "x": 0,
       "y": -1,
-      "parts":[
+      "shoot": {
+        "shots": 8,
+        "shotDelay": 4
+      },
+      "parts": [
         {
           "type": "RegionPart",
-          "suffix": "at0-gun",
-          "layerOffset": 1,
-          "recoilIndex": 0,
-          "progress": "warmup",
-          "x": 0,
-          "y": 0,
+          "mirror": false,
+          "suffix": "-gun",
+          "under": false,
+          "layerOffset": -1,
           "moveY": 0,
+          "progress": "recoil",
+          "heatProgress": "recoil",
+          "heatColor": "FEEBB380",
           "moves": [
             {
               "progress": "recoil",
               "y": -1
             }
           ]
-        },
-        {
-          "type": "RegionPart",
-          "suffix": "at0-top",
-          "layerOffset": 1.1,
-          "recoilIndex": 0,
-          "x": 0,
-          "y": 0,
         }
       ],
-      "shoot": {
-        "shots": 8,
-        "shotDelay": 4
-      },
       "shootSound": "bolt",
       "reload": 180,
-      "recoil": 0.1,
+      "recoil": 0,
       "recoilTime": 12,
       "rotate": true,
       "rotateSpeed": 1.8,
@@ -103,7 +89,7 @@
         "pointEffectSpace": 0.8,
         "pierceDamageFactor": 0.8,
         "shootEffect": "none",
-        "smokeEffect": "none",
+        "smokeEffect": "none"
       }
     }
   ]
