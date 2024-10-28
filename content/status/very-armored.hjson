@@ -1,7 +1,0 @@
-name: Heavy Armored
-healthMultiplier: 1.5
-speedMultiplier: 0.6
-color: 6e7080
-effect: mineSmall
-effectChance: 0.05
-outline: true

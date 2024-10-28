@@ -2,7 +2,7 @@
   "type": "genericCrafter",
   "name": "Alloy Smelter",
   "health": 300,
-  "description": "Mix molten Platinum and Chromium into alloys with improved properties.",
+  "description": "Mix molten um and ium into alloys with improved properties.",
   "size": 2,
   "hasPower": true,
   "hasItems": true,
@@ -25,21 +25,21 @@
   "consumes": {
     "power": 1.2,
     "items": [
-      "00platin/1",
-      "01chrom/1"
+      "00/1",
+      "01/1"
     ]
   },
   "requirements": [
-    "00platin/65",
-    "01chrom/35"
+    "00/65",
+    "01/35"
   ],
   "category": "crafting",
   "outputItem": {"item": "10a-alloy", "amount": 2},
   "research": {
     "parent": "j00core-0",
     "requirements": [
-      "00platin/120",
-      "01chrom/90"
+      "00/120",
+      "01/90"
     ],
     "objectives": [
       {

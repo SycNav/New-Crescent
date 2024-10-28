@@ -1,6 +1,6 @@
 { 
   "type": "OreBlock",
-  "itemDrop": "00platin",
+  "itemDrop": "00",
   "variants": 3,
   "hardness": 1
 }

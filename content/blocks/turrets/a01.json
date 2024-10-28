@@ -11,7 +11,7 @@
   "research": {
     "parent": "a00",
     "requirements": [
-      "00platin/50"
+      "00/50"
     ],
     "objectives": [
       {
@@ -24,7 +24,7 @@
 
 
   "ammoTypes": {
-    "00platin":{
+    "00":{
       "type": "basicBulletType",
       "speed": 4,
       "lifetime": 50,
@@ -39,7 +39,7 @@
       "width": 8,
       "ammoMultiplier": 5
     },
-    "11quartz":{
+    "11":{
       "type": "basicBulletType",
       "speed": 4,
       "lifetime": 58,
@@ -65,7 +65,7 @@
   },
 
   "requirements": [
-    "00platin/50"
+    "00/50"
   ],
 
   "shoot": {

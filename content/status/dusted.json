@@ -2,16 +2,11 @@
 	"name": "Corrosion",
 	"color": "cccccc",
 	"damage": 0.025,
-  "heal": 0,
+  	"heal": 0,
 	"speedMultiplier": 0.8,
 	"reloadMultiplier": 0.8,
 	"healthMultiplier": 1,
 	"damageMultiplier": 1,
-	//"opposites": ["armored","very-armored"],
-	//"affinities":["spirit"],
 	"transitionDamage": -80,
-
-	"show": true,
-
-
+	"show": true
 }

@@ -8,18 +8,18 @@
   "hasPower": true,
   "laserColor2": "D7FCFCFF",
   "requirements": [
-    "00platin/50",
-    "01chrom/20",
-    "11quartz/15"
+    "00/50",
+    "01/20",
+    "11/15"
   ],
 
   "category": "power",
   "research": {
     "parent": "e00node",
     "requirements": [
-      "00platin/200",
-      "01chrom/180",
-      "11quartz/80"
+      "00/200",
+      "01/180",
+      "11/80"
     ],
     "objectives": [
       {

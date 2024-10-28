@@ -28,8 +28,8 @@
   "consumes": {
       "power": 3,
       "items": [
-        "11quartz/3",
-        "12dust/4"
+        "11/3",
+        "12/4"
       ],
       "liquids": [
         "water/0.18"
@@ -48,9 +48,9 @@
   "category": "crafting",
   "research": "81-0-core-theta",
   "requirements": [
-    "00platin/80",
-    "01chrom/80",
-    "10a-alloy/40",
-    "11quartz/40"
+    "00/80",
+    "01/80",
+    "10/40",
+    "11/40"
   ]
 }

@@ -9,15 +9,15 @@
   "laserColor2": "D7FCFCFF",
   "category": "power",
   "requirements": [
-    "00platin/10",
-    "01chrom/5"
+    "00/10",
+    "01/5"
   ],
 
   "research": {
     "parent": "j00core-0",
     "requirements": [
-      "00platin/20",
-      "01chrom/10"
+      "00/20",
+      "01/10"
     ],
     "objectives": [
       {

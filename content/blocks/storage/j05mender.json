@@ -10,17 +10,17 @@
     "power": 1.33333333333
   },
   "requirements": [
-    "00platin/15",
-    "10a-alloy/20",
-    "01chrom/10"
+    "00/15",
+    "10/20",
+    "01/10"
   ],
   "category": "effect",
   "research": {
     "parent": "e00node",
     "requirements": [
-      "00platin/150",
-      "10a-alloy/100",
-      "01chrom/100"
+      "00/150",
+      "10/100",
+      "01/100"
     ],
     "objectives": [
       {

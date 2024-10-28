@@ -11,24 +11,24 @@
       "unit": "fr0",
       "time": 1200,
       "requirements": [
-        "00platin/180",
-        "10a-alloy/120"
+        "00/180",
+        "10/120"
       ]
     },
     {
       "unit": "fs0",
       "time": 1200,
       "requirements": [
-        "00platin/200",
-        "10a-alloy/120",
-        "11quartz/80"
+        "00/200",
+        "10/120",
+        "11/80"
       ]
     }
   ],
   "requirements": [
-    "10a-alloy/200",
-    "00platin/200",
-    "11quartz/200"
+    "10/200",
+    "00/200",
+    "11/200"
   ],
   "category": "units",
   "research": {
@@ -41,8 +41,8 @@
     ]
   },
   "researchCost": [
-    "10a-alloy/860",
-    "00platin/400",
-    "11quartz/400"
+    "10/860",
+    "00/400",
+    "11/400"
   ]
 }
