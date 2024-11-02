@@ -22,7 +22,7 @@
       "suffix": "-bottom",
       "layer": 0.1
     }
-  ]
+  ],
   "weapons": [
     { 
       "x": -11,
@@ -54,104 +54,104 @@
         "despawnEffect": {
           "type": "multiEffect",
           "effects": [
-          {
-            "type": "WaveEffect",
-            "lifetime": 80,
-            "sizeFrom": 180,
-            "sizeTo": 240,
-            "strokeFrom": 8,
-            "strokeTo": 0,
-            "colorFrom": "d1efff",
-            "colorTo": "d1efff80"
-          },
-          {      
-            "type": "ParticleEffect",
-            "particles": 80, 
-            "lifetime": 56,
-            "sizeFrom": 1.8,
-            "sizeTo": 0.18,
-            "colorTo": "FFFFFF80",
-            "colorFrom": "FFFFFF00",
-            "length": 180,
-          }
-          {      
-            "type": "ParticleEffect",
-            "particles": 80, 
-            "lifetime": 80,
-            "sizeFrom": 1.8,
-            "sizeTo": 0.18,
-            "colorTo": "D0EFFF80",
-            "colorFrom": "FFFFFF00",
-            "length": 240,    
-          }
+            {
+              "type": "WaveEffect",
+              "lifetime": 80,
+              "sizeFrom": 180,
+              "sizeTo": 240,
+              "strokeFrom": 8,
+              "strokeTo": 0,
+              "colorFrom": "d1efff",
+              "colorTo": "d1efff80"
+            },
+            {      
+              "type": "ParticleEffect",
+              "particles": 80, 
+              "lifetime": 56,
+              "sizeFrom": 1.8,
+              "sizeTo": 0.18,
+              "colorTo": "FFFFFF80",
+              "colorFrom": "FFFFFF00",
+              "length": 180
+            },
+            {
+              "type": "ParticleEffect",
+              "particles": 80, 
+              "lifetime": 80,
+              "sizeFrom": 1.8,
+              "sizeTo": 0.18,
+              "colorTo": "D0EFFF80",
+              "colorFrom": "FFFFFF00",
+              "length": 240
+            }
           ]
-        }
+        },
         "chargeEffect": {
           "type": "multiEffect",
           "effects": [
-          {
-            "type": "WaveEffect",
-            "lifetime": 30,
-            "sizeFrom": 180,
-            "sizeTo": 0,
-            "strokeFrom": 0,
-            "strokeTo": 1,
-            "colorFrom": "d1efff",
-            "colorTo": "d1efff80"
-          },
-          {
-            "type": "WaveEffect",
-            "lifetime": 40,
-            "sizeFrom": 180,
-            "sizeTo": 0,
-            "strokeFrom": 0,
-            "strokeTo": 1,
-            "colorFrom": "ffaaff",
-            "colorTo": "ffaaff"
-          },
-          {
-            "type": "WaveEffect",
-            "lifetime": 60,
-            "sizeFrom": 180,
-            "sizeTo": 0,
-            "strokeFrom": 1,
-            "strokeTo": 0,
-            "colorFrom": "ffffff",
-            "colorTo": "ffffff80"
-          },
-          {      
-            "type": "ParticleEffect",
-            "particles": 40, 
-            "lifetime": 40,
-            "sizeFrom": 1.8,
-            "sizeTo": 0.18,
-            "colorTo": "FFFFFF",
-            "colorFrom": "FFFFFF80",
-            "length": -180,
-            "baseLength": 180,
-          },
-          {      
-            "type": "ParticleEffect",
-            "particles": 40, 
-            "lifetime": 50,
-            "sizeFrom": 1.8,
-            "sizeTo": 0.18,
-            "colorTo": "D0EFFF",
-            "colorFrom": "D0EFFF80",
-            "length": -180,
-            "baseLength": 180,
-          },
-          {      
-            "type": "ParticleEffect",
-            "particles": 40, 
-            "lifetime": 60,
-            "sizeFrom": 1.8,
-            "sizeTo": 0.18,
-            "colorTo": "FFaaFF",
-            "colorFrom": "FFaaFF80",
-            "length": -180,
-            "baseLength": 180,
-          }
+            {
+              "type": "WaveEffect",
+              "lifetime": 30,
+              "sizeFrom": 180,
+              "sizeTo": 0,
+              "strokeFrom": 0,
+              "strokeTo": 1,
+              "colorFrom": "d1efff",
+              "colorTo": "d1efff80"
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 40,
+              "sizeFrom": 180,
+              "sizeTo": 0,
+              "strokeFrom": 0,
+              "strokeTo": 1,
+              "colorFrom": "ffaaff",
+              "colorTo": "ffaaff"
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 60,
+              "sizeFrom": 180,
+              "sizeTo": 0,
+              "strokeFrom": 1,
+              "strokeTo": 0,
+              "colorFrom": "ffffff",
+              "colorTo": "ffffff80"
+            },
+            {
+              "type": "ParticleEffect",
+              "particles": 40, 
+              "lifetime": 40,
+              "sizeFrom": 1.8,
+              "sizeTo": 0.18,
+              "colorTo": "FFFFFF",
+              "colorFrom": "FFFFFF80",
+              "length": -180,
+              "baseLength": 180
+            },
+            {      
+              "type": "ParticleEffect",
+              "particles": 40, 
+              "lifetime": 50,
+              "sizeFrom": 1.8,
+              "sizeTo": 0.18,
+              "colorTo": "D0EFFF",
+              "colorFrom": "D0EFFF80",
+              "length": -180,
+              "baseLength": 180
+            },
+            {      
+              "type": "ParticleEffect",
+              "particles": 40, 
+              "lifetime": 60,
+              "sizeFrom": 1.8,
+              "sizeTo": 0.18,
+              "colorTo": "FFaaFF",
+              "colorFrom": "FFaaFF80",
+              "length": -180,
+              "baseLength": 180
+            }
           ]
         }
       },
@@ -160,7 +160,7 @@
           "type": "RegionPart",
           "suffix": "fc0-part",
           "layerOffset": 0,
-          "recoilIndex": 0,        
+          "recoilIndex": 0,
           "x": 11,
           "y": -19.7,
           "heatProgress": "heat",
@@ -170,7 +170,7 @@
               "progress": "recoil",
               "x": 2
             }
-          ]
+          ],
           "children":[
             {
               "type":"RegionPart",
@@ -186,28 +186,29 @@
           "type": "HeatRegion",
           "suffix": "fc0-core",
           "layerOffset": 0,
-          "recoilIndex": 0
+          "recoilIndex": 0,
           "x": 11,
           "y": -19.7   
         }
       ]
     },
     {
+      "name": "fc0-raid",
       "reload": 1920, 
       "shootCone": 360,
+      "recoil": 0,
       "mirror": false,
-      "x": 20,
-      "y": -30,
-      "rotate": false,
-      "rotateSpeed": 0,
+      "x": 19.5,
+      "y": -19.5,
+      "rotate": true,
+      "rotateSpeed": 1,
       "range": 45,
       "baseRotation": -45,
       "xRand":10,
       "shoot": {
-        "shots": 1,
         "firstShotDelay": 180,
         "shots": 2,
-        "shotDelay": 40,
+        "shotDelay": 40
       },
       "alwaysShooting": true,
       "shootSound": "blaster",
@@ -229,14 +230,14 @@
       "recoilTime": 90,
       "shootY": 8,
       "reload": 90,
-      "mirror": false        
+      "mirror": false,
       "rotate": true,
-      "rotateSpeed": 4,    
+      "rotateSpeed": 4,
       "shoot": {
         "firstShotDelay": 0,
         "shots": 2,
         "shotDelay": 20
-      }
+      },
       "bullet": {
         "shoot": {
           "type": "ShootHelix",
@@ -262,7 +263,7 @@
               "lifetime": 40,
               "strokeFrom": 4
             },        
-            "lancerLaserShoot",      
+            "lancerLaserShoot"  
           ]
         },
         "smokeEffect": "none",
@@ -280,9 +281,9 @@
               "lifetime": 1,
               "strokeFrom": 4,
               "strokeTo": 4
-            },
+            }
           ]
-        }
+        },
         "trailInterval": 2,
         "trailParam": 4,
         "speed": 2,
@@ -359,7 +360,7 @@
         "firstShotDelay": 0,
         "shots": 2,
         "shotDelay": 20
-      }
+      },
       "bullet": {
         "shoot": {
           "type": "ShootHelix",
@@ -385,7 +386,7 @@
               "lifetime": 40,
               "strokeFrom": 4
             },        
-            "lancerLaserShoot",      
+            "lancerLaserShoot" 
           ]
         },
         "smokeEffect": "none",
@@ -403,9 +404,9 @@
               "lifetime": 1,
               "strokeFrom": 4,
               "strokeTo": 4
-            },
+            }
           ]
-        }
+        },
         "trailInterval": 2,
         "trailParam": 4,
         "speed": 2,

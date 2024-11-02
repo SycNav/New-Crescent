@@ -4,7 +4,7 @@
   "description": "Spread Class. File a projectile that releases fragments that deal area damage, air only.",
   "health": 1800,
   "ammoTypes": {
-    "01chrom": {
+    "01": {
       "type": "FlakBulletType",
       "lifetime": 80, 
       "speed": 3,
@@ -18,7 +18,7 @@
       "splashDamage": 160,
       "splashDamageRadius": 18
     },
-    "11quartz": {
+    "11": {
       "type": "FlakBulletType",
       "lifetime": 80,
       "speed": 3,
@@ -94,15 +94,15 @@
 
   "category": "turret",
   "requirements": [
-    "00platin/40",
-    "01chrom/20"
+    "00/40",
+    "01/20"
   ],
 
   "research": {
     "parent": "a00",
     "requirements": [
-      "00platin/80",
-      "01chrom/80"
+      "00/80",
+      "01/80"
     ],
     "objectives": [
       {

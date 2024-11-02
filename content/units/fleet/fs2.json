@@ -79,7 +79,6 @@
         "splashDamageRadius": 80,
         "hitShake": 4,
         "collides": false,
-        // "trailRotation": true,
         "status": "electrified",
         "hitSound": "plasmaboom",
         "hitEffect": {

@@ -8,7 +8,7 @@
   "size": 3,
 
   "ammoTypes": {
-    "11quartz":{
+    "11":{
       "type": "ShrapnelBulletType",
       "damage": 90,
       "killShooter": false, 
@@ -61,8 +61,8 @@
   },
  
   "requirements": [
-    "10a-alloy/240",
-    "11quartz/65",
+    "10/240",
+    "11/65",
     "titanium/140",
     "thorium/140"
   ],

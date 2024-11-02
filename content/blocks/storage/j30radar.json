@@ -6,17 +6,17 @@
   "outlineColor": "e5faff",
   "squareSprite": false,
   "requirements": [
-    "00platin/15",
-    "10a-alloy/10",
-    "11quartz/20"
+    "00/15",
+    "10/10",
+    "11/20"
   ],
   "category": "effect",
   "research": {
     "parent": "e00node",
     "requirements": [
-      "00platin/150",
-      "10a-alloy/100",
-      "11quartz/100"
+      "00/150",
+      "10/100",
+      "11/100"
     ],
     "objectives": [
       {

@@ -1,7 +1,0 @@
-name: Armored
-healthMultiplier: 1.2
-speedMultiplier: 0.9
-color: 989aa4
-effect: mineSmall
-effectChance: 0.05
-outline: true

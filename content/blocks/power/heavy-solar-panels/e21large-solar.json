@@ -9,11 +9,11 @@
   
   "requirements": [
     {
-      "item": "10a-alloy",
+      "item": "10",
       "amount": 100
     },
     {
-      "item": "11quartz",
+      "item": "11",
       "amount": 50
     },
     { "item": "titanium",
@@ -25,8 +25,8 @@
   "research": {
     "parent": "e20solar",
     "requirements": [
-      "10a-alloy/500",
-      "11quartz/500",
+      "10/500",
+      "11/500",
       "titanium/500"
     ],
     "objectives": [

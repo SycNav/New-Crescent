@@ -8,7 +8,7 @@
     "category": "defense",
     "absorbLasers": false,
     "requirements": [
-        "00platin/6"
+        "00/6"
     ],
     "research": "j00core-0"
 }

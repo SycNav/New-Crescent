@@ -3,9 +3,9 @@
   "name": "Core: Theta",
   "description": "Core of the base. Armored and stores a medium amount of resources. Allows stable and durable operation against the harshness of Minus.",
   "requirements": [
-    "00platin/5000",
-    "01chrom/5000",
-    "10a-alloy/2400"
+    "00/5000",
+    "01/5000",
+    "10/2400"
   ],
   "isFirstTier": true,
   "size": 3,

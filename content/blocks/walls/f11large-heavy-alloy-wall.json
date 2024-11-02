@@ -8,8 +8,8 @@
     "category": "defense",
     "absorbLasers": false,
     "requirements": [
-        "10a-alloy/24",
-        "01chrom/16"
+        "10/24",
+        "01/16"
     ],
     "research": "f10mass-wall"
 }

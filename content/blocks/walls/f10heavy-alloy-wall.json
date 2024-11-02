@@ -8,8 +8,8 @@
     "category": "defense",
     "absorbLasers": false,
     "requirements": [
-        "10a-alloy/6",
-        "01chrom/4"
+        "10/6",
+        "01/4"
     ],
     "research": "f00platin-wall"
 }

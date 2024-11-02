@@ -11,24 +11,24 @@
       "unit": "at0",
       "time": 1200,
       "requirements": [
-        "11quartz/80",
-        "10a-alloy/120"
+        "11/80",
+        "10/120"
       ]
     },
     {
       "unit": "as0",
       "time": 1200,
       "requirements": [
-        "11quartz/100",
-        "10a-alloy/180",
+        "11/100",
+        "10/180",
         "titanium/120"
       ]
     }
   ],
   "requirements": [
-    "10a-alloy/200",
-    "01chrom/180",
-    "11quartz/120"
+    "10/200",
+    "01/180",
+    "11/120"
   ],
   "category": "units",
   "research": {
@@ -41,8 +41,8 @@
     ]
   },
   "researchCost": [
-    "10a-alloy/800",
-    "01chrom/800",
-    "11quartz/800"
+    "10/800",
+    "01/800",
+    "11/800"
   ]
 }

@@ -9,11 +9,11 @@
   
   "requirements": [
     {
-      "item": "00platin",
+      "item": "00",
       "amount": 15
     },
     {
-      "item": "01chrom",
+      "item": "01",
       "amount": 5
     }
   ],
@@ -22,8 +22,8 @@
   "research": {
     "parent": "e00node",
     "requirements": [
-      "00platin/100",
-      "01chrom/50"
+      "00/100",
+      "01/50"
     ],
     "objectives": [
       {
