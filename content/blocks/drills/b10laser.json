@@ -28,7 +28,7 @@
   ],
   "category": "production",
   "research": {
-    "parent": "b00platin",
+    "parent": "b00",
     "requirements": [
       "01/50",
       "10/100"

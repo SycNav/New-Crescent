@@ -34,7 +34,7 @@
     "01/35"
   ],
   "category": "crafting",
-  "outputItem": {"item": "10a-alloy", "amount": 2},
+  "outputItem": {"item": "10", "amount": 2},
   "research": {
     "parent": "j00core-0",
     "requirements": [

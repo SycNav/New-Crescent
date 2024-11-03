@@ -47,15 +47,15 @@
     }
   },
   "requirements": [
-    "00platin/50"
+    "00/50"
   ],
 
   "research": {
     "parent": "a21",
     "requirements": [
-      "00platin/150",
-      "10a-alloy/100",
-      "01chrom/100"
+      "00/150",
+      "10/100",
+      "01/100"
     ],
     "objectives": [
       {

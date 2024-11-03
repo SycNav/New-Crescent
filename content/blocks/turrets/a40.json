@@ -63,17 +63,17 @@
   },
 
   "requirements": [
-    "01chrom/1800"
+    "01/1800"
   ],
   "coolantMultiplier": 0.62,
   "category": "turret",
   "research": {
     "parent": "a00",
     "requirements": [
-      "00platin/1000",
-      "01chrom/2000",
-      "10a-alloy/1000",
-      "11quartz/2000"
+      "00/1000",
+      "01/2000",
+      "10/1000",
+      "11/2000"
     ],
     "objectives": [
       {

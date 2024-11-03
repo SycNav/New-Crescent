@@ -6,7 +6,7 @@
   "size": 2,
   "hasLiquids": true,
   "squareSprite": false,
-  "outputItem": "12dust/1",
+  "outputItem": "12/1",
   "requirements": [
     "00/50",
     "11/20"

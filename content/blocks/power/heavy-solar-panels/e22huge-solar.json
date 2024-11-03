@@ -31,7 +31,7 @@
     "parent": "e21large-solar",
     "requirements": [
       "00/2000",
-      "01chrom/1000",
+      "01/1000",
       "11/2000",
       "phase-fabric/500"
     ],
