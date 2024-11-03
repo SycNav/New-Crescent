@@ -10,13 +10,13 @@
   "research": {
     "parent": "c00duct",
     "requirements": [
-      "00platin/50",
-      "01chrom/25"
+      "00/50",
+      "01/25"
     ]
   },
   "requirements": [
-    "00platin/3",
-    "01chrom/2"
+    "00/3",
+    "01/2"
   ],
   "researchCostMultiplier": 1
 }

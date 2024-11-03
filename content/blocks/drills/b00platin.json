@@ -25,13 +25,13 @@
   },
 
   "requirements": [
-    "00platin/40"
+    "00/40"
   ],
   "category": "production",
   "research": {
     "parent": "j00core-0",
     "requirements": [
-      "00platin/20"
+      "00/20"
     ],
     "objectives": [
       {

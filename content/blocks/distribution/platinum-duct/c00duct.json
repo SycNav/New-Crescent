@@ -12,7 +12,7 @@
   "research": {
     "parent": "j00core-0",
     "requirements": [
-      "00platin/10"
+      "00/10"
     ],
     "objectives": [
       {
@@ -23,7 +23,7 @@
   },
 
   "requirements": [
-    "00platin/1"
+    "00/1"
   ],
   "researchCostMultiplier": 1
 }

@@ -8,8 +8,8 @@
   "squareSprite": false,
   "outputLiquid": "water/0.18",
   "requirements": [
-    "00platin/120",
-    "11quartz/80"
+    "00/120",
+    "11/80"
   ],
   "attribute": "iceWater",
   "baseEfficiency": 0,
@@ -18,10 +18,10 @@
   
   "category": "production",
   "research": {
-    "parent": "b00platin",
+    "parent": "b00",
     "requirements": [
-      "00platin/180",
-      "11quartz/120"
+      "00/180",
+      "11/120"
     ],
     "objectives": [
       {

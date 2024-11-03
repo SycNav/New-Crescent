@@ -25,15 +25,15 @@
   },
 
   "requirements": [
-    "00platin/40",
-    "11quartz/15"
+    "00/40",
+    "11/15"
   ],
   "category": "production",
   "research": {
-    "parent": "b00platin",
+    "parent": "b00",
     "requirements": [
-      "00platin/200",
-      "11quartz/100"
+      "00/200",
+      "11/100"
     ],
     "objectives": [
       {

@@ -23,15 +23,15 @@
   },
 
   "requirements": [
-    "01chrom/50",
-    "10a-alloy/20"
+    "01/50",
+    "10/20"
   ],
   "category": "production",
   "research": {
     "parent": "b00platin",
     "requirements": [
-      "01chrom/50",
-      "10a-alloy/100"
+      "01/50",
+      "10/100"
     ],
     "objectives": [
       {

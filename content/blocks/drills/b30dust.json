@@ -8,8 +8,8 @@
   "squareSprite": false,
   "outputItem": "12dust/1",
   "requirements": [
-    "00platin/50",
-    "11quartz/20"
+    "00/50",
+    "11/20"
   ],
   "attribute": "dust",
   "baseEfficiency": 0,
@@ -24,10 +24,10 @@
   
   "category": "production",
   "research": {
-    "parent": "b00platin",
+    "parent": "b00",
     "requirements": [
-      "00platin/300",
-      "11quartz/80"
+      "00/300",
+      "11/80"
     ],
     "objectives": [
       {

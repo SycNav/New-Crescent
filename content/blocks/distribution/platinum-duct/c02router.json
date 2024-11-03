@@ -8,11 +8,11 @@
   "research": {
     "parent": "c00duct",
     "requirements": [
-      "00platin/20"
+      "00/20"
     ]
   },
   "requirements": [
-    "00platin/2"
+    "00/2"
   ],
   "researchCostMultiplier": 1
 }
