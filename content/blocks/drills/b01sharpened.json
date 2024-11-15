@@ -1,6 +1,6 @@
 {
-  "name": "Sharpened Drill",
-  "description": "Mines items from ores using sharp blades made of Luminescent Quartz. Faster than Platinum Drills.",
+  "name": "lumi sharpened Drill",
+  "description": "Mines items from ores using sharp blades made of Luminescent Quartz. alot Faster than Platinum Drills.",
   "type": "Drill",
   "health": 1000,
   "hasLiquids": true,
@@ -8,12 +8,12 @@
   "itemCapacity": 8,
   "liquidCapacity": 18,
   "tier": 3,
-  "rotateSpeed": 2,
-  "drillTime": 240,
+  "rotateSpeed": 2.5,
+  "drillTime": 200,
   "drawMineItem": true,
 
 
-  "liquidBoostIntensity": 1.8,
+  "liquidBoostIntensity": 2,
   "canOverdrive": true,
   "consumes": {
     "liquid":{
