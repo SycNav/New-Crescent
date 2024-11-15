@@ -5,7 +5,7 @@
   "description": "Generates a high amount of power from sunlight.",
   "health": 480,
   "hasPower": true,
-  "powerProduction": 2,
+  "powerProduction": 3,
   
   "requirements": [
     {
