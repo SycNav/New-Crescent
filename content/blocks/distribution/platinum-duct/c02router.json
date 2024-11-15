@@ -1,7 +1,7 @@
 {
   "type": "router",
   "name": "Platinum Router",
-  "description": "Allows items to be inserted on one side and released on the other 3 sides",
+  "description": "take item in all 1-3 side and distribute item 1-3 side (warning: if place next to a factory it may clog up) ",
   "speed": 7.5,
   "health": 180,
   "alwaysUnlocked": false,
