@@ -9,7 +9,7 @@
   "liquidCapacity": 18,
   "tier": 2,
   "rotateSpeed": 1,
-  "drillTime": 480,
+  "drillTime": 400,
   "drawMineItem": true,
 
 
