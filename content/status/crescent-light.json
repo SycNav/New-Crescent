@@ -2,11 +2,11 @@
 	"name": "Crescent Light Effect",
 	"color": "eefeff",
 	"damage": 0,
-	"heal": 133.33333333333334,
-	"speedMultiplier": 1,
-	"reloadMultiplier": 1,
-	"healthMultiplier": 100,
-	"damageMultiplier": 100,
-	"transitionDamage": -80,
+	"heal": 1000,
+	"speedMultiplier": 2,
+	"reloadMultiplier": 5,
+	"healthMultiplier": 1000,
+	"damageMultiplier": 200,
+	"transitionDamage": -90,
 	"show": true
 }
