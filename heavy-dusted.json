@@ -1,0 +1,12 @@
+{
+	"name": "heavy corosion",
+	"color": "cccccc",
+	"damage": 1,
+  	"heal": 0,
+	"speedMultiplier": 0.4,
+	"reloadMultiplier": 0.5,
+	"healthMultiplier": 1,
+	"damageMultiplier": 0.3,
+	"transitionDamage": -100,
+	"show": true
+}
