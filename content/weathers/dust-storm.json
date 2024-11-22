@@ -9,13 +9,13 @@
 	"maxAlpha": 0.15,
 	"sizeMax": 10,
 	"sizeMin": 3,
-	"density": 3000,
-	"opacityMultiplier": 0.4,
+	"density": 4000,
+	"opacityMultiplier": 0.48,
 	"baseSpeed": 2.1,
 	"yspeed": -0.8,
 	"xspeed": -0.02,
-	"force": 0,
+	"force": 1,
 	"duration": 7,
-	"statusDuration": 10,
+	"statusDuration": 20,
 	"status": "dusted"
 }
