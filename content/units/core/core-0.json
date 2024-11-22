@@ -1,10 +1,10 @@
 {
   "type": "flying",
   "name": "Delta",
-  "mineSpeed": 10,
+  "mineSpeed": 11,
   "flying": true,
-  "speed": 4,
-  "health": 25122008,
+  "speed": 4.5,
+  "health": 250,
   "rotateSpeed": 18,
   "mineFloor": true,
   "buildSpeed": 2,
@@ -30,7 +30,7 @@
       
       "targetUnits": false,
       "targetBuildings": true,
-      "autoTarget": false,
+      "autoTarget": true,
       "controllable": true,
       "bullet": {
         "maxRange": 80
