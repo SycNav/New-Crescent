@@ -4,7 +4,7 @@
   "type": "itemTurret",
   "health": 700,
  
-  "reload": 15,
+  "reload": 14,
   "size": 1,
   
 
@@ -65,7 +65,7 @@
   },
 
   "requirements": [
-    "00/20"
+    "00/18"
   ],
 
   "shoot": {
