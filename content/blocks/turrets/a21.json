@@ -1,7 +1,7 @@
 {
   "type": "PowerTurret",
   "name": "Puncture",
-  "decription": "Electrical Class. Constantly fires charged beam at great speed.",
+  "decription": "Electrical Class. Constantly fires charged beam at a great speed.",
   "range": 180,
   "shoot": {
     "firstShotDelay": 30
@@ -23,7 +23,7 @@
   "consumes": {
     "power": 2,
     "coolant": {
-      "amount": 0.5,
+      "amount": 0.2,
       "optional": true
     }
   },
@@ -36,12 +36,12 @@
         "lancerLaserChargeBegin"
       ]
     },
-    "buildingDamageMultiplier": 0.2,
+    "buildingDamageMultiplier": 0.1,
     "hitEffect": "hitLancer",
     "hitSize": 6,
     "lifetime": 18,
     "drawSize": 400,
-    "damage": 180,
+    "damage": 190,
     "lightningSpacing": 24,
     "lightningLength": 4,
     "lightningDelay": 0.8,
