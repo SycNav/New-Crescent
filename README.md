@@ -2,7 +2,7 @@
 
 **A Work in Progress**
 
-This project is still under development, and features may change in the future. 
+This project is still under development, and  many features may change in the future. 
 
 **Contributors**
 
