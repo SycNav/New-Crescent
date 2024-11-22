@@ -1,36 +1,36 @@
 {
   "type": "itemTurret",
   "name": "Striker",
-  "description": "Spread Class. File a projectile that releases fragments that deal area damage, air only.",
+  "description": "Spread Class. File a projectile that releases fragments that deal good area damage, air type only.",
   "health": 1800,
   "ammoTypes": {
     "01": {
       "type": "FlakBulletType",
       "lifetime": 80, 
-      "speed": 3,
-      "damage": 20,
+      "speed": 4,
+      "damage": 30,
       "ammoMultiplier": 8,
       "shootEffect": "shootSmall",
-      "reloadMultiplier": 0.6,
+      "reloadMultiplier": 0.5,
       "width": 6,
       "height": 8,
       "hitEffect": "flakExplosion",
-      "splashDamage": 160,
+      "splashDamage": 180,
       "splashDamageRadius": 18
     },
     "11": {
       "type": "FlakBulletType",
       "lifetime": 80,
-      "speed": 3,
-      "damage": 40,
+      "speed": 4,
+      "damage": 50,
       "ammoMultiplier": 8,
       "shootEffect": "shootSmall",
-      "reloadMultiplier": 0.8,
+      "reloadMultiplier": 0.7,
       "width": 6,
       "height": 8,
       "hitEffect": "flakExplosion",
-      "splashDamage": 180,
-      "splashDamageRadius": 24,
+      "splashDamage": 200,
+      "splashDamageRadius": 25,
       "fragBullets": 8,
       "fragBullet": {
       "type": "FlakBulletType",
@@ -76,33 +76,33 @@
   "coolantMultiplier": 1.8,
   "consumes": {
     "coolant": {
-      "amount": 0.5,
+      "amount": 0.4,
       "optional": true
     }
   },
-  "reload": 45,
+  "reload": 30,
   "range": 240,
   "size": 4,
-  "recoilTime": 40,
+  "recoilTime": 28,
   "targetGround": false,
   "recoil": 2,
   "rotateSpeed": 8,
-  "inaccuracy": 8,
+  "inaccuracy": 5,
   "shootCone": 40,
   "scaledHealth": 1800,
   "shootSound": "shootSnap",
 
   "category": "turret",
   "requirements": [
-    "00/40",
+    "00/35",
     "01/20"
   ],
 
   "research": {
     "parent": "a00",
     "requirements": [
-      "00/80",
-      "01/80"
+      "00/90",
+      "01/90"
     ],
     "objectives": [
       {
