@@ -1,8 +1,8 @@
 {
   "type": "StorageBlock",
-  "name": "Rise Container",
+  "name": "Plated Container",
   "size": 2,
-  "itemCapacity": 800,
+  "itemCapacity": 120,
   "research": "CrS",
   "category": "effect",
   "requirements": [

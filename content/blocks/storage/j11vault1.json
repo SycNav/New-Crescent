@@ -1,8 +1,8 @@
 {
   "type": "StorageBlock",
-  "name": "Rise Vault",
+  "name": "Plated Vault",
   "size": 3,
-  "itemCapacity": 2000,
+  "itemCapacity": 1500,
   "research": "j10vault0",
   "category": "effect",
   "requirements": [
