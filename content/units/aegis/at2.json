@@ -1,0 +1,215 @@
+{
+    "type": "tank",
+    "name": "Rinne",
+    "hitSize": 32,
+    "treadPullOffset": 8,
+    "speed": 0.4,
+    "rotateSpeed": 1.8,
+    "health": 18000,
+    "armor": 18,
+    "itemCapacity": 0,
+    "singleTarget": false,
+    "omniMovement": false,
+    "rotateMoveFirst": true,
+    "faceTarget": false,
+    "parts": [
+      {
+        "type": "haloPart",
+        "z": 110,
+        "tri": true,
+        "shapes": 2,
+        "radius": 8,
+        "radiusTo": 8,
+        "haloRadius": -18,
+        "haloRadiusTo": -12,
+        "haloRotation": 45,
+        "triLength": 5,
+        "triLengthTo": 5,
+        "color": "FFAAA0",
+        "haloRotateSpeed": 4,
+        "layer": 110
+      }
+    ],
+    "weapons": [
+      {
+        "parts": [
+          {
+            "type": "RegionPart",
+            "mirror": false,
+            "suffix": "-gun",
+            "under": false,
+            "layerOffset": -1,
+            "moveY": 0,
+            "progress": "recoil",
+            "heatProgress": "recoil",
+            "heatColor": "FFAA80",
+            "moves": [
+              {
+                "progress": "recoil",
+                "y": -4
+              }
+            ]
+          }
+        ],
+        "name": "at2-base",
+        "layerOffset": 2,
+        "shootY": 18,
+        "shake": 18,
+        "reload": 300,
+        "recoil": 0.2,
+        "recoilTime": 180,
+        "rotate": true,
+        "rotateSpeed": 1.2,
+        "mirror": false,
+        "shootCone": 1,
+        "x": 0,
+        "y": -1,
+        "cooldownTime": 180,
+        "shootSound": "largeCannon",
+        "shoot": {
+          "firstShotDelay": 0
+        },
+        "bullet": {
+          "status": "slow",
+          "speed": 4,
+          "damage": 1200,
+          "type": "BasicBulletType",
+          "sprite": "missile-large",
+          "width": 12,
+          "height": 18,
+          "lifetime": 120,
+          "hitSize": 12,
+          "pierce": true,
+          "pierceCap": 2,
+          "pierceBuilding": true,
+          "hitColor": "ffb550",
+          "backColor": "ffb580",
+          "trailColor": "ffb580",
+          "frontColor": "ffffff",
+          "trailWidth": 3.2,
+          "trailLength": 8,
+          "hitEffect": {
+            "type": "particleEffect",
+            "region": "new-crescent-crescent-target",
+            "useRotation": false,
+            "particles": 1,
+            "length": 0,
+            "lifetime": 120,
+            "layer": 100,
+            "sizeFrom": 40,
+            "sizeTo": 42,
+            "colorFrom": "FFAAA0",
+            "colorTo": "FFAAA000"
+          },
+          "despawnEffect": {
+            "type": "multiEffect",
+            "effects": [
+              {
+                "type": "particleEffect",
+                "region": "new-crescent-crescent-target",
+                "useRotation": false,
+                "particles": 1,
+                "length": 0,
+                "lifetime": 120,
+                "layer": 100,
+                "sizeFrom": 40,
+                "sizeTo": 42,
+                "colorFrom": "FFAAA0",
+                "colorTo": "FFAAA000"
+              }
+            ]
+          },
+          "shootEffect": {
+            "type": "shootTitan",
+            "colorTo": "ffb58000",
+            "colorFrom": "ffb58080",
+            "sizeTo": 1.8,
+            "lifetime": 40,
+            "strokeFrom": 4
+          },
+          "smokeEffect": "shootSmokeTitan",
+          "splashDamage": 10,
+          "splashDamageRadius": 18,
+          "trailEffect": {
+            "type": "multiEffect",
+            "effects": [
+              "hitSquaresColor",
+              {
+                "type": "particleEffect",
+                "region": "new-crescent-diamond-shape",
+                "useRotation": true,
+                "particles": 1,
+                "length": 0,
+                "lifetime": 30,
+                "layer": 100,
+                "sizeFrom": 18,
+                "sizeTo": 0,
+                "colorFrom": "FFAAA000",
+                "colorTo": "FFAAA0"
+              }
+            ]
+          },
+          "trailRotation": true,
+          "trailInterval": 4,
+          "fragBullets": 1,
+          "fragBullet": {
+            "speed": 0,
+            "damage": 1200,
+            "type": "BasicBulletType",
+            "width": 0,
+            "height": 0,
+            "lifetime": 60,
+            "hitSize": 0,
+            "pierce": true,
+            "pierceCap": 2,
+            "pierceBuilding": true,
+            "hitColor": "ffb550",
+            "backColor": "ffb580",
+            "trailColor": "ffb580",
+            "frontColor": "ffffff",
+            "trailWidth": 3.2,
+            "trailLength": 8,
+            "hitEffect": "blastExplosion",
+            "despawnEffect": "blastExplosion",
+            "shootEffect": {
+              "type": "shootTitan",
+              "colorTo": "ffb58000",
+              "colorFrom": "ffb58080",
+              "sizeTo": 1.8,
+              "lifetime": 40,
+              "strokeFrom": 4
+            },
+            "smokeEffect": "shootSmokeTitan",
+            "splashDamage": 1000,
+            "splashDamageRadius": 18,
+            "trailEffect": "none",
+            "trailRotation": true,
+            "trailInterval": 4,
+            "fragBullets": 8,
+            "fragBullet": {
+              "damage": 200,
+              "speed": 1.8,
+              "sprite": "missile-large",
+              "width": 4,
+              "height": 8,
+              "lifetime": 18,
+              "hitSize": 4,
+              "pierce": true,
+              "pierceCap": 4,
+              "pierceBuilding": true,
+              "hitColor": "ffb580",
+              "backColor": "ffb580",
+              "trailColor": "ffb580",
+              "frontColor": "ffffff",
+              "trailWidth": 1.8,
+              "trailLength": 4,
+              "drag": 0.01,
+              "hitEffect": "hitBulletColor",
+              "despawnEffect": "hitBulletColor"
+            }
+          }
+        }
+      }
+    ]
+  }
+  

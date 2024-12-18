@@ -7,7 +7,6 @@
   "health": 2000,
   "buildSpeed": 0.8,
   "armor": 4,
-
   "abilities": [
     {
       "type": "RepairFieldAbility",
@@ -27,7 +26,7 @@
       }
     }
   ],
-  "weapons":[
+  "weapons": [
     {
       "top": false,
       "x": 4,
@@ -39,7 +38,7 @@
       "recoils": 2,
       "recoilTime": 18,
       "shootSound": "lasershoot",
-      "bullet":{
+      "bullet": {
         "damage": 40,
         "type": "laserBoltBulletType",
         "speed": 4,
@@ -49,21 +48,24 @@
         "backColor": "40ff40",
         "frontColor": "ffffff"
       },
-
-      "parts":[{
-        "type": "RegionPart",
-        "suffix": "as0-gun",
-        "layerOffset": 0,
-        "recoilIndex": 0,
-        "progress": "warmup",
-        "x": -4,
-        "y": -3,
-        "moveY": 1,
-        "moves": [{
-          "progress": "recoil",
-          "y": -2
-        }]
-      }]
+      "parts": [
+        {
+          "type": "RegionPart",
+          "suffix": "as0-gun",
+          "layerOffset": 0,
+          "recoilIndex": 0,
+          "progress": "warmup",
+          "x": -4,
+          "y": -3,
+          "moveY": 1,
+          "moves": [
+            {
+              "progress": "recoil",
+              "y": -2
+            }
+          ]
+        }
+      ]
     }
   ]
 }
