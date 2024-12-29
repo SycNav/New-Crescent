@@ -23,6 +23,5 @@
     "name": "Minus",
     "requiresUnlock": false
   },
-  "researchCostMultiplier": 1,
-  "protectionRange": 50
+  "researchCostMultiplier": 1
 }
