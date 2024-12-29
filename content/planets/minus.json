@@ -46,7 +46,7 @@
   },
   "alwaysUnlocked": true,
   "sectorSize": 1,
-  "orbitRadius": 3.6,
+  "orbitRadius": 10,
   "radius": 1,
   "minZoom": 0.5,
   "drawOrbit": true,
@@ -71,4 +71,3 @@
   "solarSystem": "sun",
   "itemWhitelist": []
 }
-
