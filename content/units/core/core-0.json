@@ -4,13 +4,13 @@
   "mineSpeed": 10,
   "flying": true,
   "speed": 4,
-  "health": 25122008,
+  "health": 2000,
   "rotateSpeed": 18,
   "mineFloor": true,
   "buildSpeed": 2,
   "mineTier": 1,
   "fogRadius": 0,
-  "killable": false,
+  "killable": true,
   "hittable": false,
   "targetable": false,
   "outlineColor": "d1e2f0",
@@ -33,7 +33,7 @@
       "autoTarget": false,
       "controllable": true,
       "bullet": {
-        "maxRange": 80
+        "maxRange": 85
       }
     }
   ]
