@@ -1,6 +1,6 @@
 {
     "type": "Wall",
-    "name": "Large heavy alloy Wall",
+    "name": "Large Mass Wall",
     "description": "Protects units and structors. Heavier and stronger than Platinum Wall.",
     "health": 10000,
     "armor": 4,
@@ -11,5 +11,5 @@
         "10/24",
         "01/16"
     ],
-    "research": "f10mass-wall"
+    "research": "f10"
 }
