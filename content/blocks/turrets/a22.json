@@ -1,6 +1,6 @@
 {
-  "name": "Tesla",
-  "description": "Electrical Class. Fires high voltage arc at crowd enemies, but poorly against single target.",
+  // "name": "Tesla",
+  // "description": "Electrical Class. Fires high voltage arc at crowd enemies, but poorly against single target.",
   "type": "powerTurret",
   "category": "turret",
 

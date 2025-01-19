@@ -1,6 +1,6 @@
 {
-  "name": "Twin",
-  "description": "[Original class]. A turret have limit size and damage.",
+  // "name": "Twin",
+  // "description": "[Original class]. A turret have limit size and damage.",
   "type": "itemTurret",
   "health": 700,
  

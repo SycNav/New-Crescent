@@ -1,7 +1,7 @@
 {
   "type": "PowerTurret",
-  "name": "Obstruction",
-  "description": "Minal Class. Fires slow-moving bullets that pierces most targets.",
+  // "name": "Obstruction",
+  // "description": "Minal Class. Fires slow-moving bullets that pierces most targets.",
   "range": 190,
   "health": 1360,
   "shoot": {

@@ -1,6 +1,6 @@
 {
   "type": "mendProjector",
-  "name": "Mender",
+  // "name": "Mender",
   "size": 2,
   "health": 1800,
   "reload": 18,

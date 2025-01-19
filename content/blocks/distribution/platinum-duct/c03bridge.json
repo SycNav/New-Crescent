@@ -1,7 +1,7 @@
 {
   "type": "itemBridge",
-  "name": "Platinum Bridge",
-  "description": "Bridge can make item pass through terrain.",
+  // "name": "Platinum Bridge",
+  // "description": "Bridge can make item pass through terrain.",
   "hasPower": false,
   "health": 200,
   "range": 4,

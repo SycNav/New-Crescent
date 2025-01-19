@@ -1,6 +1,6 @@
 {
   "type": "radar",
-  "name": "Radar",
+  // "name": "Radar",
   "fogRadius": 81,
   "size": 2,
   "outlineColor": "e5faff",

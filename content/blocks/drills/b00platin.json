@@ -1,6 +1,6 @@
 {
-  "name": "Platinum Drill",
-  "description": "Drills basic items from the surface. The initial drill used on Minus.",
+  // "name": "Platinum Drill",
+  // "description": "Drills basic items from the surface. The initial drill used on Minus.",
   "type": "Drill",
   "health": 800,
   "hasLiquids": true,

@@ -1,6 +1,6 @@
 {
-  "name": "Methy",
-  "description": "Air type, Support class, build faster, can heal block and have Force shield with RepairField within Field",
+  // "name": "Methy",
+  // "description": "Air type, Support class, build faster, can heal block and have Force shield with RepairField within Field",
   "type": "flying",
   "flying": true,
   "health": 4000,

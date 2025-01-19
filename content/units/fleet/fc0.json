@@ -1,7 +1,7 @@
 {
   "type": "flying",
-  "name": "Syl",
-  "description": "Fleet Type, Carrier Class. a small carrier have cool fighter can attack far away.",
+  // "name": "Syl",
+  // "description": "Fleet Type, Carrier Class. a small carrier have cool fighter can attack far away.",
   "speed": 0.4,
   "accel": 0.1,
   "drag": 0.08,

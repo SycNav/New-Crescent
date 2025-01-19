@@ -1,5 +1,6 @@
 {
-  "name": "Gem Compressor",
+  // "name": "Gem Compressor",
+  // "descriptiem Compressor",
   "description": "Change Quartz to Special Gem",
   "type": "GenericCrafter",
   "health": 1800,  

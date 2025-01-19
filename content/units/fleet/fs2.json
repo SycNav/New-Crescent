@@ -1,6 +1,6 @@
 {
-  "name": "Spore",
-  "description": "Air type, Support class, equip Heavy Force Shield and Strong BurnLaser, has RepairPoint",
+  // "name": "Spore",
+  // "description": "Air type, Support class, equip Heavy Force Shield and Strong BurnLaser, has RepairPoint",
   "type": "flying",
   "flying": true,
   "health": 8000,

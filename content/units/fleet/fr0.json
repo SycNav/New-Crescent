@@ -1,6 +1,6 @@
 {
-  "name": "Rein",
-  "description": "Air type, Raid class, highly mobile and easy to build fast and cheap, only weakness is bad armor",
+  // "name": "Rein",
+  // "description": "Air type, Raid class, highly mobile and easy to build fast and cheap, only weakness is bad armor",
   "type": "flying",
   "flying": true,
   "health": 1800,

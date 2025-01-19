@@ -1,8 +1,8 @@
 {
   "type": "attributeCrafter",
-  "name": "Ice Sifter",
+  // "name": "Ice Sifter",
   "health": 800,
-  "description": "Sifts surface to mine water from ice. Requires icy floors.",
+  // "description": "Sifts surface to mine water from ice. Requires icy floors.",
   "size": 2,
   "hasLiquids": true,
   "squareSprite": false,

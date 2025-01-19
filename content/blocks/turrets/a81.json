@@ -1,6 +1,6 @@
 {
-  "name": "Detonator",
-  "description": "Shoot armor-piercing blast, extremely high damage but minimal range.",
+  // "name": "Detonator",
+  // "description": "Shoot armor-piercing blast, extremely high damage but minimal range.",
   "type": "itemTurret",
   "health": 1750,
   "range": 120,

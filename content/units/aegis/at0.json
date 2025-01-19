@@ -1,7 +1,7 @@
 {
   "type": "tank",
-  "name": "Blitz",
-  "description": "Ground type, tank class, quickly and compact, equipped with a Rail gun.",
+  // "name": "Blitz",
+  // "description": "Ground type, tank class, quickly and compact, equipped with a machine Rail gun.",
   "hitSize": 8,
   "singleTarget": false,
   "omniMovement": false,
@@ -9,7 +9,7 @@
   "faceTarget": false,
   "health": 1800,
   "armor": 4, 
-  "speed": 0.8,
+  "speed": 0.7,
   "rotateSpeed": 4.5,
   "itemCapacity": 0,
   "outlineColor": "404448",
@@ -55,7 +55,7 @@
       "bullet": {
         "type": "RailBulletType",
         "length": 180,
-        "damage": 80,   
+        "damage": 85,   
         "endEffect": {      
           "type": "ParticleEffect",
           "line": true, 

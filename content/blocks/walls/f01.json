@@ -1,7 +1,7 @@
 {
     "type": "Wall",
-    "name": "Large Platinum Wall",
-    "description": "Protects units and structors. Simple but low resistance.",
+    // "name": "Large Platinum Wall",
+    // "description": "Protects units and structors. Simple but low resistance.",
     "health": 6000,
     "armor": 3,
     "size": 2,
@@ -10,5 +10,5 @@
     "requirements": [
         "00/24"
     ],
-    "research": "f00platin-wall"
+    "research": "f00"
 }

@@ -1,7 +1,7 @@
 {
   "type": "junction",
-  "name": "Platinum Junction",
-  "description": "Allows duct to pass through each other.",
+  // "name": "Platinum Junction",
+  // "description": "Allows duct to pass through each other.",
   "speed": 7.5,
   "health": 180,
   "alwaysUnlocked": false,

@@ -1,7 +1,7 @@
 {
   "type": "Reconstructor",
-  "name": "Development Upgrader",
-  "description": "Upgrade inputted units from tier 1 to tier 2.",
+  // "name": "Development Upgrader",
+  // "description": "Upgrade inputted units from tier 1 to tier 2.",
   "size":3,
   "liquidCapacity": 80,
   "consumes": {

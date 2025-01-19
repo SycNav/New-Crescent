@@ -1,6 +1,6 @@
 {
   "type": "floor",
-  "name": "Ancient Icy Floor",
+  // "name": "Ancient Icy Floor",
   "variants": 3,
   "playerUnmineable": true,
   "attributes": {

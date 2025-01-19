@@ -1,7 +1,7 @@
 {
     "type": "Wall",
-    "name": "Heavy Alloy Wall",
-    "description": "Protects units and structors. Heavier , stronger and better than Platinum Wall.",
+    // "name": "Mass Wall",
+    // "description": "Protects units and structors. Heavier , stronger and better than Platinum Wall.",
     "health": 2500,
     "armor": 3,
     "size": 1,
@@ -11,5 +11,5 @@
         "10/6",
         "01/4"
     ],
-    "research": "f00platin-wall"
+    "research": "f00"
 }

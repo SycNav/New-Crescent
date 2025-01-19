@@ -1,7 +1,7 @@
 {
   "cost": 5,
   "type": "material",
-  "name": "Exceptional Unit Module",
-  "description": "Used to upgrade Tier 4 units to Tier 5.",
+  // "name": "Exceptional Unit Module",
+  // "description": "Used to upgrade Tier 4 units to Tier 5.",
   "color": "54d67d"
 }

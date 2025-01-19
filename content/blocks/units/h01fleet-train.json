@@ -1,6 +1,6 @@
 {
   "type": "UnitFactory",
-  "name": "Fleet Factory",
+  // "name": "Fleet Factory",
   "health": 2000,
   "size": 3,
   "consumes": {

@@ -1,8 +1,8 @@
 {
   "type": "SolarGenerator",
   "size": 3,
-  "name": "Huge Heavy Solar Panel",
-  "description": "Generates a high amount of power from sunlight.",
+  // "name": "Huge Heavy Solar Panel",
+  // "description": "Generates a high amount of power from sunlight.",
   "health": 480,
   "hasPower": true,
   "powerProduction": 2,

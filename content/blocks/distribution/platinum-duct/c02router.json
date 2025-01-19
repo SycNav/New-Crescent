@@ -1,7 +1,7 @@
 {
   "type": "router",
-  "name": "Platinum Router",
-  "description": "Allows items to be inserted on one side and released on the other 3 sides",
+  // "name": "Platinum Router",
+  // "description": "Allows items to be inserted on one side and released on the other 3 sides",
   "speed": 7.5,
   "health": 180,
   "alwaysUnlocked": false,
