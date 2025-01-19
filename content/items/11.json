@@ -1,8 +1,8 @@
 {
   "cost": 3,
   "type": "resource",
-  "name": "Luminescent Quartz",
-  "description": "Shiny. Highly resistance to damage. Used in mining, smelting and precise structures.",
+  // "name": "Luminescent Quartz",
+  // "description": "Shiny. Highly resistance to damage. Used in mining, smelting and precise structures.",
   "color": "9ad0fc",
   "hardness": 2
 }

@@ -1,6 +1,6 @@
 {
-  "name": "Sharpened Drill",
-  "description": "Mines items from ores using sharp blades made of Luminescent Quartz. Faster than Platinum Drills.",
+  // "name": "Sharpened Drill",
+  // "description": "Mines items from ores using sharp blades made of Luminescent Quartz. Faster than Platinum Drills.",
   "type": "Drill",
   "health": 1000,
   "hasLiquids": true,

@@ -1,6 +1,6 @@
 {
     "type": "tank",
-    "name": "Rinne",
+    // "name": "Rinne",
     "hitSize": 32,
     "treadPullOffset": 8,
     "speed": 0.4,

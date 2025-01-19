@@ -1,6 +1,6 @@
 {
   "type": "StorageBlock",
-  "name": "Plated Vault",
+  // "name": "Plated Vault",
   "size": 3,
   "itemCapacity": 1500,
   "research": "j10vault0",

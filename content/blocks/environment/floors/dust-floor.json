@@ -1,6 +1,6 @@
 {
   "type": "floor",
-  "name": "Dust",
+  // "name": "Dust",
   "variants": 1,
   "playerUnmineable": true,
   "attributes": {

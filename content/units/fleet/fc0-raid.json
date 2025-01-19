@@ -1,7 +1,7 @@
 {
   "type": "missile",
-  "name": "CR1",
-  "description": "Raid Carrier",
+  // "name": "CR1",
+  // "description": "Raid Carrier",
   "health": 1200,
   "speed": 2,
   "maxRange": 8000,

@@ -1,6 +1,6 @@
 {
-  "name": "Cure",
-  "description": "Air type, Support class, standard is a builder, can heal block",
+  // "name": "Cure",
+  // "description": "Air type, Support class, standard is a builder, can heal block",
   "type": "flying",
   "flying": true,
   "health": 1800,

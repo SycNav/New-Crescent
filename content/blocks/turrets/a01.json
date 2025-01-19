@@ -1,6 +1,6 @@
 {
-  "name": "Colt",
-  "description": "Original class. A turret that uses high-melting soft bullets fired at high speed, causing high damage, strong enough to fight new forces on Minus.",
+  // "name": "Colt",
+  // "description": "Original class. A turret that uses high-melting soft bullets fired at high speed, causing high damage, strong enough to fight new forces on Minus.",
   "type": "itemTurret",
   "health": 1800,
   "range": 200,

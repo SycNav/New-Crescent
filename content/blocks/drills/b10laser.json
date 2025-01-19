@@ -1,8 +1,8 @@
 {
-  "name": "Laser Bore",
+  // "name": "Laser Bore",
   "type": "beamDrill",
   "health": 1000,
-  "description": "Drills basic items from the surface. The initial drill used on Minus.",
+  // "description": "Drills basic items from the surface. The initial drill used on Minus.",
   "hasLiquids": true,
   "size": 2,
   "itemCapacity": 8,

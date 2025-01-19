@@ -1,6 +1,6 @@
 {
   "type": "missile",
-  "name": "Missile",
+  // "name": "Missile",
   "targetAir": true,
   "targetGround": true,
   "speed": 4,

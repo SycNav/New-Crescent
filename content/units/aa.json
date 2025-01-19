@@ -1,6 +1,6 @@
 {
-  "name": "aa",
-  "description": "A large ancient artillery spaceship can shoot mega deadly beam",
+  // "name": "aa",
+  // "description": "A large ancient artillery spaceship can shoot mega deadly beam",
   "template": "SerpuloUnitType",
   "flying": true,
   "speed": 0.8,

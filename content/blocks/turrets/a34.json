@@ -1,7 +1,7 @@
 {
   "type": "itemTurret",
-  "name": "Striker",
-  "description": "Spread Class. File a projectile that releases fragments that deal area damage, air only.",
+  // "name": "Striker",
+  // "description": "Spread Class. File a projectile that releases fragments that deal area damage, air only.",
   "health": 1800,
   "ammoTypes": {
     "01": {

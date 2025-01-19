@@ -1,7 +1,7 @@
 {
     "type": "Wall",
-    "name": "Large Mass Wall",
-    "description": "Protects units and structors. Heavier and stronger than Platinum Wall.",
+    // "name": "Large Mass Wall",
+    // "description": "Protects units and structors. Heavier and stronger than Platinum Wall.",
     "health": 10000,
     "armor": 4,
     "size": 2,

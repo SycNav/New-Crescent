@@ -1,8 +1,8 @@
 {
   "type": "genericCrafter",
-  "name": "Alloy Smelter",
+  // "name": "Alloy Smelter",
   "health": 300,
-  "description": "Mix molten um and ium into alloys with improved properties.",
+  // "description": "Mix molten um and ium into alloys with improved properties.",
   "size": 2,
   "hasPower": true,
   "hasItems": true,

@@ -1,6 +1,6 @@
 {
   "type": "flying",
-  "name": "Delta",
+  // "name": "Delta",
   "mineSpeed": 10,
   "flying": true,
   "speed": 4,

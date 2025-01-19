@@ -1,7 +1,7 @@
 {
     "type": "Wall",
-    "name": "Platinum Wall",
-    "description": "Protects units and structors. Simple but low resistance.",
+    // "name": "Platinum Wall",
+    // "description": "Protects units and structors. Simple but low resistance.",
     "health": 1500,
     "armor": 2,
     "size": 1,

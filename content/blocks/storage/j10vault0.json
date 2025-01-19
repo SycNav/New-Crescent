@@ -1,6 +1,6 @@
 {
   "type": "StorageBlock",
-  "name": "Plated Container",
+  // "name": "Plated Container",
   "size": 2,
   "itemCapacity": 120,
   "research": "CrS",

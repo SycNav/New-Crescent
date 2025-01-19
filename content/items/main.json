@@ -1,7 +1,7 @@
 {
   "cost": 1,
   "type": "material",
-  "name": "Topaz Alloy",
-  "description": "A mysterious substance, widely used in all fields. Material of the future?...",
+  // "name": "Topaz Alloy",
+  // "description": "A mysterious substance, widely used in all fields. Material of the future?...",
   "color": "adcfff"
 }

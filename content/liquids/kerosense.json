@@ -1,7 +1,7 @@
 {
   "type": "liquid",
-  "name": "Kerosense",
-  "description": "Coming soon...",
+  // "name": "Kerosense",
+  // "description": "Coming soon...",
   "color": "cff3ff",
   "barColor": "cff3ff",
   "lightColor": "f2fdff",

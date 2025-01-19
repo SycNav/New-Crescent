@@ -1,6 +1,6 @@
 {
   "type": "floor",
-  "name": "Minus Ice",
+  // "name": "Minus Ice",
   "variants": 3,
   "playerUnmineable": true,
   "attributes": {

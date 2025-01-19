@@ -1,7 +1,7 @@
 {
   "type": "tank",
-  "name": "Blitz",
-  "description": "Ground type, tank class, quickly and compact, equipped with a machine Rail gun.",
+  // "name": "Blitz",
+  // "description": "Ground type, tank class, quickly and compact, equipped with a machine Rail gun.",
   "hitSize": 8,
   "singleTarget": false,
   "omniMovement": false,

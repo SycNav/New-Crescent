@@ -1,8 +1,8 @@
 {
   "type": "attributeCrafter",
-  "name": "Dust Condenser",
+  // "name": "Dust Condenser",
   "health": 800,
-  "description": "Spray water onto dust surface to accumulate Dust.",
+  // "description": "Spray water onto dust surface to accumulate Dust.",
   "size": 2,
   "hasLiquids": true,
   "squareSprite": false,

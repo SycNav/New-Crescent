@@ -1,7 +1,7 @@
 {
   "type": "PowerTurret",
-  "name": "Puncture",
-  "decription": "Electrical Class. Constantly fires charged beam at great speed.",
+  // "name": "Puncture",
+  // "decription": "Electrical Class. Constantly fires charged beam at great speed.",
   "range": 180,
   "shoot": {
     "firstShotDelay": 30
