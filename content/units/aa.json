@@ -1,6 +1,6 @@
 {
-  // "name": "New Horizon: Ancient Artillery Sample",
-  // "description": "It's just a Ancient Artillery, Only use as a Sample, not a New Crescent Unit",
+  "name": "New Horizon: Ancient Artillery Sample",
+  "description": "It's just a Ancient Artillery, Only use as a Sample, not a New Crescent Unit",
   "template": "SerpuloUnitType",
   "flying": true,
   "speed": 0.8,
