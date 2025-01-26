@@ -9,6 +9,14 @@
   "faceTarget": false,
   "health": 1800,
   "armor": 4, 
+  "treadRects": [
+    {
+      "x": 14,
+      "y":-22,
+      "height": 35,
+      "width": 14
+    }
+  ],
   "speed": 0.7,
   "rotateSpeed": 4.5,
   "itemCapacity": 0,
