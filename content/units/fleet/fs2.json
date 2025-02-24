@@ -8,23 +8,26 @@
   "speed": 1.8,
   "mineTier": 3,
   "buildSpeed": 3.6,
-  "hitSize": 18,
+  "hitSize": 30,
   "faceTarget": false,
+  "engineSize": 5.5,
+  "engineOffset": 12,
   "abilities": [
     {
       "type": "forceFieldAbility",
       "sides": 8,
-      "radius": 18,
+      "radius": 24,
       "max": 1800,
       "regen": 1.333333333333333,
-      "cooldown": 180
+      "cooldown": 180,
+      "y": -8
     }
   ],
   "weapons": [
     {
       "type": "repairBeamWeapon",
       "top": false,
-      "x": 1.8,
+      "x": 9,
       "y": -4,
       "mirror": true,
       "beamWidth": 0.8,
