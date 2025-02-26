@@ -1,6 +1,7 @@
 {
   "type": "flying",
-  // "name": "Delta",
+  #"name": "Sylva",
+  "coreUnitDock": true,
   "mineSpeed": 10,
   "flying": true,
   "speed": 4,
@@ -39,4 +40,3 @@
     }
   ]
 }
-
