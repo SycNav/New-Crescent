@@ -1,0 +1,49 @@
+{
+    "name": "Scout UAV",
+    "type": "flying",
+    "flying": true,
+    "health": 1250,
+    "armor": 10,
+    "speed": 4,
+    "hitSize": 4,
+    "rotateSpeed": 80,
+    "fogRadius": 5,
+    "outlineColor": "00000000",
+    "despawnSound": "none",
+    "weapons": [
+        {
+          "shoot": {
+            "firstShotDelay": 15
+          },
+
+    
+            "shootCone": 360,
+            "rotate": true,
+            "reload": 90,
+            "shootOnDeath": true,
+            "shake": 0,
+            "shootSound": "none",
+            "bullet": {
+                "type": "ExplosionBulletType",
+                "damage": 0,
+                "killShooter": true,
+                "collidesAir": false,
+                "collidesGround": false,
+                "buildingDamageMultiplier": 0,
+                "ammoMultiplier": 1,
+                "fragLifeMin": 0,
+                "fragBullets": 1,
+                "fragBullet": {
+                    "type": "bulletType",
+                    "drag": 0,
+                    "speed": 0,
+                    "spawnUnit": "sight"
+
+                }
+            }
+        }
+    ]
+
+}
+
+
