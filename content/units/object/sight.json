@@ -15,12 +15,12 @@
   "health": 400, 
   "useUnitsCap": false,
   "isEnemy": false,
-  "lowAltitude": true,
   "physics": false,
   "playerControllable": false,
   "bounded": false,
   "createWreck": false,
   "collidesAir": false,
+  "lowAltitude": false,
   "parts": [
     {
       "type": "ShapePart",
@@ -33,7 +33,47 @@
       "layer": 80
     },
     {
-      "type": "HaloPart",
+      "type": "ShapePart",
+      "y": 0,
+      "color": "ffffff80",
+      "stroke": 0,
+      "circle": true,
+      "hollow": false,
+      "radius": 3,
+      "layer": 120
+    },
+    {
+      "type": "ShapePart",
+      "y": 0,
+      "color": "FED48080",
+      "stroke": 0,
+      "circle": true,
+      "hollow": false,
+      "radius": 4,
+      "layer": 120
+    },
+    {
+      "type": "ShapePart",
+      "y": 0,
+      "color": "fed48080",
+      "stroke": 0,
+      "circle": true,
+      "hollow": false,
+      "radius": 10,
+      "layer": 125
+    },
+    {
+      "type": "ShapePart",
+      "y": 0,
+      "color": "FFFFFF40",
+      "stroke": 0,
+      "circle": true,
+      "hollow": false,
+      "radius": 160,
+      "layer": 125
+    },
+    {
+      "type": "HaloPart", 
       "sides": 4,
       "shapes": 1,
       "shapeRotation": 45,
@@ -940,6 +980,25 @@
       "haloRotateSpeed": -4,
       "haloRadius": 8
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
       "type": "HaloPart",
       "sides": 4,
@@ -1881,6 +1940,22 @@
       "radius": 0,
       "radiusTo": 0,
       "haloRotation": 232,
+      "haloRotateSpeed": 1.2,
+      "haloRadius": 10
+    },
+    {
+      "type": "HaloPart",
+      "sides": 4,
+      "shapes": 1,
+      "shapeRotation": 45,
+      "color": "fac080",
+      "colorTo": "fac080",
+      "tri": false,
+      "hollow": true,
+      "stroke": 0.8,
+      "radius": 0,
+      "radiusTo": 0,
+      "haloRotation": 236,
       "haloRotateSpeed": 1.2,
       "haloRadius": 10
     }
