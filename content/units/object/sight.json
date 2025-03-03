@@ -16,7 +16,7 @@
   "isEnemy": false,
   "physics": false,
   "lifetime": 1800,
-  "playerControllable": true,
+  "playerControllable": false,
   "bounded": false,
   "createWreck": false,
   "lowAltitude": false,
