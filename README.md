@@ -6,7 +6,7 @@ This project is still under development, and features may change in the future.
 
 **Contributors**
 
-* **Author:** CrS Team (Lead: [SyNav](https://github.com/SycNav))
+* **Author:** CrS Team (Lead: [SyNav](https://github.com/NewCrS))
 * **Sprites:**
     * [TDaggers](https://github.com/TDaggers)
     * Ru (kyrusis2)
